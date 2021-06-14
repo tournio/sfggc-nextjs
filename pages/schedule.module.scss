@@ -1,0 +1,82 @@
+.Schedule {
+  h1 {
+    margin: 1rem 0;
+  }
+
+  .EventDay {
+    margin-top: 1.5rem;
+
+    h2 {
+      margin-top: 1rem;
+      padding: 0.5rem;
+      background: rgba(255,0,0,.15); /* For browsers that do not support gradients */
+      /* For Safari 5.1 to 6.0 */
+      background: -webkit-linear-gradient(left,rgba(255,0,0,.15),rgba(255,128,0,.15),rgba(255,255,0,.15),rgba(0,255,0,.15),rgba(0,0,255,.15),rgba(255,0,255,.15));
+      /* For Opera 11.1 to 12.0 */
+      background: -o-linear-gradient(left,rgba(255,0,0,.15),rgba(255,128,0,.15),rgba(255,255,0,.15),rgba(0,255,0,.15),rgba(0,0,255,.15),rgba(255,0,255,.15));
+      /* For Fx 3.6 to 15 */
+      background: -moz-linear-gradient(left,rgba(255,0,0,.15),rgba(255,128,0,.15),rgba(255,255,0,.15),rgba(0,255,0,.15),rgba(0,0,255,.15),rgba(255,0,255,.15));
+      /* Standard syntax */
+      background: linear-gradient(to right, rgba(255,0,0,.15),rgba(255,128,0,.15),rgba(255,255,0,.15),rgba(0,255,0,.15),rgba(0,0,255,.15),rgba(255,0,255,.15));
+    }
+  }
+
+  .Event {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-bottom: 1px #ddd solid;
+
+    .StartTime {
+      font-weight: 600;
+      color: #777;
+      font-size: 1.3rem;
+      text-align: center;
+
+      small {
+        text-transform: uppercase;
+        font-weight: 300;
+        color: #777;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .StartTime {
+        font-size: 1.8rem;
+      }
+    }
+
+    .Details {
+      p {
+        margin: 0;
+      }
+      .Name {
+        font-weight: 500;
+        line-height: 1.4rem;
+        margin-bottom: 0.25rem;
+      }
+      .Location {
+        line-height: 1.3rem;
+        color: #777;
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+      }
+      .FullTime {
+        line-height: 1.3rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .Additional {
+        font-size: 0.9rem;
+        line-height: 1.1rem;
+        color: #777;
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+
+  .Event:last-child {
+    border-bottom: none;
+  }
+
+}

@@ -1,0 +1,23 @@
+.Hotel {
+  h1 {
+    margin: 1rem 0;
+  }
+
+  .Logo {
+    width: 118px;
+  }
+  @media (min-width: 414px) {
+    .Logo {
+      width: 150px;
+    }
+  }
+  @media (min-width: 762px) {
+    .Logo {
+      width: 200px;
+    }
+  }
+
+  .Lead {
+    margin-top: 1rem;
+  }
+}

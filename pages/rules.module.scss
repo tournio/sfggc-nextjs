@@ -1,0 +1,17 @@
+.Rules {
+  h1 {
+    margin: 1rem 0;
+  }
+  .Divisions {
+    margin-bottom: 1rem;
+  }
+  ol {
+    list-style-type: decimal;
+  }
+  ol > li > ol {
+    list-style-type: upper-alpha;
+  }
+  ol > li > ol > li > ol{
+    list-style-type: lower-alpha;
+  }
+}

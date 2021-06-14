@@ -1,0 +1,33 @@
+.Links {
+  h1 {
+    margin: 1rem 0;
+  }
+  .LeaguesRow {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .LeagueCard {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .TournamentCard {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .CardHeader {
+    text-align: center;
+    font-weight: 100;
+    font-size: 350%;
+
+    a, a:hover, a:active, a:visited {
+      text-decoration: none;
+      color: #3b4273;
+    }
+    a:hover {
+      font-weight: 400;
+    }
+  }
+  .CardBody {
+    text-align: center;
+  }
+}
