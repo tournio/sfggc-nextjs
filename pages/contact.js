@@ -12,53 +12,83 @@ const contact = () => {
     <Layout>
       <div className={styles.Contact}>
         <h1 className="display-4">
-          Tournament Contacts
+          Tournament Committee
         </h1>
-        <Row className="d-flex justify-content-center">
-          <Col xs={12} sm={8} xl={6}>
+        <Row>
+          <Col sm={4}>
             <Card className="text-center mb-2">
               <Card.Header>
-                Co-Director
+                Director
               </Card.Header>
               <Card.Body>
+                <img className="img-fluid mx-auto d-block w-100" src="/images/committee/richard.jpg"/>
                 <p>
-                  <a href="mailto:directors@bigdclassic.com">
-                    Randall Buda
+                  <a href="mailto:directors@goldengateclassic.org">
+                    Richard Perez
                   </a>
                 </p>
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-        <Row className="d-flex justify-content-center">
-          <Col xs={12} sm={8} xl={6}>
+
+          <Col sm={4}>
             <Card className="text-center mb-2">
-              <Card.Header>
-                Co-Director
-              </Card.Header>
-              <Card.Body>
-                <p>
-                  <a href="mailto:directors@bigdclassic.com">
-                    José Aguilar
-                  </a>
-                </p>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row className="d-flex justify-content-center">
-          <Col xs={12} sm={8} xl={6}>
-            <Card className="text-center">
               <Card.Header>
                 Technologist
               </Card.Header>
               <Card.Body>
+                <img className="img-fluid mx-auto d-block w-100" src="/images/committee/scott.jpg"/>
                 <p>
-                  <a href="mailto:website@bigdclassic.com">
+                  <a href="mailto:website@goldengateclassic.org">
                     Scott Stebleton
                   </a>
                 </p>
               </Card.Body>
+            </Card>
+          </Col>
+
+          <Col sm={4}>
+            <Card className="text-center mb-2">
+              <Card.Header>
+                Scratch Master
+              </Card.Header>
+              <Card.Body>
+                <img className="img-fluid mx-auto d-block w-100" src="/images/committee/duane.jpg"/>
+                <p>
+                  Duane Flohra
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col sm={4}>
+            <Card className="text-center mb-2">
+              <Card.Header>
+                Committee Members
+              </Card.Header>
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item">
+                  Glenn Normandin
+                </li>
+                <li className="list-group-item">
+                  Bryan Hoff
+                </li>
+                <li className="list-group-item">
+                  Robert Hughs
+                </li>
+                <li className="list-group-item">
+                  Allison Laureano
+                </li>
+                <li className="list-group-item">
+                  Cathy Patterson
+                </li>
+                <li className="list-group-item">
+                  R.H. Ryan
+                </li>
+                <li className="list-group-item">
+                  Vince Wilson
+                </li>
+              </ul>
             </Card>
           </Col>
         </Row>

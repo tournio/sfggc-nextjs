@@ -11,7 +11,7 @@ const navigation = ({active}) => {
       <NavbarBrand href="/" className={styles.Brand}>
         SFGGC
       </NavbarBrand>
-      <NavbarToggle aria-controls="navbarText"/>
+      <NavbarToggle aria-controls="navbarText" className={styles.Toggler} />
       <NavbarCollapse id="navbarText">
         <Nav className="mr-auto">
           <NavLink href="/schedule">

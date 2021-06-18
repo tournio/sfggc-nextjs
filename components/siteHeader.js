@@ -8,6 +8,7 @@ const siteHeader = () => {
     <Head>
       <title>{siteTitle}</title>
       <link rel="icon" href="/logo-50x50.jpg" />
+
       <meta content="text/html"
             charSet="utf-8"
             httpEquiv="Content-Type" />

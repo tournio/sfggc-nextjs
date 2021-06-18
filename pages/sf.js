@@ -51,7 +51,8 @@ const sanFrancisco = () => {
         <Row>
           <Col md={4}>
             <h3>
-              Weather
+              <i className="bi bi-cloud-sun" aria-hidden={true}></i>
+              {' '}Weather
             </h3>
             <p>
               <a href="https://www.wunderground.com/cgi-bin/findweather/getForecast?query=pws:KCASOUTH53">
@@ -79,7 +80,8 @@ const sanFrancisco = () => {
           </Col>
           <Col md={4}>
             <h3>
-              Attractions
+              <i className="bi bi-camera" aria-hidden={true}></i>
+              {' '}Attractions
             </h3>
             <p>
               The Bay Area has an abundance of riches when it comes to sights, sounds, and activities. To name just a
@@ -131,7 +133,8 @@ const sanFrancisco = () => {
           </Col>
           <Col md={4}>
             <h3>
-              Restaurants
+              <i className="bi bi-shop" aria-hidden={true}></i>
+              {' '}Restaurants
             </h3>
             <p>
               With a population whose roots span the entire globe, the San Francisco Bay Area is home to an incredibly

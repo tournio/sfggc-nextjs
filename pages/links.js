@@ -8,31 +8,26 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
 const links = () => {
-  const leagues = [
-    // {
-    //   short: 'OLBA',
-    //   long: 'Oak Lawn Bowling Association',
-    //   url: 'http://www.oaklawnbowling.com',
-    // },
+  const interest = [
     {
-      short: 'MBA',
-      long: 'Metroplex Bowling Association',
-      url: 'https://www.facebook.com/MetroplexBowling/',
+      short: 'IGBO',
+      long: 'International Gay Bowling Association',
+      url: 'http://www.igbo.org',
     },
     {
-      short: 'MRB',
-      long: 'Metroplex Rainbow Bowling',
-      url: 'https://www.facebook.com/pages/category/Bowling-Alley/Metroplex-Rainbow-Bowling-184099024995/',
+      short: 'USBC',
+      long: 'United States Bowling Congree',
+      url: 'https://www.bowl.com',
     },
     {
-      short: 'SC',
-      long: 'Sunset Combo',
-      url: 'https://www.leaguesecretary.com/bowling-centers/cityview-lanes-fort-worth-texas/bowling-leagues/sunset-combo-2018-19/dashboard/5490',
+      short: 'avg',
+      long: 'Find a USBC book average',
+      url: 'http://bowl.com/',
     },
   ];
-  const leaguesText = leagues.map((league, i) => {
+  const interestText = interest.map((league, i) => {
     return (
-      <Col xs={6} key={i} className={styles.LeagueCard}>
+      <Col xs={6} md={4} key={i} className={styles.LeagueCard}>
         <Card>
           <Card.Header className={styles.CardHeader}>
             <a href={league.url}>
@@ -51,74 +46,56 @@ const links = () => {
 
   const tournaments = [
     {
-      headline:  'NV',
-      long: 'IGBO Annual 2021',
-      url: 'http://igbo2021.org/',
-      location: 'Las Vegas, NV',
+      headline:  'NY',
+      long: 'IGBO Annual 2022',
+      url: 'http://igbo2022.org/',
+      location: 'Rochester, NY',
     },
     {
-      headline:  'CA',
-      long: 'IGBO Mid-year 2021',
-      url: 'https://igbomy2021.org/',
-      location: 'Los Angeles, CA',
+      headline:  'DC',
+      long: 'IGBO Mid-year 2022',
+      url: 'https://igbomy2022.org/',
+      location: 'Washington, DC',
     },
     {
-      headline:  'TX',
-      long: 'Texas Roll-Off Tournament',
-      url: 'http://www.texasrolloff.com',
-      location: 'Grand Prairie, TX',
+      headline:  'SVIT',
+      long: 'Silicon Valley International Tournament',
+      url: 'http://www.svitbowl.com/',
+      location: 'San Jose, CA',
     },
     {
-      headline:  'TX',
-      long: 'Houston Invitational Tournament',
-      url: 'http://www.houstoninvite.com',
-      location: 'Houston, TX',
-    },
-    {
-      headline:  'TX',
-      long: 'Alamo City Tournament',
-      url: 'http://www.actbowl.com',
-      location: 'San Antonio, TX',
-    },
-    {
-      headline:  'OK',
-      long: 'OKClassic',
-      url: 'http://www.okclassic.com',
-      location: 'Oklahoma City, OK',
-    },
-    {
-      headline:  'OK',
-      long: 'JOLT',
-      url: 'http://www.jolttulsa.com/',
-      location: 'Tulsa, OK',
-    },
-    {
-      headline:  'MO',
-      long: 'Show Me Classic',
-      url: 'http://showmeclassic.com',
-      location: 'St. Louis, MO',
-    },
-    {
-      headline:  'KS',
-      long: 'MAKIT-KC',
-      url: 'https://www.makitkc.org',
-      location: 'Kansas City, KS',
-    },
-    {
-      headline:  'CA',
-      long: 'Golden Gate Classic',
-      url: 'http://www.goldengateclassic.org',
-      location: 'San Francisco, CA',
-    },
-    {
-      headline:  'CA',
+      headline:  'PSDIC',
       long: 'Palm Springs Desert Invitational Classic',
       url: 'http://psdic.org',
       location: 'Palm Springs, CA',
     },
     {
-      headline:  'CO',
-      long: 'DIGLIT',
+      headline:  'SEC',
+      long: 'Seattle Espresso Cup',
+      url: 'http://www.espressocup.org/',
+      location: 'Seattle, WA',
+    },
+    {
+      headline:  'BIGD',
+      long: 'Big D Clasisc',
+      url: 'http://www.bigdclassic.com',
+      location: 'Dallas, TX',
+    },
+    {
+      headline:  'SMC',
+      long: 'Show Me Classic',
+      url: 'http://showmeclassic.com',
+      location: 'St. Louis, MO',
+    },
+    {
+      headline:  'MAKIT',
+      long: 'Missouri and Kansas Invitational',
+      url: 'https://www.makitkc.org',
+      location: 'Kansas City, KS',
+    },
+    {
+      headline:  'DIGLIT',
+      long: 'Denver International Gay and Lesbian Invitational',
       url: 'http://www.bowldiglit.org/',
       location: 'Denver, CO',
     },
@@ -151,12 +128,9 @@ const links = () => {
         <h1 className="display-4">
           Links of Interest
         </h1>
-        <h3>
-          Local IGBO Leagues
-        </h3>
 
         <Row className={styles.LeaguesRow}>
-          {leaguesText}
+          {interestText}
         </Row>
 
         <hr />

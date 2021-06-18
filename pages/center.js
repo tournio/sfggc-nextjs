@@ -9,34 +9,34 @@ import Layout from '../components/layout';
 import styles from './center.module.scss';
 
 const center = () => {
-  const centerUrl = 'https://planosuperbowl.com';
-  const centerName = 'Plano Super Bowl';
+  const centerUrl = 'http://www.classicbowling.com/';
+  const centerName = 'Classic Bowling Center';
   const features = [
-    '48 synthetic lanes',
-    'Pro shop',
-    'Open 24 hours a day!',
-    'VIP Lounge and Party Room',
-    'Smoke-free',
-    'Video game arcade',
-    'Scratch Drafthouse with 24 beers on tap and made-from-scratch kitchen',
-    'VIP lanes (private 7-lane bowling room)',
-    'Weekday happy hours',
-    'Birthday parties',
+    '60 Brunswick lanes',
+    'Brunswick pinsetters and ball returns',
+    'Online Lane Reservations',
+    'Classic Eats Cafe',
+    'KO Sports Bar and Lounge',
+    'Video arcade',
+    'Just Bowling Pro Shop',
+    'ATM',
+    'Storage lockers',
+    'Meeting Room',
   ];
 
   return (
     <Layout>
       <div className={styles.Center}>
         <h1 className="display-4">
-          Plano Super Bowl
+          {centerName}
         </h1>
 
         <Row>
           <Col xs={12} sm={5}>
             <p className="lead">
-              The Big D Classic takes place at{' '}
+              The Golden Gate Classic takes place at{' '}
               <a href={centerUrl}>
-                Plano Super Bowl
+                {centerName}
               </a>
               . You can look forward to enjoying all this:
             </p>
@@ -57,28 +57,28 @@ const center = () => {
 
             <ResponsiveEmbed aspectRatio="4by3" className={styles.Map + " d-none d-md-block"}>
               <iframe className="embed-responsive-item"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5484.267878261114!2d-96.70353174135823!3d33.032570197674005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19075ddf849b%3A0x607103a9ca4d7441!2sPlano%20Super%20Bowl!5e0!3m2!1sen!2sus!4v1617934189619!5m2!1sen!2sus" />
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3158.9179923188367!2d-122.467872!3d37.651132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7bc86aa2437f%3A0x9fe5dab297c66d45!2sClassic+Bowling+Center!5e0!3m2!1sen!2sus!4v1411883901483" />
             </ResponsiveEmbed>
 
             <address>
               <span className="line">
                 <strong>
-                  Plano Super Bowl
+                  {centerName}
                 </strong>
               </span>
               <span className="line">
-                2521 K Avenue
+                900 King Drive
               </span>
               <span className="line">
-                Plano, TX 75074
+                Daly City, CA 94015
               </span>
               <span className="line">
                 Tel:{' '}
-                <a href="tel:972-881-0242">972-881-0242</a>
+                <a href="tel:650-878-0300">650-878-0300</a>
               </span>
             </address>
             <p className="d-md-none">
-              <a href="https://g.page/psbfanpage?share">
+              <a href="https://www.google.com/maps/place/Classic+Bowling+Center/@37.651132,-122.467872,17z/data=!3m1!4b1!4m2!3m1!1s0x808f7bc86aa2437f:0x9fe5dab297c66d45">
                 View Map
               </a>
             </p>
