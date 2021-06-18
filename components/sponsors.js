@@ -28,7 +28,7 @@ const sponsors = ({home}) => {
       alt: "Bud Light, by Matagrano",
       href: 'http://www.budlight.com/',
       title: "Bud Light, by Matagrano",
-      src: 'budlight.jpg',
+      src: 'budlight.gif',
     },
   ];
 
