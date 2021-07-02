@@ -1,27 +1,34 @@
-# Next.js with react-bootstrap example
+# Golden Gate Classic website
 
-This example shows how to use Next.js along with [react-bootstrap](https://react-bootstrap.github.io/).
+This is the informational website for the Golden Gate Classic, an IGBO-affiliated bowling tournament. The site is available at [www.goldengateclassic.org](http://www.goldengateclassic.org).
 
-## Preview
+It's built as a static website using the [Next.js](https://nextjs.org/) framework and [React-Bootstrap](https://react-bootstrap.github.io/).
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+It uses Bootstrap 4, so it's built for mobile-first.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-react-bootstrap)
+### Mobile
 
-## Deploy your own
+<p align="center">
+  <img src="./readme_images/mobile.jpg" alt="Mobile layout" width="540"/>
+</p>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+### Desktop
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-react-bootstrap&project-name=with-react-bootstrap&repository-name=with-react-bootstrap)
+<p align="center">
+  <img src="./readme_images/desktop.jpg" alt="Desktop layout" />
+</p>
 
-## How to use
+## Development & local running
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+1. Clone this repository
+2. Install [Node.js](https://nodejs.org/en/)
+3. Run `npm install`
+4. To run a development server, run `npm run dev` and have at it!
 
-```bash
-npx create-next-app --example with-react-bootstrap with-react-bootstrap-app
-# or
-yarn create next-app --example with-react-bootstrap with-react-bootstrap-app
-```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
