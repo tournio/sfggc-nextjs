@@ -52,7 +52,7 @@ const spotlight = () => {
             {' '}to hold a tournament in February 2022.  We know it's been a tough year for all bowlers, leagues and tournaments. We felt we could not present the best tournament possible and decided we would re-group and coming back strong in 2023!
           </Card.Text>
           <Card.Text>
-            We appreciate the continuing support of our sponsors, Bud Light &amp;{' '}
+            We appreciate the continuing support of our sponsors, Storm Bowling Products, Bud Light, and{' '}
             <a href="http://www.lookoutsf.com/">
               The Lookout
             </a>, and the{' '}
