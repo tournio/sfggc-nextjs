@@ -6,7 +6,7 @@ import Spotlight from '../components/spotlight';
 import styles from './index.module.scss';
 
 const index = () => {
-  const tournamentDates = 'February 11-13, 2022';
+  const tournamentDates = 'February 17-19, 2023';
 
   const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end'];
   jumbotronClasses.push(styles.JumbotronImage);
@@ -20,7 +20,7 @@ const index = () => {
             SFGGC
           </span>
           <span className={styles.Year}>
-            2022
+            2023
           </span>
         </h1>
       </Jumbotron>

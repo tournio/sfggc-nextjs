@@ -5,13 +5,13 @@ import Col from "react-bootstrap/Col";
 import styles from './spotlight.module.scss';
 
 const spotlight = () => {
-  // const registrationUrl = "https://www.igbo-reg.com/tournaments/big-d-classic-2021";
+  // const registrationUrl = "https://www.igbo-reg.com/tournaments/golden-gate-classic-2023";
 
-  const text = (
-    <Card.Text>
-      After a tough year-plus enduring the pandemic, we're working hard putting together the Golden Gate Classic 2022, in a way that will be both fun and safe for everyone. Keep your eyes peeled!
-    </Card.Text>
-  );
+  // const text = (
+  //   <Card.Text>
+  //     After a tough year-plus enduring the pandemic, we're working hard putting together the Golden Gate Classic 2022, in a way that will be both fun and safe for everyone. Keep your eyes peeled!
+  //   </Card.Text>
+  // );
 
   // const text = (
   //   <Card.Text>
@@ -43,7 +43,20 @@ const spotlight = () => {
           </Card.Title>
         </Card.Header>
         <Card.Body>
-          {text}
+          {/*{text}*/}
+          <Card.Text>
+            The San Francisco Golden Gate Classic committee has decided not to hold a tournament in February 2022.  We know it's been a tough year for all bowlers, leagues and tournaments. We felt we could not present the best tournament possible and decided we would re-group and coming back strong in 2023!
+          </Card.Text>
+          <Card.Text>
+            We appreciate the continuing support of our sponsors, Bud Light &amp;{' '}
+            <a href="http://www.lookoutsf.com/">
+              The Lookout
+            </a>, and the{' '}
+            <a href="http://psdic.org">
+              Palm Springs Desert Invitational Classic (PSDIC)
+            </a>
+            {' '}for allowing us to sell 50/50 raffle tickets. We especially want to thank you – our bowlers – who support our tournament each year.
+          </Card.Text>
         </Card.Body>
       </Card>
     </Col>
