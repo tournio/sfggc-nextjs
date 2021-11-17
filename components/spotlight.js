@@ -35,7 +35,7 @@ const spotlight = () => {
   // );
 
   return (
-    <Col xs={12} md={4}>
+    <Col xs={12} md={8}>
       <Card>
         <Card.Header bg="light">
           <Card.Title className={styles.Title}>
@@ -45,7 +45,11 @@ const spotlight = () => {
         <Card.Body>
           {/*{text}*/}
           <Card.Text>
-            The San Francisco Golden Gate Classic committee has decided not to hold a tournament in February 2022.  We know it's been a tough year for all bowlers, leagues and tournaments. We felt we could not present the best tournament possible and decided we would re-group and coming back strong in 2023!
+            The San Francisco Golden Gate Classic committee has decided{' '}
+            <span className={styles.NotHighlight}>
+              not
+            </span>
+            {' '}to hold a tournament in February 2022.  We know it's been a tough year for all bowlers, leagues and tournaments. We felt we could not present the best tournament possible and decided we would re-group and coming back strong in 2023!
           </Card.Text>
           <Card.Text>
             We appreciate the continuing support of our sponsors, Bud Light &amp;{' '}
