@@ -49,10 +49,18 @@ const spotlight = () => {
             <span className={styles.NotHighlight}>
               not
             </span>
-            {' '}to hold a tournament in February 2022.  We know it's been a tough year for all bowlers, leagues and tournaments. We felt we could not present the best tournament possible and decided we would re-group and coming back strong in 2023!
+            {' '}to hold a tournament in February 2022.  We understand how tough it's been for all bowlers, leagues and tournaments since March 2020. We felt we could not present the best tournament possible and decided we would re-group and come back strong in 2023!
           </Card.Text>
           <Card.Text>
-            We appreciate the continuing support of our sponsors, Storm Bowling Products, Bud Light, and{' '}
+            We appreciate the continuing support of our sponsors,{' '}
+            <a href="http://www.stormbowling.com">
+              Storm Bowling Products
+            </a>
+            ,{' '}
+            <a href="http://www.budlight.com">
+              Bud Light
+            </a>
+            , and{' '}
             <a href="http://www.lookoutsf.com/">
               The Lookout
             </a>, and the{' '}
