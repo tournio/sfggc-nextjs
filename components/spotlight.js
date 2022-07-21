@@ -45,11 +45,9 @@ const spotlight = () => {
         <Card.Body>
           {/*{text}*/}
           <Card.Text>
-            The San Francisco Golden Gate Classic committee has decided{' '}
-            <span className={styles.NotHighlight}>
-              not
-            </span>
-            {' '}to hold a tournament in February 2022.  We understand how tough it's been for all bowlers, leagues and tournaments since March 2020. We felt we could not present the best tournament possible and decided we would re-group and come back strong in 2023!
+            The San Francisco Golden Gate Classic committee is hard at work planning
+            for next year&apos;s tournament. We are looking forward to coming back
+            stronger and better than ever in 2023!
           </Card.Text>
           <Card.Text>
             We appreciate the continuing support of our sponsors,{' '}
@@ -67,7 +65,8 @@ const spotlight = () => {
             <a href="http://psdic.org">
               Palm Springs Desert Invitational Classic (PSDIC)
             </a>
-            {' '}for allowing us to sell 50/50 raffle tickets. We especially want to thank you – our bowlers – who support our tournament each year.
+            {' '}for allowing us to sell 50/50 raffle tickets. We especially want
+            to thank you – our bowlers – who support our tournament each year.
           </Card.Text>
         </Card.Body>
       </Card>

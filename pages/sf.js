@@ -5,9 +5,8 @@ import Layout from "../components/layout";
 import styles from './sf.module.scss';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
-import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
+import Ratio from "react-bootstrap/Ratio";
 
 const sanFrancisco = () => {
   const photoDeets = [

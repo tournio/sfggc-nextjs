@@ -46,16 +46,16 @@ const links = () => {
 
   const tournaments = [
     {
-      headline:  'NY',
-      long: 'IGBO Annual 2022',
-      url: 'http://igbo2022.org/',
-      location: 'Rochester, NY',
-    },
-    {
       headline:  'DC',
       long: 'IGBO Mid-year 2022',
       url: 'https://igbomy2022.org/',
       location: 'Washington, DC',
+    },
+    {
+      headline:  'NY',
+      long: 'IGBO Annual 2023',
+      url: 'http://igbo2023.org/',
+      location: 'Seattle, WA',
     },
     {
       headline:  'SVIT',
@@ -77,7 +77,7 @@ const links = () => {
     },
     {
       headline:  'BIGD',
-      long: 'Big D Clasisc',
+      long: 'Big D Classic',
       url: 'http://www.bigdclassic.com',
       location: 'Dallas, TX',
     },
@@ -90,7 +90,7 @@ const links = () => {
     {
       headline:  'MAKIT',
       long: 'Missouri and Kansas Invitational',
-      url: 'https://www.makitkc.org',
+      url: 'http://www.makitkc.org',
       location: 'Kansas City, KS',
     },
     {
@@ -98,6 +98,12 @@ const links = () => {
       long: 'Denver International Gay and Lesbian Invitational',
       url: 'http://www.bowldiglit.org/',
       location: 'Denver, CO',
+    },
+    {
+      headline:  'TART',
+      long: 'The Albuquerque Roadrunner Tournament',
+      url: 'http://www.beepbeepbowl.org/',
+      location: 'Albuquerque, NM',
     },
   ];
   const tournamentsText = tournaments.map((t, i) => {

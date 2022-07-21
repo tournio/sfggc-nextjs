@@ -13,7 +13,7 @@ const navigation = ({active}) => {
       </NavbarBrand>
       <NavbarToggle aria-controls="navbarText" className={styles.Toggler} />
       <NavbarCollapse id="navbarText">
-        <Nav className="mr-auto">
+        <Nav className="me-auto">
           <NavLink href="/schedule">
             Schedule
           </NavLink>
