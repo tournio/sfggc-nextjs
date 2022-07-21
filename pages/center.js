@@ -1,8 +1,7 @@
 import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import {Carousel, ResponsiveEmbed} from "react-bootstrap";
+import Ratio from "react-bootstrap/Ratio";
 
 import Layout from '../components/layout';
 
@@ -55,10 +54,9 @@ const center = () => {
               Getting There
             </h4>
 
-            <ResponsiveEmbed aspectRatio="4by3" className={styles.Map + " d-none d-md-block"}>
-              <iframe className="embed-responsive-item"
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3158.9179923188367!2d-122.467872!3d37.651132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7bc86aa2437f%3A0x9fe5dab297c66d45!2sClassic+Bowling+Center!5e0!3m2!1sen!2sus!4v1411883901483" />
-            </ResponsiveEmbed>
+            <Ratio aspectRatio="4x3" className={styles.Map + " d-none d-md-block"}>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3158.9179923188367!2d-122.467872!3d37.651132!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7bc86aa2437f%3A0x9fe5dab297c66d45!2sClassic+Bowling+Center!5e0!3m2!1sen!2sus!4v1411883901483"/>
+            </Ratio>
 
             <address>
               <span className="line">

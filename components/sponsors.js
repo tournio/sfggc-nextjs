@@ -16,7 +16,7 @@ const sponsors = ({home}) => {
       alt: 'The International Gay Bowling Organization',
       href: 'http://www.igbo.org/',
       title: 'The International Gay Bowling Organization',
-      src: 'igbo.jpg',
+      src: 'igbo.png',
     },
     {
       alt: 'The United States Bowling Congress',

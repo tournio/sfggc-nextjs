@@ -1,4 +1,4 @@
-import {Jumbotron, Row, Card, Col} from 'react-bootstrap'
+import {Row, Card, Col} from 'react-bootstrap'
 
 import Layout from '../components/layout';
 import Spotlight from '../components/spotlight';
@@ -7,23 +7,28 @@ import styles from './index.module.scss';
 
 const index = () => {
   const tournamentDates = 'February 2023';
+  const year = 2023;
+  const tournamentName = 'SFGGC';
+  const city = 'San Francisco, CA';
+  const logoPath = '/images/logo.jpg';
+  const logoAltText = 'Golden Gate Classic logo';
 
-  const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end'];
+  const jumbotronClasses = ['d-flex', 'flex-column-reverse', 'align-items-end', 'px-2'];
   jumbotronClasses.push(styles.JumbotronImage);
 
   return (
     <Layout home={true}>
 
-      <Jumbotron className={jumbotronClasses.join(' ')}>
+      <div className={jumbotronClasses.join(' ')}>
         <h1 className="display-1">
           <span className={styles.Title}>
-            SFGGC
+            {tournamentName}
           </span>
-          {/*<span className={styles.Year}>*/}
-          {/*  2023*/}
-          {/*</span>*/}
+          <span className={styles.Year}>
+            {year}
+          </span>
         </h1>
-      </Jumbotron>
+      </div>
 
       <Row>
         {/*<Col xs={12} md={8} lg={4}>*/}
@@ -40,7 +45,7 @@ const index = () => {
         {/*    </Card.Header>*/}
         {/*    <Card.Body>*/}
         {/*      <div className="d-lg-none">*/}
-        {/*        <img className="float-right img-fluid col-6 p-0"*/}
+        {/*        <img className="float-end img-fluid col-6 p-0"*/}
         {/*          src="/images/logo.jpg"*/}
         {/*          alt="Golden Gate Classic logo"*/}
         {/*        />*/}
@@ -57,8 +62,8 @@ const index = () => {
 
         <Col lg={4} className="d-none d-lg-block">
           <img className="img-fluid"
-               src="/images/logo.jpg"
-               alt="Golden Gate Classic logo"
+               src={logoPath}
+               alt={logoAltText}
           />
         </Col>
 
