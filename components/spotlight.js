@@ -34,8 +34,47 @@ const spotlight = () => {
   //   </Card.Text>
   // );
 
+  // const text = (
+  //   <>
+  //     <Card.Text>
+  //       The San Francisco Golden Gate Classic committee is hard at work planning
+  //       for next year&apos;s tournament. We are looking forward to coming back
+  //       stronger and better than ever in 2023!
+  //     </Card.Text>
+  //     <Card.Text>
+  //       We appreciate the continuing support of our sponsors,{' '}
+  //       <a href="http://www.stormbowling.com">
+  //         Storm Bowling Products
+  //       </a>
+  //       ,{' '}
+  //       <a href="http://www.budlight.com">
+  //         Bud Light
+  //       </a>
+  //       , and{' '}
+  //       <a href="http://www.lookoutsf.com/">
+  //         The Lookout
+  //       </a>, and the{' '}
+  //       <a href="http://psdic.org">
+  //         Palm Springs Desert Invitational Classic (PSDIC)
+  //       </a>
+  //       {' '}for allowing us to sell 50/50 raffle tickets. We especially want
+  //       to thank you – our bowlers – who support our tournament each year.
+  //     </Card.Text>
+  //   </>
+  // );
+
+  const text = (
+    <Card.Text>
+      Join us for our next two fundraisers at{' '}
+      <a href="http://www.lookoutsf.com/">
+        The Lookout
+      </a>
+      {' '}! We&apos;ll be there all afternoon on October 30 and November 27, selling Jello shots and giving away smiles.
+    </Card.Text>
+  );
+
   return (
-    <Col xs={12} md={8}>
+    <Col xs={12} md={4}>
       <Card>
         <Card.Header bg="light">
           <Card.Title className={styles.Title}>
@@ -43,31 +82,7 @@ const spotlight = () => {
           </Card.Title>
         </Card.Header>
         <Card.Body>
-          {/*{text}*/}
-          <Card.Text>
-            The San Francisco Golden Gate Classic committee is hard at work planning
-            for next year&apos;s tournament. We are looking forward to coming back
-            stronger and better than ever in 2023!
-          </Card.Text>
-          <Card.Text>
-            We appreciate the continuing support of our sponsors,{' '}
-            <a href="http://www.stormbowling.com">
-              Storm Bowling Products
-            </a>
-            ,{' '}
-            <a href="http://www.budlight.com">
-              Bud Light
-            </a>
-            , and{' '}
-            <a href="http://www.lookoutsf.com/">
-              The Lookout
-            </a>, and the{' '}
-            <a href="http://psdic.org">
-              Palm Springs Desert Invitational Classic (PSDIC)
-            </a>
-            {' '}for allowing us to sell 50/50 raffle tickets. We especially want
-            to thank you – our bowlers – who support our tournament each year.
-          </Card.Text>
+          {text}
         </Card.Body>
       </Card>
     </Col>
