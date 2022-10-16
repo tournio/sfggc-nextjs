@@ -48,11 +48,11 @@ const links = () => {
     {
       headline:  'DC',
       long: 'IGBO Mid-year 2022',
-      url: 'https://igbomy2022.org/',
+      url: 'http://igbomy2022.org/',
       location: 'Washington, DC',
     },
     {
-      headline:  'NY',
+      headline:  'SEA',
       long: 'IGBO Annual 2023',
       url: 'http://igbo2023.org/',
       location: 'Seattle, WA',
@@ -62,6 +62,12 @@ const links = () => {
       long: 'Silicon Valley International Tournament',
       url: 'http://www.svitbowl.com/',
       location: 'San Jose, CA',
+    },
+    {
+      headline: 'CSC',
+      long: 'California Spring Classic',
+      url: 'https://www.californiaspringclassic.org/',
+      location: 'Irvine, CA',
     },
     {
       headline:  'PSDIC',
@@ -98,6 +104,12 @@ const links = () => {
       long: 'Denver International Gay and Lesbian Invitational',
       url: 'http://www.bowldiglit.org/',
       location: 'Denver, CO',
+    },
+    {
+      headline:  'TXSS',
+      long: 'Texas Super Slam',
+      url: 'https://www.txsuperslam.com/',
+      location: 'Austin, TX',
     },
     {
       headline:  'TART',
