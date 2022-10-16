@@ -159,7 +159,7 @@ const sanFrancisco = () => {
                 <a href="https://www.gracias-madre.com/">Gracias Madre</a>
               </li>
               <li>
-                <a href="http://dosasf.com/">DOSA</a>
+                <a href="https://www.keevaindiankitchensanfrancisco.com/">Keeva Indian Kitchen</a>
               </li>
             </ul>
             <p>
