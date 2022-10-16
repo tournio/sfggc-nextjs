@@ -15,6 +15,13 @@ const contact = () => {
           Tournament Committee
         </h1>
         <Row>
+          <Col>
+            <p className={'lead mb-3'}>
+              Putting on a tournament is a community effort. The Golden Gate Classic wouldn&apos;t be possible without the effort, work, and contributions of all the people on this page.
+            </p>
+          </Col>
+        </Row>
+        <Row>
           <Col sm={4}>
             <Card className="text-center mb-2">
               <Card.Header>
@@ -34,12 +41,28 @@ const contact = () => {
           <Col sm={4}>
             <Card className="text-center mb-2">
               <Card.Header>
-                Technologist
+                Treasurer
+              </Card.Header>
+              <Card.Body>
+                <img className="img-fluid mx-auto d-block w-100" src="/images/committee/allison.jpg"/>
+                <p>
+                  <a href="mailto:treasurer@goldengateclassic.org">
+                    Allison Laureano
+                  </a>
+                </p>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col sm={4}>
+            <Card className="text-center mb-2">
+              <Card.Header>
+                Co-secretary &amp; Technologist
               </Card.Header>
               <Card.Body>
                 <img className="img-fluid mx-auto d-block w-100" src="/images/committee/scott.jpg"/>
                 <p>
-                  <a href="mailto:website@goldengateclassic.org">
+                  <a href="mailto:secretary@goldengateclassic.org">
                     Scott Stebleton
                   </a>
                 </p>
@@ -50,12 +73,14 @@ const contact = () => {
           <Col sm={4}>
             <Card className="text-center mb-2">
               <Card.Header>
-                Scratch Master
+                Scratch Master &amp; Co-secretary
               </Card.Header>
               <Card.Body>
                 <img className="img-fluid mx-auto d-block w-100" src="/images/committee/duane.jpg"/>
                 <p>
-                  Duane Flohra
+                  <a href={'mailto:duane300@hotmail.com'}>
+                    Duane Flohra
+                  </a>
                 </p>
               </Card.Body>
             </Card>
@@ -64,20 +89,17 @@ const contact = () => {
           <Col sm={4}>
             <Card className="text-center mb-2">
               <Card.Header>
-                Committee Members
+                Committee &amp; Volunteers
               </Card.Header>
               <ul className="list-group list-group-flush">
+                <li className="list-group-item">
+                  Vince Wilson
+                </li>
                 <li className="list-group-item">
                   Glenn Normandin
                 </li>
                 <li className="list-group-item">
-                  Bryan Hoff
-                </li>
-                <li className="list-group-item">
-                  Robert Hughs
-                </li>
-                <li className="list-group-item">
-                  Allison Laureano
+                  Robert Hughes
                 </li>
                 <li className="list-group-item">
                   Cathy Patterson
@@ -86,7 +108,19 @@ const contact = () => {
                   R.H. Ryan
                 </li>
                 <li className="list-group-item">
-                  Vince Wilson
+                  Stephen Ingram
+                </li>
+                <li className="list-group-item">
+                  Corey Lindabury
+                </li>
+                <li className="list-group-item">
+                  Patrick O&apos;Connor
+                </li>
+                <li className="list-group-item">
+                  Mark Bertelsen
+                </li>
+                <li className="list-group-item">
+                  Saman Oun
                 </li>
               </ul>
             </Card>

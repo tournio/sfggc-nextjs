@@ -9,63 +9,63 @@ import styles from './schedule.module.scss';
 
 const schedule = () => {
     const days = new Map();
-    // days.set('2021-08-13', [
-    //     {
-    //       type: 'register',
-    //       start: '18:00:00',
-    //       end: '20:30:00',
-    //       name: ' Registration',
-    //       where: 'Plano Super Bowl',
-    //       additional: 'Event Room - behind lanes 1-6',
-    //     },
-    //     {
-    //       type: 'bowling',
-    //       start: '20:00:00',
-    //       end: '23:00:00',
-    //       name: 'Optional 9-pin No-Tap Event',
-    //       where: 'Plano Super Bowl',
-    //       additional: '3 games; $20 per bowler; 3 average divisions; scratch scores',
-    //     },
-    //   ]
-    // );
-    // days.set('2021-08-14', [
-    //     {
-    //       type: 'register',
-    //       start: '10:00:00',
-    //       end: '11:45:00',
-    //       name: 'All Tournament Registration',
-    //       where: 'Plano Super Bowl',
-    //       additional: 'Event Room - behind lanes 1-6',
-    //     },
-    //     {
-    //       type: 'bowling',
-    //       start: '12:00:00',
-    //       end: '18:00:00',
-    //       name: 'Singles and Doubles Events',
-    //       where: 'Plano Super Bowl',
-    //       additional: '45-minute break between events',
-    //     },
-    //   ]
-    // );
-    // days.set('2021-08-15', [
-    //     {
-    //       type: 'bowling',
-    //       start: '10:00:00',
-    //       end: '13:00:00',
-    //       name: 'Team Event',
-    //       where: 'Plano Super Bowl',
-    //       additional: null,
-    //     },
-    //     {
-    //       type: 'bowling',
-    //       start: '13:30:00',
-    //       end: '16:00:00',
-    //       name: 'Scratch Shootout',
-    //       where: 'Plano Super Bowl',
-    //       additional: null,
-    //     },
-    //   ]
-    // );
+    days.set('2023-02-17', [
+        {
+          type: 'register',
+          start: '18:00:00',
+          end: '20:30:00',
+          name: ' Registration',
+          where: 'Classic Bowling Center',
+          additional: 'Meeting Room - behind lanes 10-14',
+        },
+        {
+          type: 'bowling',
+          start: '20:00:00',
+          end: '23:00:00',
+          name: 'Optional 9-pin No-Tap Mixer',
+          where: 'Classic Bowling Center',
+          additional: '3 games; $30 per bowler',
+        },
+      ]
+    );
+    days.set('2023-02-18', [
+        {
+          type: 'register',
+          start: '09:00:00',
+          end: '10:45:00',
+          name: 'All Tournament Registration',
+          where: 'Classic Bowling Center',
+          additional: 'Meeting Room - behind lates 10-14',
+        },
+        {
+          type: 'bowling',
+          start: '11:00:00',
+          end: '18:00:00',
+          name: 'Doubles and Team Events',
+          where: 'Classic Bowling Center',
+          additional: '30-minute break between events',
+        },
+      ]
+    );
+    days.set('2023-02-19', [
+        {
+          type: 'bowling',
+          start: '10:00:00',
+          end: '13:00:00',
+          name: 'Singles Event',
+          where: 'Classic Bowling Center',
+          additional: null,
+        },
+        {
+          type: 'bowling',
+          start: '14:00:00',
+          end: '17:00:00',
+          name: 'Scratch Masters',
+          where: 'Classic Bowling Center',
+          additional: null,
+        },
+      ]
+    );
 
     const daysAndEvents = [...days.entries()];
 
@@ -124,6 +124,10 @@ const schedule = () => {
           <h1 className="display-4">
             Schedule of Events
           </h1>
+
+          <h5 className={'text-muted'}>
+            (All times subject to change)
+          </h5>
 
           {scheduleText}
         </div>
