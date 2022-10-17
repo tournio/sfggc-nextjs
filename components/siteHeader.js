@@ -7,7 +7,7 @@ const siteHeader = () => {
   return (
     <Head>
       <title>{siteTitle}</title>
-      <link rel="icon" href="/logo-50x50.jpg" />
+      <link rel="icon" href="/images/logo-50x50.jpg" />
 
       <meta content="text/html"
             charSet="utf-8"

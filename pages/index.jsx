@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import Spotlight from '../components/spotlight';
 
 import styles from './index.module.scss';
+import React from "react";
 
 const index = () => {
   const tournamentDates = 'February 17-19, 2023';
@@ -32,7 +33,7 @@ const index = () => {
 
       <Row>
         <Col xs={12} md={8} lg={4}>
-          <Card>
+          <Card className={'mb-2'}>
             <Card.Header>
               <Card.Title>
                 {/*<h4>*/}
@@ -55,6 +56,13 @@ const index = () => {
               </Card.Text>
               <Card.Text>
                 Join us in San Francisco as we showcase the best of the Bay Area.
+              </Card.Text>
+              <Card.Text>
+                <a href="https://www.tourn.io/tournaments/sf-golden-gate-classic-2023"
+                   className="btn btn-primary">
+                  Register Online
+                  <i className={'bi-arrow-right ps-2'} aria-hidden={true}/>
+                </a>
               </Card.Text>
             </Card.Body>
           </Card>
