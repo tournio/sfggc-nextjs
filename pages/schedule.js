@@ -31,16 +31,16 @@ const schedule = () => {
     days.set('2023-02-18', [
         {
           type: 'register',
-          start: '09:00:00',
-          end: '10:45:00',
+          start: '12:00:00',
+          end: '14:00:00',
           name: 'All Tournament Registration',
           where: 'Classic Bowling Center',
           additional: 'Meeting Room - behind lates 10-14',
         },
         {
           type: 'bowling',
-          start: '11:00:00',
-          end: '18:00:00',
+          start: '14:30:00',
+          end: '20:30:00',
           name: 'Doubles and Team Events',
           where: 'Classic Bowling Center',
           additional: '30-minute break between events',
