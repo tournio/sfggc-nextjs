@@ -7,10 +7,10 @@ import Col from "react-bootstrap/Col";
 const sponsors = ({home}) => {
   const sponsorDetails = [
     {
-      alt: 'Storm Bowling Products',
-      href: 'http://www.stormbowling.com/',
-      title: 'Storm Bowling Products',
-      src: 'storm_logo.jpg',
+      alt: 'Brunswick Bowling Products',
+      href: 'https://brunswickbowling.com/',
+      title: 'Brunswick Bowling Products',
+      src: 'brunswick.jpg',
     },
     {
       alt: 'The International Gay Bowling Organization',
@@ -42,6 +42,7 @@ const sponsors = ({home}) => {
               <a key={i}
                  alt={s.alt}
                  href={s.href}
+                 target={'_blank'}
                  title={s.title}>
                 <img className="img-fluid"
                      src={"/images/sponsors/" + s.src} />
@@ -61,6 +62,7 @@ const sponsors = ({home}) => {
                 <a key={i}
                    alt={s.alt}
                    href={s.href}
+                   target={'_blank'}
                    title={s.title}>
                   <img className="img-fluid"
                        src={"/images/sponsors/" + s.src} />
@@ -76,6 +78,7 @@ const sponsors = ({home}) => {
                  className="d-block mb-2"
                  alt={s.alt}
                  href={s.href}
+                 target={'_blank'}
                  title={s.title}>
                 <img className="img-fluid"
                      src={"/images/sponsors/" + s.src} />
