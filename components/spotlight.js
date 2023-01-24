@@ -15,7 +15,7 @@ const spotlight = () => {
         </Card.Header>
         <Card.Body>
           <Card.Text>
-            Registration is open! Be sure to get your entry in before the late-registration fee kicks in.
+            Not long to go now! Registration is still open, so be sure to reserve your spot!
           </Card.Text>
           <Card.Link href={'https://www.tourn.io/tournaments/sf-golden-gate-classic-2023'}>
             Register online
