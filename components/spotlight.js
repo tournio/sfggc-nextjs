@@ -15,10 +15,10 @@ const spotlight = () => {
         </Card.Header>
         <Card.Body>
           <Card.Text>
-            Not long to go now! Registration is still open, so be sure to reserve your spot!
+            We hope everyone is enjoying themselves this weekend! Oh yeah, and bowling well. ;-)
           </Card.Text>
-          <Card.Link href={'https://www.tourn.io/tournaments/sf-golden-gate-classic-2023'}>
-            Register online
+          <Card.Link href={'/results/2023/scratch_masters_qualifiers.pdf'}>
+            Scratch Masters qualifiers
           </Card.Link>
         </Card.Body>
       </Card>

@@ -57,13 +57,13 @@ const index = () => {
               <Card.Text>
                 Join us in San Francisco as we showcase the best of the Bay Area.
               </Card.Text>
-              <Card.Text>
-                <a href="https://www.tourn.io/tournaments/sf-golden-gate-classic-2023"
-                   className="btn btn-primary">
-                  Register Online
-                  <i className={'bi-arrow-right ps-2'} aria-hidden={true}/>
-                </a>
-              </Card.Text>
+              {/*<Card.Text>*/}
+              {/*  <a href="https://www.tourn.io/tournaments/sf-golden-gate-classic-2023"*/}
+              {/*     className="btn btn-primary">*/}
+              {/*    Register Online*/}
+              {/*    <i className={'bi-arrow-right ps-2'} aria-hidden={true}/>*/}
+              {/*  </a>*/}
+              {/*</Card.Text>*/}
             </Card.Body>
           </Card>
         </Col>
