@@ -15,11 +15,16 @@ const spotlight = () => {
         </Card.Header>
         <Card.Body>
           <Card.Text>
-            We hope everyone is enjoying themselves this weekend! Oh yeah, and bowling well. ;-)
+            That&apos;s a wrap! The tournament committee wants to extend a huge thank-you to everyone who came to bowl,
+            including those who traveled from afar to join us. And an especially big thank-you to all our volunteers.
+            We couldn&apos;t have put this tournament on without you!
           </Card.Text>
-          <Card.Link href={'/results/2023/scratch_masters_qualifiers.pdf'}>
-            Scratch Masters qualifiers
-          </Card.Link>
+          <Card.Text>
+            Results will be posted here as soon as they're available.
+          </Card.Text>
+          <Card.Text>
+            See you next year!
+          </Card.Text>
         </Card.Body>
       </Card>
     </Col>
