@@ -20,7 +20,10 @@ const spotlight = () => {
             We couldn&apos;t have put this tournament on without you!
           </Card.Text>
           <Card.Text>
-            Results will be posted here as soon as they're available.
+            {/*Results will be posted here as soon as they're available.*/}
+            <a href={'/results'}>
+              Results are up!
+            </a>
           </Card.Text>
           <Card.Text>
             See you next year!
