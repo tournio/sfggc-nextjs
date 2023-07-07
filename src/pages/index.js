@@ -12,7 +12,6 @@ import RootLayout from "../components/layout/layout";
 const MainPage = () => {
   return (
     <div>
-      <h1>Let&apos;s do this!</h1>
       <Hero/>
       {/*<Location/>*/}
       {/*<Schedule/>*/}
