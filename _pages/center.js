@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Ratio from "react-bootstrap/Ratio";
 
-import Layout from '../components/layout';
+import Layout from '../_components/layout';
 
 import styles from './center.module.scss';
 

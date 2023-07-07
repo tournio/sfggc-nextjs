@@ -1,0 +1,13 @@
+.ColorModeToggler {
+  button {
+    [data-bs-theme='light'] & {
+      color: var(--sfggc-gray-200);
+    }
+    [data-bs-theme='dark'] & {
+      color: var(--sfggc-body-color);
+    }
+  }
+  .ThemeItem {
+    min-width: 0;
+  }
+}

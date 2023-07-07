@@ -1,7 +1,7 @@
 import {Row, Card, Col} from 'react-bootstrap'
 
-import Layout from '../components/layout';
-import Spotlight from '../components/spotlight';
+import Layout from '../_components/layout';
+import Spotlight from '../_components/spotlight';
 
 import styles from './index.module.scss';
 import React from "react";

@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {parseISO, format} from 'date-fns';
 
-import Layout from '../components/layout';
+import Layout from '../_components/layout';
 
 import styles from './schedule.module.scss';
 

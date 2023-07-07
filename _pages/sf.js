@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Layout from "../components/layout";
+import Layout from "../_components/layout";
 
 import styles from './sf.module.scss';
 import Row from "react-bootstrap/Row";
