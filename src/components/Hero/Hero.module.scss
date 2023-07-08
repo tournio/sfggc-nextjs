@@ -1,8 +1,42 @@
 .Hero {
+  .Background {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+  }
+
   .Content {
+    text-align: center;
+    margin: 0 0.5rem;
+
+    color: var(--sfggc-gray-200);
+    text-shadow: 1px 1px 1px #10131d;
+
     .Title {
       font-family: var(--sfggc-title-font-family);
+      font-size: calc(2rem + 5vw);
+      margin-bottom: 2rem;
+    }
 
+    .Subtitle {
+      font-size: calc(1.25rem + 3vw);
+      margin-bottom: 2rem;
+    }
+
+    .Dates {
+      font-size: calc(1.125rem + 2.6vw);
+      margin-bottom: 1rem;
+    }
+
+    .Weekend {
+      font-size: calc(1rem + 2.5vw);
+      margin-bottom: 2rem;
+    }
+
+    .Description {
+      margin-bottom: 1rem;
     }
   }
 }

@@ -1,13 +1,13 @@
+import React from "react";
 import {Row, Card, Col} from 'react-bootstrap'
 
 import Layout from '../_components/layout';
 import Spotlight from '../_components/spotlight';
 
 import styles from './index.module.scss';
-import React from "react";
 
 const index = () => {
-  const tournamentDates = 'February 17-19, 2023';
+  const tournamentDates = 'February 16-18, 2024';
   const year = 2023;
   const tournamentName = 'SFGGC';
   const city = 'San Francisco, CA';
