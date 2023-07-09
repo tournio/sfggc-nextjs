@@ -10,6 +10,14 @@ body {
 
   section {
     .section-heading {
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      padding-left: 1rem;
+
+      color: var(--sfggc-section-heading-color);
+      background-color: var(--sfggc-section-heading-bg-color);
 
       @media(min-width: 768px) {
         text-align: center;

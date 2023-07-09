@@ -3,9 +3,9 @@ import Image from "next/image";
 
 import RootLayout from "../components/layout/layout";
 import Hero from "../components/Hero/Hero";
-import Spotlight from "../components/Spotlight/Spotlight";
 import Location from "../components/Location/Location";
-// import Schedule from "@/components/schedule";
+import Schedule from '../components/Schedule/Schedule';
+
 // import RegisterCTA from "@/components/register_cta";
 // import Contact from "@/components/contact";
 // import Dallas from "@/components/dallas";
@@ -21,7 +21,7 @@ const MainPage = () => {
 
       <Hero/>
       <Location/>
-      {/*<Schedule/>*/}
+      <Schedule/>
       {/*<Dallas full={false}/>*/}
       {/*<Local/>*/}
       {/*<RegisterCTA/>*/}

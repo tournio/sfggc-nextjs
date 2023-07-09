@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import cbcLogo from '../../images/sf/cbc-logo.png';
+import cbcLogo from '../../images/cbc-logo.png';
 
 import styles from './Location.module.scss';
 

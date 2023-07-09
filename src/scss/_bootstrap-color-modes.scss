@@ -2,6 +2,9 @@
 [data-bs-theme="light"] {
   --#{$prefix}body-color: #{$gray-200};
   --#{$prefix}body-text-shadow-color: #{$deep-gray};
+
+  --#{$prefix}section-heading-bg-color: #{$deep-blue};
+  --#{$prefix}section-heading-color: #{$gray-100};
 }
 
 @include color-mode(dark, true) {
