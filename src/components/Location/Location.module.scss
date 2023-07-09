@@ -1,0 +1,62 @@
+.Location {
+  position: relative;
+
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-bottom: 2rem;
+
+  .BackgroundImage {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+
+    background-image: url('../../images/sf/classic-600w.jpg');
+
+    @media (min-width: 768px) {
+      background-image: url('../../images/sf/classic-991w.jpg');
+    }
+
+    @media (min-width: 992px) {
+      background-image: url('../../images/sf/classic-fullsize.jpg');
+    }
+  }
+
+  .BackgroundShade {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+
+    opacity: 0.6;
+
+    [data-bs-theme='dark'] & {
+      opacity: 0.75;
+    }
+  }
+
+  .Logo {
+    background-image: radial-gradient(
+        ellipse
+        closest-side at 50% 50%,
+        rgba(255, 255, 255, 0.85),
+        rgba(0, 0, 0, 0)
+    );
+    margin: 1rem 0 1rem;
+
+    [data-bs-theme='dark'] & {
+      background-image: radial-gradient(
+          ellipse
+          closest-side at 50% 50%,
+          rgba(255, 255, 255, 0.65),
+          rgba(0, 0, 0, 0)
+      );
+    }
+  }
+  .Address {
+    text-align: center;
+  }
+  .Map {
+    [data-bs-theme='dark'] & {
+      filter: brightness(65%);
+    }
+
+    margin-bottom: 1rem;
+  }
+}

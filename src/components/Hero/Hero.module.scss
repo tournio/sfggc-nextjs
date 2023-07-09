@@ -1,18 +1,31 @@
 .Hero {
-  .Background {
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    z-index: -1;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+  padding-bottom: 2rem;
+
+  .BackgroundImage {
+    background-image: url('../../images/sf/ggb-vertical-600w.jpeg');
+
+    @media (min-width: 768px) {
+      background-image: url('../../images/sf/ggb-vertical-991w.jpeg');
+    }
+
+    @media (min-width: 992px) {
+      background-image: url('../../images/sf/ggb-vertical-fullsize.jpg');
+    }
+  }
+
+  .BackgroundShade {
+    opacity: 0.4;
+
+    [data-bs-theme='dark'] & {
+      opacity: 0.75;
+    }
   }
 
   .Content {
     text-align: center;
-    margin: 0 0.5rem;
-
-    color: var(--sfggc-gray-200);
-    text-shadow: 1px 1px 1px #10131d;
 
     .Title {
       font-family: var(--sfggc-title-font-family);

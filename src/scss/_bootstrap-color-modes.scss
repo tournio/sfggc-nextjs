@@ -1,0 +1,11 @@
+:root,
+[data-bs-theme="light"] {
+  --#{$prefix}body-color: #{$gray-200};
+  --#{$prefix}body-text-shadow-color: #{$deep-gray};
+}
+
+@include color-mode(dark, true) {
+  color-scheme: dark;
+
+
+}

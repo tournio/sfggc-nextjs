@@ -2,7 +2,6 @@ import Link from "next/link";
 import ColorModeToggler from "../ColorModeToggler/ColorModeToggler";
 
 const Navigation = () => {
-
   return (
     <div className={`navigation`}>
       <div className={`navbar navbar-expand-lg`}>
