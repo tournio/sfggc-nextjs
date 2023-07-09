@@ -22,3 +22,6 @@ $deep-blue: #3f6fb3;
 $burnt-orange: #ed6f55;
 
 $link-color: shade-color($light-blue, 0%);
+
+$body-emphasis-color: white;
+$navbar-light-color: rgba(var(--#{$prefix}emphasis-color-rgb), .85)

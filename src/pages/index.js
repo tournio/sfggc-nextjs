@@ -1,19 +1,7 @@
-import Image from "next/image";
-
-
 import RootLayout from "../components/layout/layout";
 import Hero from "../components/Hero/Hero";
 import Location from "../components/Location/Location";
 import Schedule from '../components/Schedule/Schedule';
-
-// import RegisterCTA from "@/components/register_cta";
-// import Contact from "@/components/contact";
-// import Dallas from "@/components/dallas";
-// import Sponsors from "@/components/sponsors";
-// import RootLayout from "../components/layout/layout";
-// import Local from "@/components/local";
-
-import bridgeImage from "../images/sf/ggb-vertical-fullsize.jpg";
 
 const MainPage = () => {
   return (
@@ -22,7 +10,7 @@ const MainPage = () => {
       <Hero/>
       <Location/>
       <Schedule/>
-      {/*<Dallas full={false}/>*/}
+      {/*<SanFrancisco full={false}/>*/}
       {/*<Local/>*/}
       {/*<RegisterCTA/>*/}
       {/*<Contact/>*/}

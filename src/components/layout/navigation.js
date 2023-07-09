@@ -14,7 +14,7 @@ const Navigation = () => {
             aria-controls={`navbarContent`}
             aria-expanded={false}
             aria-label={'Toggle navigation'}>
-            <i className={'bi-list'} />
+            <i className={'bi bi-list'} />
           </button>
 
           <ul className={`navbar-nav d-none d-lg-inline-block order-last`}>
