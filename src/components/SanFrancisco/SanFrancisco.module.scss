@@ -1,0 +1,127 @@
+.SanFrancisco {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+  .JumboImage {
+    position: relative;
+    margin-bottom: 0.25rem;
+    height: 20vh;
+    min-height: 300px;
+    max-height: 500px;
+    @media (min-width: 768px) {
+      height: 40vh;
+      min-height: 400px;
+    }
+
+    // Adds an overlay to the image to dim it as needed.
+    .CityDaytimeColor {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+      opacity: 0.3;
+      background-color: transparent;
+
+      [data-bs-theme='dark'] & {
+        background-color: black;
+      }
+    }
+    .CityDaytimeImage {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -2 ;
+      background-repeat: no-repeat;
+      background-position: 0 25%;
+      background-size: cover;
+      background-image: url('../../images/san-francisco/cable-car-transamerica.jpg');
+
+      //@media (min-width: 768px) {
+      //  background-image: url('../../images/san-francisco/cable-car-transamerica.jpg');
+      //}
+    }
+  }
+  .Credit {
+    text-align: center;
+    font-size: 80%;
+    opacity: 80%;
+  }
+
+  .BackgroundImage {
+    background-image: url('../../images/bg/cable-car-600w.jpg');
+
+    @media (min-width: 768px) {
+      background-image: url('../../images/bg/cable-car-991w.jpg');
+    }
+
+    @media (min-width: 992px) {
+      background-image: url('../../images/bg/cable-car-fullsize.jpg');
+    }
+  }
+
+  .BackgroundShade {
+    opacity: 0.4;
+
+    [data-bs-theme='dark'] & {
+      opacity: 0.75;
+    }
+  }
+
+  .Thing {
+    margin-bottom: 1rem;
+    .Image {
+      overflow: hidden;
+      max-height: 10rem;
+
+      .Img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    // an image in a card that will flip from vertical to horizontal at the
+    // small breakpoint (576px wide)
+    .FlippyImage {
+      overflow: hidden;
+      max-height: 10rem;
+
+      @media (min-width: 576px) {
+        max-height: none;
+      }
+      @media (min-width: 768px) {
+        max-height: 10rem;
+      }
+
+      .Img {
+        width: 100%;
+        height: auto;
+
+        @media (min-width: 576px) {
+          height: 100%;
+          object-position: 20% center;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .CardBody {
+      padding-top: 0.5rem;
+    }
+    .ExternalLink {
+
+    }
+    .HighTemp {
+      color: var(--damit-red);
+    }
+    .LowTemp {
+      color: var(--damit-blue);
+    }
+  }
+
+  .MoreLink {
+    text-align: right;
+  }
+}

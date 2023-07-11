@@ -1,3 +1,4 @@
+
 :root,
 [data-bs-theme="light"] {
   --#{$prefix}body-color: #{$gray-200};
@@ -9,6 +10,5 @@
 
 @include color-mode(dark, true) {
   color-scheme: dark;
-
 
 }

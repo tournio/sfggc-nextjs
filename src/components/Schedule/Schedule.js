@@ -3,7 +3,7 @@ import styles from './Schedule.module.scss';
 const Schedule = () => {
 
   return (
-    <section className={styles.Schedule} id={'schedule'}>
+    <section className={styles.Schedule} id={'section-schedule'}>
       <h3 className={`section-heading`}>
         Schedule of Events
       </h3>

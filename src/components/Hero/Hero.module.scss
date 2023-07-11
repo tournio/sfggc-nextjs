@@ -2,17 +2,17 @@
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 
   .BackgroundImage {
-    background-image: url('../../images/sf/ggb-vertical-600w.jpg');
+    background-image: url('../../images/bg/ggb-vertical-600w.jpg');
 
     @media (min-width: 768px) {
-      background-image: url('../../images/sf/ggb-vertical-991w.jpg');
+      background-image: url('../../images/bg/ggb-vertical-991w.jpg');
     }
 
     @media (min-width: 992px) {
-      background-image: url('../../images/sf/ggb-vertical-fullsize.jpg');
+      background-image: url('../../images/bg/ggb-vertical-fullsize.jpg');
     }
   }
 
@@ -30,12 +30,12 @@
     .Title {
       font-family: var(--sfggc-title-font-family);
       font-size: calc(2rem + 5vw);
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
     }
 
     .Subtitle {
       font-size: calc(1.25rem + 3vw);
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
     }
 
     .Dates {
@@ -45,11 +45,7 @@
 
     .Weekend {
       font-size: calc(1rem + 2.5vw);
-      margin-bottom: 2rem;
-    }
-
-    .Description {
-      margin-bottom: 1rem;
+      margin-bottom: 2.5rem;
     }
   }
 }

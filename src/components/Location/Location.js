@@ -6,7 +6,7 @@ import styles from './Location.module.scss';
 
 const Location = () => {
   return (
-    <section className={`${styles.Location}`}>
+    <section className={`${styles.Location}`} id={'section-location'}>
       <h3 className={`section-heading`}>
         Bowling Center
       </h3>

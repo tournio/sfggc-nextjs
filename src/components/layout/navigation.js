@@ -1,7 +1,10 @@
 import Link from "next/link";
 import ColorModeToggler from "../ColorModeToggler/ColorModeToggler";
+import {useRouter} from "next/router";
 
 const Navigation = () => {
+  const router = useRouter();
+
   return (
     <div className={`navigation`}>
       <div className={`navbar navbar-expand-lg`}>
@@ -24,7 +27,7 @@ const Navigation = () => {
           <div className={`collapse navbar-collapse`} id={'navbarContent'}>
             <ul className={`navbar-nav mb-2 mb-lg-0`}>
               <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/#top'}>
+                <Link className={`nav-link`} href={'/#section-top'}>
                   Home
                 </Link>
               </li>
@@ -37,12 +40,14 @@ const Navigation = () => {
                 </a>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/#location'}>
+                <Link className={`nav-link`} href={'/#section-location'}>
                   Bowling Center
                 </Link>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/#schedule'}>
+                <Link className={`nav-link`}
+                      href={'/#section-schedule'}
+                >
                   Schedule
                 </Link>
               </li>
@@ -52,17 +57,17 @@ const Navigation = () => {
                 </Link>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/dallas'}>
+                <Link className={`nav-link`} href={'/san-francisco'}>
                   San Francisco
                 </Link>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/#igbo-local'}>
+                <Link className={`nav-link`} href={'/#section-igbo-local'}>
                   IGBO Local
                 </Link>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/#contact'}>
+                <Link className={`nav-link`} href={'/#section-contact'}>
                   Contact
                 </Link>
               </li>

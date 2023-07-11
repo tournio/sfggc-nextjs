@@ -2,15 +2,16 @@ import RootLayout from "../components/layout/layout";
 import Hero from "../components/Hero/Hero";
 import Location from "../components/Location/Location";
 import Schedule from '../components/Schedule/Schedule';
+import SanFrancisco from "../components/SanFrancisco/SanFrancisco";
 
 const MainPage = () => {
   return (
-    <div id={'top'}>
+    <div id={'section-top'}>
 
       <Hero/>
       <Location/>
       <Schedule/>
-      {/*<SanFrancisco full={false}/>*/}
+      <SanFrancisco full={false}/>
       {/*<Local/>*/}
       {/*<RegisterCTA/>*/}
       {/*<Contact/>*/}
