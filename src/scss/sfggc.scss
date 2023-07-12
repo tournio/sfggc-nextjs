@@ -9,6 +9,8 @@ body {
   text-shadow: 1px 1px 1px var(--sfggc-body-text-shadow-color);
 
   section {
+    position: relative;
+
     .section-heading {
       margin-left: -0.5rem;
       margin-right: -0.5rem;
@@ -23,28 +25,29 @@ body {
         text-align: center;
       }
     }
+
+    .section-image-background {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -20;
+      background-repeat: no-repeat;
+      background-position: center top, center bottom;
+      background-size: cover;
+      // Each section provides its own image(s)
+    }
+    .section-background-shade {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -19;
+      background-color: black;
+      // each section specifies its own opacities
+    }
   }
 }
 
-.section-image-background {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -2;
-  background-repeat: no-repeat;
-  background-position: center top, center bottom;
-  background-size: cover;
-  // Each section provides its own image(s)
-}
-.section-background-shade {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-  background-color: black;
-  // each section specifies its own opacities
-}

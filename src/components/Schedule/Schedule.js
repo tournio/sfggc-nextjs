@@ -34,6 +34,8 @@ const Schedule = () => {
         </div>
       </div>
 
+      <hr />
+
       <div className={`row ${styles.Event}`}>
         <div className={`col-sm-5 ${styles.Detail}`}>
           <h5>
@@ -75,6 +77,8 @@ const Schedule = () => {
           </h5>
         </div>
       </div>
+
+      <hr />
 
       <div className={`row ${styles.Event}`}>
         <div className={`col-sm-5 ${styles.Detail}`}>
@@ -120,6 +124,8 @@ const Schedule = () => {
           </h5>
         </div>
       </div>
+
+      <hr />
 
       <div className={`row ${styles.Event}`}>
         <div className={`col-sm-5 ${styles.Detail}`}>

@@ -25,7 +25,7 @@ const Spotlight = () => {
 
   return (
     <section className={`${styles.Spotlight}`}>
-      <div className={`lead`}>
+      <div className={``}>
         {prelimText}
         {/*{registrationOpen}*/}
       </div>

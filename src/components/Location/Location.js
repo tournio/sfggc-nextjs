@@ -8,7 +8,7 @@ const Location = () => {
   return (
     <section className={`${styles.Location}`} id={'section-location'}>
       <h3 className={`section-heading`}>
-        Bowling Center
+        Location
       </h3>
       <div className={'row mb-3'}>
         <div className={'col-12 col-md-6 d-flex justify-content-center'}>
@@ -21,7 +21,7 @@ const Location = () => {
           </Link>
         </div>
         <div className={`col ${styles.Address}`}>
-          <h4 className={'d-md-none'}>
+          <h4 className={'display-5 d-md-none'}>
             <a href={'http://www.classicbowling.com/'}>
               Classic Bowling Center
             </a>
@@ -33,12 +33,13 @@ const Location = () => {
             <span className={`d-block`}>
               900 King Drive
             </span>
-            <span className={`d-block`}>
+            <span className={`d-block mb-3`}>
               Daly City, CA 94015
             </span>
             <span className={`d-block`}>
-              <i className={`bi-telephone-fill me-2`} aria-hidden={true}/>
-              <a href={`tel:6508780300`}>
+              <a href={`tel:6508780300`}
+                 className={`btn btn-primary`}>
+                <i className={`bi-telephone-fill me-2`} aria-hidden={true}/>
                 650-878-0300
               </a>
             </span>
