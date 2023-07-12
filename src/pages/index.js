@@ -4,7 +4,6 @@ import Location from "../components/Location/Location";
 import Schedule from '../components/Schedule/Schedule';
 import SanFrancisco from "../components/SanFrancisco/SanFrancisco";
 import Navigation from "../components/layout/navigation";
-import styles from "../components/Schedule/Schedule.module.scss";
 
 const MainPage = () => {
   return (
@@ -24,7 +23,7 @@ const MainPage = () => {
       <SanFrancisco full={false}/>
       {/*<Local/>*/}
       {/*<RegisterCTA/>*/}
-      {/*<Contact/>*/}
+      {/*<Committee/>*/}
       {/*<Sponsors/>*/}
 
     </div>

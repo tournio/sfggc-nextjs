@@ -67,8 +67,8 @@ const Navigation = () => {
                 </Link>
               </li>
               <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/#section-contact'}>
-                  Contact
+                <Link className={`nav-link`} href={'/committee'}>
+                  Committee
                 </Link>
               </li>
             </ul>
