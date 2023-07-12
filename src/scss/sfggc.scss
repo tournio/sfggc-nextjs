@@ -8,6 +8,36 @@ html {
 body {
   text-shadow: 1px 1px 1px var(--sfggc-body-text-shadow-color);
 
+  .nav-and-top {
+    position: relative;
+
+    .top-image-background {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -5;
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      // Each section provides its own image(s)
+
+      background-image: url('../images/bg/ggb-vertical-600w.jpg');
+    }
+
+    .top-background-shade {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -3;
+      background-color: black;
+      opacity: 0.4;
+    }
+  }
+
   section {
     position: relative;
 
@@ -37,6 +67,7 @@ body {
       background-position: center top, center bottom;
       background-size: cover;
       // Each section provides its own image(s)
+
     }
     .section-background-shade {
       position: absolute;
