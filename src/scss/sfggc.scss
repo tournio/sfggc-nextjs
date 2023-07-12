@@ -17,13 +17,13 @@ body {
       right: 0;
       top: 0;
       bottom: 0;
-      z-index: -5;
+      z-index: -100;
       background-repeat: no-repeat;
-      background-position: center top;
-      background-size: cover;
+      background-position: 25% top;
+      //background-size: cover;
       // Each section provides its own image(s)
 
-      background-image: url('../images/bg/ggb-vertical-600w.jpg');
+      background-image: url('../images/bg/ggb-vertical-991w.jpg');
     }
 
     .top-background-shade {
@@ -32,7 +32,7 @@ body {
       right: 0;
       top: 0;
       bottom: 0;
-      z-index: -3;
+      z-index: -99;
       background-color: black;
       opacity: 0.4;
     }
@@ -62,7 +62,7 @@ body {
       right: 0;
       top: 0;
       bottom: 0;
-      z-index: -20;
+      z-index: -50;
       background-repeat: no-repeat;
       background-position: center top, center bottom;
       background-size: cover;
@@ -75,7 +75,7 @@ body {
       right: 0;
       top: 0;
       bottom: 0;
-      z-index: -19;
+      z-index: -49;
       background-color: black;
       // each section specifies its own opacities
     }

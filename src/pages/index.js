@@ -11,12 +11,12 @@ const MainPage = () => {
 
       {/*We put these together so that the Hero's background extends up to be the nav's background as well.*/}
       {/*(On mobile, at least)*/}
-      <div className={`nav-and-top`}>
-        <Navigation/>
+      {/*<div className={`nav-and-top`}>*/}
+      {/*  <Navigation/>*/}
         <Hero/>
-        <div className={`top-image-background`}></div>
-        <div className={`top-background-shade`}></div>
-      </div>
+      {/*  <div className={`top-image-background`}></div>*/}
+      {/*  <div className={`top-background-shade`}></div>*/}
+      {/*</div>*/}
       {/*<Hero/>*/}
       <Location/>
       <Schedule/>

@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
     <ThemeContextProvider>
       <div className={`container-md gx-0 gx-md-4`}>
         <Header/>
-        {/*<Navigation/>*/}
+        <Navigation/>
 
         <main>
           {children}

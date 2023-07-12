@@ -1,4 +1,6 @@
 import {Html, Head, Main, NextScript} from "next/document";
+import Navigation from "../components/layout/navigation";
+import Hero from "../components/Hero/Hero";
 
 const Document = () => (
   <Html>
@@ -11,8 +13,15 @@ const Document = () => (
         rel={'stylesheet'}/>
     </Head>
     <body>
-    <Main/>
-    <NextScript/>
+      <div className={`nav-and-top`}>
+        {/*  <Navigation/>*/}
+        {/*  <Hero/>*/}
+        <div className={`top-image-background`}></div>
+        <div className={`top-background-shade`}></div>
+
+        <Main/>
+        <NextScript/>
+      </div>
     </body>
   </Html>
 )

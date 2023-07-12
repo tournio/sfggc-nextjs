@@ -1,6 +1,7 @@
 .SanFrancisco {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  background-color: var(--sfggc-body-bg);
 
   .JumboImage {
     position: relative;
@@ -19,7 +20,7 @@
       right: 0;
       top: 0;
       bottom: 0;
-      z-index: -1;
+      z-index: 1;
       opacity: 0.1;
       background-color: black;
 
@@ -35,7 +36,7 @@
       right: 0;
       top: 0;
       bottom: 0;
-      z-index: -2;
+      z-index: 2;
       background-repeat: no-repeat;
       background-position: 0 25%;
       background-size: cover;
