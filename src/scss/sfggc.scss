@@ -10,9 +10,10 @@ body {
 
   .nav-and-top {
     position: relative;
+    
 
     .top-image-background {
-      position: absolute;
+      position: fixed;
       left: 0;
       right: 0;
       top: 0;
@@ -34,7 +35,7 @@ body {
       bottom: 0;
       z-index: -99;
       background-color: black;
-      opacity: 0.4;
+      opacity: 0.5;
     }
   }
 
@@ -64,7 +65,7 @@ body {
       bottom: 0;
       z-index: -50;
       background-repeat: no-repeat;
-      background-position: center top, center bottom;
+      background-position: center top;
       background-size: cover;
       // Each section provides its own image(s)
 
@@ -78,19 +79,6 @@ body {
       z-index: -49;
       background-color: black;
       // each section specifies its own opacities
-    }
-  }
-
-  .card {
-    text-shadow: none;
-
-    a {
-      text-shadow: none;
-      color: var(--sfggc-card-link-color);
-
-      &:hover, &:active {
-        color: var(--sfggc-link-hover-color);
-      }
     }
   }
 }

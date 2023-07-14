@@ -2,7 +2,6 @@
   margin: 0 0.5rem;
 
   .Intro {
-
     @media (min-width: 768px) {
       //  ...
     }
@@ -10,6 +9,21 @@
   .Card {
     text-align: center;
     margin-bottom: 0.5rem;
+
+    background-color: var(--sfggc-body-color);
+    color: var(--sfggc-body-bg);
+    border-color: var(--sfggc-body-bg);
+
+    text-shadow: none;
+
+    a {
+      text-shadow: none;
+      color: var(--sfggc-card-link-color);
+
+      &:hover, &:active {
+        color: var(--sfggc-link-hover-color);
+      }
+    }
 
     .Face {
       padding: 0.5rem;
@@ -32,4 +46,16 @@
     }
 
   }
+
+  .Thanks {
+    .Photo {
+      width: 50%;
+      margin-bottom: 1rem;
+
+      @media (min-width: 768px) {
+        width: 80%;
+      }
+    }
+  }
+
 }

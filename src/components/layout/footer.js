@@ -5,11 +5,7 @@ const Footer = () => {
   return (
     <div>
       <hr />
-      {/*<Image src={logo}*/}
-      {/*       alt={'DAMIT logo'}*/}
-      {/*       className={`img-fluid footer-image`}*/}
-      {/*/>*/}
-      <p className={'d-flex justify-content-center'}>
+      <p className={'d-flex justify-content-center pb-3'}>
         <span>
           &copy; 2023&nbsp;
         </span>

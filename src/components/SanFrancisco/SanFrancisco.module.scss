@@ -1,7 +1,12 @@
 .SanFrancisco {
+  //--sfgc-card-link-color: var(--sfggc-link-color);
+  //--sfgc-card-link-hover-color: var(--sfggc-link-hover-color);
+
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  background-color: var(--sfggc-body-bg);
+
+  // This is a pretty text-heavy page, so dim the background a bit more than we would otherwise.
+  background-color: rgba(0, 0, 0, 0.3);
 
   .JumboImage {
     position: relative;
@@ -20,7 +25,7 @@
       right: 0;
       top: 0;
       bottom: 0;
-      z-index: 1;
+      z-index: 2;
       opacity: 0.1;
       background-color: black;
 
@@ -36,7 +41,7 @@
       right: 0;
       top: 0;
       bottom: 0;
-      z-index: 2;
+      z-index: 1;
       background-repeat: no-repeat;
       background-position: 0 25%;
       background-size: cover;
@@ -62,6 +67,7 @@
 
     .Thing {
       margin-bottom: 1rem;
+      background-color: transparent;
 
       .Image {
         overflow: hidden;
@@ -111,29 +117,9 @@
       }
     }
 
-
     .MoreLink {
       text-align: right;
-    }
-  }
-
-  .BackgroundImage {
-    background-image: url('../../images/bg/cable-car-600w.jpg');
-
-    @media (min-width: 768px) {
-      background-image: url('../../images/bg/cable-car-991w.jpg');
-    }
-
-    @media (min-width: 992px) {
-      background-image: url('../../images/bg/cable-car-fullsize.jpg');
-    }
-  }
-
-  .BackgroundShade {
-    opacity: 0.65;
-
-    [data-bs-theme='dark'] & {
-      opacity: 0.75;
+      padding-bottom: 1rem;
     }
   }
 }

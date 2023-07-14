@@ -7,7 +7,7 @@ import ramen from '../../images/san-francisco/ramen.jpg';
 import styles from './SanFrancisco.module.scss';
 import React from "react";
 
-const SanFrancisco = ({full}) => {
+const SanFrancisco = ({full=true}) => {
   // full determines whether we show a summary or the whole shebang
   // ... the whole shebang is intended to be on its own page, while
   // the summary is intended for the SF section of the main page
@@ -226,39 +226,10 @@ const SanFrancisco = ({full}) => {
 
               </div>
             </div>
-
-            {/*<div className={`${styles.Thing} card col-12 col-sm-6 col-lg-4`}>*/}
-            {/*  <div className={`${styles.Image}`}>*/}
-            {/*    <Image src={sportsBalls}*/}
-            {/*           alt={'Sports balls'}*/}
-            {/*           className={`${styles.Img}`}*/}
-            {/*           sizes={'(max-width: 575px) 95vw, (max-width: 767px) 50vw, (max-width: 1399px) 33vw'}*/}
-            {/*    />*/}
-            {/*  </div>*/}
-            {/*  <div className={`${styles.Credit}`}>*/}
-            {/*    Image via{' '}*/}
-            {/*    <a href={'https://www.peakpx.com/455682/football-basketball-and-soccer-ball-lot'}*/}
-            {/*       target={'_blank'}>*/}
-            {/*      PeakPx*/}
-            {/*    </a>*/}
-            {/*  </div>*/}
-            {/*  <div className={`card-body ${styles.CardBody}`}>*/}
-            {/*    <div className={'card-title'}>*/}
-            {/*      <h4>*/}
-            {/*        OMG Sports!*/}
-            {/*      </h4>*/}
-            {/*    </div>*/}
-            {/*    <p>*/}
-            {/*      October is prime season for football, baseball (well, the playoffs, at least), basketball, hockey, soccer (the <em>real</em> football!). No matter which team you root for or which sport you enjoy the most, you&apos;re sure to find a game or match to cheer or jeer at!*/}
-            {/*    </p>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
-
           </div>
+
         )}
       </div>
-      {!full && <div className={`section-image-background ${styles.BackgroundImage}`}></div>}
-      {!full && <div className={`section-background-shade ${styles.BackgroundShade}`}></div>}
     </section>
   );
 }
