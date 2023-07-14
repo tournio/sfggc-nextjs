@@ -6,6 +6,7 @@
   --#{$prefix}body-text-shadow-color: #{$deep-gray};
 
   --#{$prefix}emphasis-color: #{$white};
+  --#{$prefix}emphasis-color-rgb: rgb(#{$white});
 
   --#{$prefix}section-heading-bg-color: #{$deep-blue};
   --#{$prefix}section-heading-color: #{$gray-100};
@@ -14,7 +15,6 @@
   --#{$prefix}card-link-hover-color: shift-color(#{$deep-blue}, #{$link-shade-percentage});
 
   .navbar {
-    --#{$prefix}navbar-color: var(--#{$prefix}body-color);
     --#{$prefix}navbar-disabled-color: #{$gray-600};
   }
 

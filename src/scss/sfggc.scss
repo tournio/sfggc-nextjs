@@ -11,7 +11,6 @@ body {
   .nav-and-top {
     position: relative;
 
-
     .top-image-background {
       position: fixed;
       left: 0;
@@ -36,6 +35,10 @@ body {
       z-index: -99;
       background-color: black;
       opacity: 0.5;
+    }
+
+    .menu-icon {
+      font-size: 150%;
     }
   }
 
