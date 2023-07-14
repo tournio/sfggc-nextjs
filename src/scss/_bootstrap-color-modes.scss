@@ -17,22 +17,6 @@
   .navbar {
     --#{$prefix}navbar-disabled-color: #{$gray-600};
   }
-
-  //.card {
-  //  --#{$prefix}card-bg: var(--#{$prefix}body-color);
-  //  --#{$prefix}card-color: var(--#{$prefix}body-bg);
-  //  --#{$prefix}card-border-color: var(--#{$prefix}body-bg);
-  //  --#{$prefix}card-cap-bg: #{$gray-400};
-  //  --#{$prefix}card-cap-color: var(--#{$prefix}card-color);
-  //}
-  //
-  //.list-group {
-  //  --#{$prefix}list-group-color: var(--#{$prefix}card-color);
-  //  --#{$prefix}list-group-bg: var(--#{$prefix}card-bg);
-  //  --#{$prefix}list-group-border-color: #{$gray-500};
-  //}
-  //$list-group-color: $body-bg;
-  //$list-group-bg: white;
 }
 
 @include color-mode(dark, true) {

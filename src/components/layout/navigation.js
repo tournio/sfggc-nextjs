@@ -38,7 +38,6 @@ const Navigation = () => {
                       className={`btn-close btn-close-white`}
                       data-bs-dismiss={`offcanvas`}
                       aria-label={`Close`}>
-
               </button>
             </div>
             <div className={`offcanvas-body`}>
