@@ -27,7 +27,7 @@ const Navigation = () => {
           <div className={`collapse navbar-collapse`} id={'navbarContent'}>
             <ul className={`navbar-nav mb-2 mb-lg-0`}>
               <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/#section-top'}>
+                <Link className={`nav-link`} href={'/#tippy-top'}>
                   Home
                 </Link>
               </li>
@@ -51,8 +51,8 @@ const Navigation = () => {
                   Schedule
                 </Link>
               </li>
-              <li className={`nav-item`}>
-                <Link className={`nav-link`} href={'/rules'}>
+              <li className={`nav-item`} title={'Rules will be posted once they&apos;re ready!'}>
+                <Link className={`nav-link disabled`} href={'/rules'}>
                   Rules
                 </Link>
               </li>

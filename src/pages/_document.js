@@ -13,7 +13,7 @@ const Document = () => (
         rel={'stylesheet'}/>
     </Head>
     <body>
-      <div className={`nav-and-top`}>
+      <div className={`nav-and-top`} id={'tippy-top'}>
         {/*  <Navigation/>*/}
         {/*  <Hero/>*/}
         <div className={`top-image-background`}></div>
