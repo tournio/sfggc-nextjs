@@ -80,5 +80,18 @@ body {
       // each section specifies its own opacities
     }
   }
+
+  .card {
+    text-shadow: none;
+
+    a {
+      text-shadow: none;
+      color: var(--sfggc-card-link-color);
+
+      &:hover, &:active {
+        color: var(--sfggc-link-hover-color);
+      }
+    }
+  }
 }
 

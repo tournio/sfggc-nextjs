@@ -21,11 +21,6 @@ $light-blue: #c2e3f0;
 $deep-blue: #3f6fb3;
 $burnt-orange: #ed6f55;
 
-$link-color: shade-color($light-blue, 0%);
-
-$body-bg: $deep-gray;
-$body-bg-dark: $deep-gray;
-$body-emphasis-color: white;
-$navbar-light-color: rgba(var(--#{$prefix}emphasis-color-rgb), .85);
+$link-color: shade-color($light-blue, 10%);
 
 $font-size-root: 18px; // Make text a bit bigger than default

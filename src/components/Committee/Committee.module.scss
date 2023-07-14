@@ -2,10 +2,15 @@
   margin: 0 0.5rem;
 
   .Intro {
-    ;
+
+    @media (min-width: 768px) {
+      //  ...
+    }
   }
   .Card {
     text-align: center;
+    margin-bottom: 0.5rem;
+
     .Face {
       padding: 0.5rem;
 
