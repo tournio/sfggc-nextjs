@@ -1,6 +1,8 @@
 
 :root,
 [data-bs-theme="light"] {
+  --#{$prefix}background-shade-opacity: 0.5;
+
   --#{$prefix}body-color: #{$gray-200};
   --#{$prefix}body-bg: #{$deep-gray};
   --#{$prefix}body-text-shadow-color: #{$deep-gray};
@@ -12,14 +14,29 @@
   --#{$prefix}section-heading-color: #{$gray-100};
 
   --#{$prefix}card-link-color: #{$deep-blue};
-  --#{$prefix}card-link-hover-color: shift-color(#{$deep-blue}, #{$link-shade-percentage});
+
+  --#{$prefix}image-shade-opacity: 0.1;
+
+  --#{$prefix}sponsor-logo-bg: white;
 
   .navbar {
     --#{$prefix}navbar-disabled-color: #{$gray-600};
   }
 }
 
-@include color-mode(dark, true) {
-  color-scheme: dark;
+[data-bs-theme="dark"] {
+  --#{$prefix}background-shade-opacity: 0.7;
+
+  --#{$prefix}body-color: #{$gray-500};
+
+  --#{$prefix}emphasis-color: #{$gray-200};
+  --#{$prefix}emphasis-color-rgb: rgb(#{$gray-200});
+
+  --#{$prefix}section-heading-bg-color: #{shade-color($deep-blue, 30%)};
+  --#{$prefix}section-heading-color: #{$gray-400};
+
+  --#{$prefix}image-shade-opacity: 0.4;
+
+  --#{$prefix}sponsor-logo-bg: #{$gray-500};
 
 }

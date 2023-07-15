@@ -50,7 +50,7 @@ const Navigation = () => {
               <ul className={`navbar-nav mb-2 mb-lg-0`}>
                 <li className={`nav-item`}>
                   <Link className={`nav-link`}
-                        href={'/#tippy-top'}
+                        href={'/'}
                         onClick={dismissMenu}
                   >
                     Home
@@ -99,14 +99,6 @@ const Navigation = () => {
                         onClick={dismissMenu}
                   >
                     Charity Partner
-                  </Link>
-                </li>
-                <li className={`nav-item`}>
-                  <Link className={`nav-link`}
-                        href={'/#section-igbo-local'}
-                        onClick={dismissMenu}
-                  >
-                    IGBO Local
                   </Link>
                 </li>
                 <li className={`nav-item`}>

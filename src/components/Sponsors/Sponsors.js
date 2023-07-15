@@ -42,9 +42,8 @@ const Sponsors = () => {
       <div className={`row g-0 align-items-center justify-content-around ${styles.Row}`}>
         {sponsorDetails.map((s, i) => {
           return (
-            <div className={`col-5 ${styles.ImageContainer}`}>
-              <Link key={i}
-                    href={s.href}
+            <div key={i} className={`col-5 ${styles.ImageContainer}`}>
+              <Link href={s.href}
                     target={'_blank'}
                     title={s.title}>
                 <Image className="img-fluid"

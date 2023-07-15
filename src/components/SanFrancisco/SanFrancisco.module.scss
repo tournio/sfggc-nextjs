@@ -26,13 +26,8 @@
       top: 0;
       bottom: 0;
       z-index: 2;
-      opacity: 0.1;
       background-color: black;
-
-      [data-bs-theme='dark'] & {
-        opacity: 0.5;
-        background-color: black;
-      }
+      opacity: var(--sfggc-image-shade-opacity);
     }
 
     .CityDaytimeImage {

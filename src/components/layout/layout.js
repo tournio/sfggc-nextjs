@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
         </main>
 
         <footer>
+          <hr />
           <Sponsors/>
           <Footer/>
         </footer>
