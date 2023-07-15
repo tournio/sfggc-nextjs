@@ -19,7 +19,7 @@ const Navigation = () => {
             type={'button'}
             id={'navbarToggler'}
             className={'navbar-toggler'}
-            data-bs-toggle={'offcanvas'}
+            data-bs-toggle={'collapse'}
             data-bs-target={'#navbarContent'}
             aria-controls={`navbarContent`}
             aria-expanded={false}
@@ -31,23 +31,22 @@ const Navigation = () => {
             <ColorModeToggler className={'ms-auto d-inline-block'} />
           </ul>
 
-          <div className={`offcanvas offcanvas-start`}
+          <div className={`collapse navbar-collapse`}
                id={'navbarContent'}
-               tabIndex={'-1'}
-               data-bs-scroll={true}
-               aria-labelledby={'navbarLabel'}>
-            <div className={`offcanvas-header`}>
-              <h5 className={`offcanvas-title`}
-                  id={'navbarLabel'}>
-                Menu
-              </h5>
-              <button type={'button'}
-                      className={`btn-close btn-close-white`}
-                      data-bs-dismiss={`offcanvas`}
-                      aria-label={`Close`}>
-              </button>
-            </div>
-            <div className={`offcanvas-body`}>
+               tabIndex={'-1'}>
+            {/*<div className={`offcanvas-header`}>*/}
+            {/*  <h5 id={'navbarLabel'}*/}
+            {/*      // className={`offcanvas-title`}*/}
+                  {/*>*/}
+              {/*  Menu*/}
+              {/*</h5>*/}
+              {/*<button type={'button'}*/}
+              {/*        className={`btn-close btn-close-white`}*/}
+              {/*        data-bs-dismiss={`offcanvas`}*/}
+              {/*        aria-label={`Close`}>*/}
+              {/*</button>*/}
+            {/*</div>*/}
+            {/*<div className={`offcanvas-body`}>*/}
               <ul className={`navbar-nav mb-2 mb-lg-0`}>
                 <li className={`nav-item`}>
                   <Link className={`nav-link`}
@@ -119,7 +118,7 @@ const Navigation = () => {
                   </Link>
                 </li>
               </ul>
-            </div>
+            {/*</div>*/}
           </div>
 
         </div>
