@@ -7,7 +7,7 @@ import glenn from '../../images/committee/glenn.jpg';
 import allison from '../../images/committee/allison.jpg';
 import duane from '../../images/committee/duane.jpg';
 import richard from '../../images/committee/richard.jpg';
-import React from "react";
+import robert from '../../images/committee/robert.jpg';
 
 const Committee = ({ id }) => {
   return (
@@ -26,7 +26,7 @@ const Committee = ({ id }) => {
         <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${styles.Card}`}>
             <Image src={glenn}
-                   alt={'Glenn at the bowling alley'}
+                   alt={'Glenn Normandin'}
                    className={`img-fluid card-img-top ${styles.Image}`}
             />
             <div className={`card-body`}>
@@ -47,9 +47,10 @@ const Committee = ({ id }) => {
 
         <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
           <div className={`card ${styles.Card}`}>
-            <div className={`card-body ${styles.Face}`}>
-              <i className={`bi-person-workspace ${styles.Placeholder}`}/>
-            </div>
+            <Image src={robert}
+                   alt={'Robert Hendricks'}
+                   className={`img-fluid card-img-top ${styles.Image}`}
+            />
             <div className={`card-body`}>
               <p className={`${styles.Name}`}>
                 <a href={'mailto:directors@goldengateclassic.org?subject=About%20the%20Golden%20Gate%20Classic'}>
