@@ -2,6 +2,7 @@ import {ThemeContextProvider} from "../../utils/ThemeContext";
 import Navigation from "./navigation";
 import Header from "./header";
 import Footer from "./footer";
+import Sponsors from "../Sponsors/Sponsors";
 
 export default function RootLayout({ children }) {
   return (
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         </main>
 
         <footer>
+          <Sponsors/>
           <Footer/>
         </footer>
       </div>
