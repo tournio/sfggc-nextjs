@@ -22,6 +22,11 @@
   .navbar {
     --#{$prefix}navbar-disabled-color: #{$gray-600};
   }
+
+  .btn-primary {
+    //--#{$prefix}btn-bg: var(--#{$prefix}primary);
+    @include button-variant(#6610f2, #6610f2);
+  }
 }
 
 [data-bs-theme="dark"] {
@@ -39,4 +44,7 @@
 
   --#{$prefix}sponsor-logo-bg: #{$gray-500};
 
+  //.btn-primary {
+  //  --#{$prefix}btn-bg: var(--#{$prefix}primary-bg-subtle);
+  //}
 }

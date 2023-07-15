@@ -56,6 +56,7 @@ const SanFrancisco = ({full=true}) => {
                            className={`${styles.Img}`}
                            sizes={'(max-width: 575px) 90vw, (max-width: 767px) 50vw, (max-width: 1199px) 20vw (min-width: 1200px) 15vw'}
                     />
+                    <div className={styles.ImageShade}></div>
                   </div>
                   <div className={`${styles.Credit}`}>
                     Image by{' '}
@@ -102,6 +103,7 @@ const SanFrancisco = ({full=true}) => {
                        className={`${styles.Img}`}
                        sizes={'(max-width: 575px) 95vw, (min-width: 768px) 50vw, (min-width: 992px) 33vw'}
                 />
+                <div className={styles.ImageShade}></div>
               </div>
               <div className={`${styles.Credit}`}>
                 Image by{' '}
@@ -173,6 +175,7 @@ const SanFrancisco = ({full=true}) => {
                        className={`${styles.Img}`}
                        sizes={'(max-width: 575px) 95vw, (max-width: 767px) 50vw, (max-width: 1399px) 33vw'}
                 />
+                <div className={styles.ImageShade}></div>
               </div>
               <div className={`${styles.Credit}`}>
                 Image via{' '}

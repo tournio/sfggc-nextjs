@@ -65,12 +65,25 @@
       background-color: transparent;
 
       .Image {
+        position: relative;
         overflow: hidden;
         max-height: 10rem;
 
         .Img {
           width: 100%;
           height: auto;
+          z-index: 1;
+        }
+
+        .ImageShade {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          z-index: 2;
+          background-color: black;
+          opacity: var(--sfggc-image-shade-opacity);
         }
       }
 
@@ -79,6 +92,7 @@
       .FlippyImage {
         overflow: hidden;
         max-height: 10rem;
+        position: relative;
 
         @media (min-width: 576px) {
           max-height: none;
@@ -96,6 +110,17 @@
             object-position: 20% center;
             object-fit: cover;
           }
+        }
+
+        .ImageShade {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          z-index: 2;
+          background-color: black;
+          opacity: var(--sfggc-image-shade-opacity);
         }
       }
 
