@@ -5,19 +5,25 @@ import {useRouter} from "next/router";
 const Navigation = () => {
   // const router = useRouter();
 
+  const dismissMenu = () => {
+    const e = new KeyboardEvent('keydown', { key: 'Escape' });
+    const elem = document.getElementById('navbarContent');
+    elem.dispatchEvent(e);
+  }
+
   return (
     // <div className={`navigation`}>
       <nav className={`navbar navbar-expand-lg`}>
         <div className={`container-fluid`}>
           <button
             type={'button'}
+            id={'navbarToggler'}
             className={'navbar-toggler'}
             data-bs-toggle={'offcanvas'}
             data-bs-target={'#navbarContent'}
             aria-controls={`navbarContent`}
             aria-expanded={false}
             aria-label={'Toggle navigation'}>
-            {/*<span className={`navbar-toggler-icon`}></span>*/}
             <i className={`bi bi-list menu-icon`}></i>
           </button>
 
@@ -43,7 +49,10 @@ const Navigation = () => {
             <div className={`offcanvas-body`}>
               <ul className={`navbar-nav mb-2 mb-lg-0`}>
                 <li className={`nav-item`}>
-                  <Link className={`nav-link`} href={'/#tippy-top'}>
+                  <Link className={`nav-link`}
+                        href={'/#tippy-top'}
+                        onClick={dismissMenu}
+                  >
                     Home
                   </Link>
                 </li>
@@ -63,27 +72,40 @@ const Navigation = () => {
                 <li className={`nav-item`}>
                   <Link className={`nav-link`}
                         href={'/#section-schedule'}
+                        onClick={dismissMenu}
                   >
                     Schedule
                   </Link>
                 </li>
                 <li className={`nav-item`} title={'Rules will be posted once they&apos;re ready!'}>
-                  <Link className={`nav-link disabled`} href={'/rules'}>
+                  <Link className={`nav-link disabled`}
+                        href={'/rules'}
+                        onClick={dismissMenu}
+                  >
                     Rules
                   </Link>
                 </li>
                 <li className={`nav-item`}>
-                  <Link className={`nav-link`} href={'/san-francisco'}>
+                  <Link className={`nav-link`}
+                        href={'/san-francisco'}
+                        onClick={dismissMenu}
+                  >
                     San Francisco
                   </Link>
                 </li>
                 <li className={`nav-item`}>
-                  <Link className={`nav-link`} href={'/#section-igbo-local'}>
+                  <Link className={`nav-link`}
+                        href={'/#section-igbo-local'}
+                        onClick={dismissMenu}
+                  >
                     IGBO Local
                   </Link>
                 </li>
                 <li className={`nav-item`}>
-                  <Link className={`nav-link`} href={'/committee'}>
+                  <Link className={`nav-link`}
+                        href={'/committee'}
+                        onClick={dismissMenu}
+                  >
                     Committee
                   </Link>
                 </li>
