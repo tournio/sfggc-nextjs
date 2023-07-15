@@ -1,0 +1,17 @@
+.Beneficiary {
+  margin: 0 0.5rem;
+
+  .ImageContainer {
+    margin: 0 -0.5rem 1rem;
+
+    background-color: rgba(0,0,0, 0.3);
+
+    .Image {
+      width: 100%;
+    }
+  }
+
+  .Mission {
+    margin-left: 1.5rem;
+  }
+}

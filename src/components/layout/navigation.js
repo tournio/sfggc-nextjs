@@ -8,7 +8,7 @@ const Navigation = () => {
   const dismissMenu = () => {
     const e = new KeyboardEvent('keydown', { key: 'Escape' });
     const elem = document.getElementById('navbarContent');
-    elem.dispatchEvent(e);
+    // elem.dispatchEvent(e);
   }
 
   return (
@@ -34,6 +34,7 @@ const Navigation = () => {
           <div className={`offcanvas offcanvas-start`}
                id={'navbarContent'}
                tabIndex={'-1'}
+               data-bs-scroll={true}
                aria-labelledby={'navbarLabel'}>
             <div className={`offcanvas-header`}>
               <h5 className={`offcanvas-title`}
@@ -91,6 +92,14 @@ const Navigation = () => {
                         onClick={dismissMenu}
                   >
                     San Francisco
+                  </Link>
+                </li>
+                <li className={`nav-item`}>
+                  <Link className={`nav-link`}
+                        href={'/#section-beneficiary'}
+                        onClick={dismissMenu}
+                  >
+                    Charity Partner
                   </Link>
                 </li>
                 <li className={`nav-item`}>
