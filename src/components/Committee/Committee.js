@@ -9,7 +9,7 @@ import duane from '../../images/committee/duane.jpg';
 import richard from '../../images/committee/richard.jpg';
 import robert from '../../images/committee/robert.jpg';
 
-const Committee = ({ id }) => {
+const Committee = () => {
   return (
     <section className={`${styles.Committee}`} id={'contact'}>
       <h3 className={`section-heading`}>
@@ -18,7 +18,7 @@ const Committee = ({ id }) => {
 
       <div className={`${styles.Intro}`}>
         <p className={``}>
-          Putting on a tournament is a community effort. The Golden Gate Classic wouldn&apos;t be possible without the effort, work, and contributions of all the people on this page.
+          Putting on a tournament is a community effort. The Golden Gate Classic wouldn&apos;t be possible without the work and contributions of all the people on this page.
         </p>
       </div>
 
