@@ -104,7 +104,7 @@ const Schedule = () => {
 
       <div className={`col-sm-4 ${styles.Date}`}>
         <h4>
-          Sunday, October 8
+          Sunday, February 18
         </h4>
       </div>
 

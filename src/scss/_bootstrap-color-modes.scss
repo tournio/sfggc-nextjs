@@ -28,8 +28,8 @@
 
   .btn-#{$prefix}action {
     @include button-variant(
-      $silver, 
-      $silver,
+        $silver,
+        $silver,
       $hover-background: shade-color($silver, $btn-hover-bg-shade-amount),
       $hover-border: shade-color($silver, $btn-hover-border-shade-amount),
       $active-background: shade-color($silver, $btn-active-bg-shade-amount),
@@ -65,8 +65,8 @@
 
   .btn-#{$prefix}action {
     @include button-variant(
-        $silver-dark,
-        $silver-dark,
+      $silver-dark,
+      $silver-dark,
       $hover-background: shade-color($silver-dark, $btn-hover-bg-shade-amount),
       $hover-border: shade-color($silver-dark, $btn-hover-border-shade-amount),
       $active-background: shade-color($silver-dark, $btn-active-bg-shade-amount),
