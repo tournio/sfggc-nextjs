@@ -53,8 +53,6 @@ const Schedule = () => {
         </div>
       </div>
 
-      {/*<hr className={`d-none d-md-block`}/>*/}
-
       <div className={`col-sm-4 ${styles.Date}`}>
         <h4>
           Saturday, February 17
@@ -99,8 +97,6 @@ const Schedule = () => {
           </h5>
         </div>
       </div>
-
-      {/*<hr className={`d-none d-md-block`}/>*/}
 
       <div className={`col-sm-4 ${styles.Date}`}>
         <h4>
