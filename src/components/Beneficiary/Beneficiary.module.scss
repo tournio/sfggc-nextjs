@@ -8,6 +8,9 @@
 
     .Image {
       width: 100%;
+      [data-bs-theme="dark"] & {
+        filter: brightness(80%);
+      }
     }
   }
 

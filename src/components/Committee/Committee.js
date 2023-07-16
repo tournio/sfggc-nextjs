@@ -166,7 +166,7 @@ const Committee = ({ id }) => {
           <div className={styles.Photo}>
             <Image src={richard}
                    alt={'Richard Perez'}
-                   className={`img-fluid`}
+                   className={`img-fluid ${styles.Image}`}
             />
           </div>
         </div>

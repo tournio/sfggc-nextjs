@@ -5,6 +5,14 @@
     padding-bottom: 0.5rem;
 
     .ImageContainer {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+
+      .AdjustedBrightness {
+        [data-bs-theme='dark'] & {
+          filter: brightness(85%);
+        }
+      }
     }
   }
 }

@@ -38,7 +38,7 @@ const Location = () => {
             </span>
             <span className={`d-block`}>
               <a href={`tel:6508780300`}
-                 className={`btn btn-primary`}>
+                 className={`btn btn-sfggc-action`}>
                 <i className={`bi-telephone-fill me-2`} aria-hidden={true}/>
                 650-878-0300
               </a>

@@ -2,6 +2,7 @@
 :root,
 [data-bs-theme="light"] {
   --#{$prefix}background-shade-opacity: 0.5;
+  --#{$prefix}section-background-shade-opacity: 0.6;
 
   --#{$prefix}body-color: #{$gray-200};
   --#{$prefix}body-bg: #{$deep-gray};
@@ -17,20 +18,30 @@
 
   --#{$prefix}image-shade-opacity: 0.1;
 
-  --#{$prefix}sponsor-logo-bg: white;
+  --#{$prefix}location-logo-bg-gradient-start: 0.85;
+
+  --#{$prefix}sponsor-logo-bg: #{$gray-400};
 
   .navbar {
     --#{$prefix}navbar-disabled-color: #{$gray-600};
   }
 
-  .btn-primary {
-    //--#{$prefix}btn-bg: var(--#{$prefix}primary);
-    @include button-variant(#6610f2, #6610f2);
+  .btn-#{$prefix}action {
+    @include button-variant(
+      $silver, 
+      $silver,
+      $hover-background: shade-color($silver, $btn-hover-bg-shade-amount),
+      $hover-border: shade-color($silver, $btn-hover-border-shade-amount),
+      $active-background: shade-color($silver, $btn-active-bg-shade-amount),
+      $active-border: shade-color($silver, $btn-active-border-shade-amount)
+    );
+    text-shadow: none;
   }
 }
 
 [data-bs-theme="dark"] {
   --#{$prefix}background-shade-opacity: 0.7;
+  --#{$prefix}section-background-shade-opacity: 0.75;
 
   --#{$prefix}body-color: #{$gray-500};
 
@@ -42,9 +53,19 @@
 
   --#{$prefix}image-shade-opacity: 0.4;
 
+  --#{$prefix}location-logo-bg-gradient-start: 0.50;
+
   --#{$prefix}sponsor-logo-bg: #{$gray-500};
 
-  //.btn-primary {
-  //  --#{$prefix}btn-bg: var(--#{$prefix}primary-bg-subtle);
-  //}
+  .btn-#{$prefix}action {
+    @include button-variant(
+        $silver-dark,
+        $silver-dark,
+      $hover-background: shade-color($silver-dark, $btn-hover-bg-shade-amount),
+      $hover-border: shade-color($silver-dark, $btn-hover-border-shade-amount),
+      $active-background: shade-color($silver-dark, $btn-active-bg-shade-amount),
+      $active-border: shade-color($silver-dark, $btn-active-border-shade-amount)
+    );
+    text-shadow: none;
+  }
 }

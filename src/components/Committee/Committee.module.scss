@@ -6,6 +6,13 @@
       //  ...
     }
   }
+
+  .Image {
+    [data-bs-theme='dark'] & {
+      filter: brightness(75%);
+    }
+  }
+
   .Card {
     text-align: center;
     margin-bottom: 0.5rem;
