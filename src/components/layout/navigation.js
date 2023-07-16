@@ -1,18 +1,8 @@
 import Link from "next/link";
 import ColorModeToggler from "../ColorModeToggler/ColorModeToggler";
-import {useRouter} from "next/router";
 
 const Navigation = () => {
-  // const router = useRouter();
-
-  const dismissMenu = () => {
-    const e = new KeyboardEvent('keydown', { key: 'Escape' });
-    const elem = document.getElementById('navbarContent');
-    // elem.dispatchEvent(e);
-  }
-
   return (
-    // <div className={`navigation`}>
       <nav className={`navbar navbar-expand-lg`}>
         <div className={`container-fluid`}>
           <button
@@ -34,24 +24,10 @@ const Navigation = () => {
           <div className={`collapse navbar-collapse`}
                id={'navbarContent'}
                tabIndex={'-1'}>
-            {/*<div className={`offcanvas-header`}>*/}
-            {/*  <h5 id={'navbarLabel'}*/}
-            {/*      // className={`offcanvas-title`}*/}
-                  {/*>*/}
-              {/*  Menu*/}
-              {/*</h5>*/}
-              {/*<button type={'button'}*/}
-              {/*        className={`btn-close btn-close-white`}*/}
-              {/*        data-bs-dismiss={`offcanvas`}*/}
-              {/*        aria-label={`Close`}>*/}
-              {/*</button>*/}
-            {/*</div>*/}
-            {/*<div className={`offcanvas-body`}>*/}
               <ul className={`navbar-nav mb-2 mb-lg-0`}>
                 <li className={`nav-item`}>
                   <Link className={`nav-link`}
                         href={'/'}
-                        onClick={dismissMenu}
                   >
                     Home
                   </Link>
@@ -64,47 +40,48 @@ const Navigation = () => {
                     Register
                   </a>
                 </li>
-                <li className={`nav-item`}>
-                  <Link className={`nav-link`} href={'/#section-location'}>
-                    Bowling Center
-                  </Link>
-                </li>
-                <li className={`nav-item`}>
-                  <Link className={`nav-link`}
-                        href={'/#section-schedule'}
-                        onClick={dismissMenu}
-                  >
-                    Schedule
-                  </Link>
-                </li>
+
+                {/*<li className={`nav-item`}>*/}
+                {/*  <Link className={`nav-link`} href={'/#section-location'}>*/}
+                {/*    Bowling Center*/}
+                {/*  </Link>*/}
+                {/*</li>*/}
+
+                {/*<li className={`nav-item`}>*/}
+                {/*  <Link className={`nav-link`}*/}
+                {/*        href={'/#section-schedule'}*/}
+                {/*  >*/}
+                {/*    Schedule*/}
+                {/*  </Link>*/}
+                {/*</li>*/}
+
                 <li className={`nav-item`} title={'Rules will be posted once they&apos;re ready!'}>
                   <Link className={`nav-link disabled`}
                         href={'/rules'}
-                        onClick={dismissMenu}
                   >
                     Rules
                   </Link>
                 </li>
+
                 <li className={`nav-item`}>
                   <Link className={`nav-link`}
                         href={'/san-francisco'}
-                        onClick={dismissMenu}
                   >
                     San Francisco
                   </Link>
                 </li>
-                <li className={`nav-item`}>
-                  <Link className={`nav-link`}
-                        href={'/#section-beneficiary'}
-                        onClick={dismissMenu}
-                  >
-                    Charity Partner
-                  </Link>
-                </li>
+
+                {/*<li className={`nav-item`}>*/}
+                {/*  <Link className={`nav-link`}*/}
+                {/*        href={'/#section-beneficiary'}*/}
+                {/*  >*/}
+                {/*    Charity Partner*/}
+                {/*  </Link>*/}
+                {/*</li>*/}
+
                 <li className={`nav-item`}>
                   <Link className={`nav-link`}
                         href={'/committee'}
-                        onClick={dismissMenu}
                   >
                     Committee
                   </Link>

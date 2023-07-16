@@ -12,7 +12,7 @@ const Beneficiary = () => {
   return (
     <section className={styles.Beneficiary} id={'section-beneficiary'}>
       <h3 className={`section-heading`}>
-        Charitable Organization
+        Charitable Partner
       </h3>
 
       <p>
