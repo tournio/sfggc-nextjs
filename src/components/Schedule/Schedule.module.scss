@@ -80,10 +80,12 @@
     margin-left: -0.5rem;
     margin-right: -0.5rem;
 
-    opacity: 0.65;
+    opacity: var(--sfggc-section-background-shade-opacity);
 
-    [data-bs-theme='dark'] & {
-      opacity: 0.75;
-    }
+    //opacity: 0.65;
+    //
+    //[data-bs-theme='dark'] & {
+    //  opacity: 0.75;
+    //}
   }
 }

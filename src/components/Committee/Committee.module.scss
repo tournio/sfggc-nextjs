@@ -9,7 +9,7 @@
 
   .Image {
     [data-bs-theme='dark'] & {
-      filter: brightness(75%);
+      filter: brightness(90%);
     }
   }
 
@@ -38,11 +38,6 @@
       .Placeholder {
         font-size: 450%;
         opacity: .75;
-      }
-    }
-    .Image {
-      [data-bs-theme='dark'] & {
-        filter: brightness(65%);
       }
     }
     .Name {

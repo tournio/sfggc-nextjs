@@ -1,10 +1,10 @@
 
 :root,
 [data-bs-theme="light"] {
-  --#{$prefix}background-shade-opacity: 0.5;
-  --#{$prefix}section-background-shade-opacity: 0.6;
+  --#{$prefix}background-shade-opacity: 0.25;
+  --#{$prefix}section-background-shade-opacity: 0.5;
 
-  --#{$prefix}body-color: #{$gray-200};
+  --#{$prefix}body-color: #{$gray-100};
   --#{$prefix}body-bg: #{$deep-gray};
   --#{$prefix}body-text-shadow-color: #{$deep-gray};
 
@@ -16,14 +16,14 @@
 
   --#{$prefix}card-link-color: #{$deep-blue};
 
-  --#{$prefix}image-shade-opacity: 0.1;
+  --#{$prefix}image-shade-opacity: 0;
 
-  --#{$prefix}location-logo-bg-gradient-start: 0.85;
+  --#{$prefix}location-logo-bg-gradient-start: 0.95;
 
-  --#{$prefix}sponsor-logo-bg: #{$gray-400};
+  --#{$prefix}sponsor-logo-bg: #{$gray-200};
 
   .navbar {
-    --#{$prefix}navbar-disabled-color: #{$gray-600};
+    --#{$prefix}navbar-disabled-color: #{$gray-500};
   }
 
   .btn-#{$prefix}action {
@@ -40,28 +40,28 @@
 
   footer {
     .logo-image {
-      filter: brightness(90%);
+      filter: brightness(100%);
     }
   }
 }
 
 [data-bs-theme="dark"] {
-  --#{$prefix}background-shade-opacity: 0.7;
-  --#{$prefix}section-background-shade-opacity: 0.75;
+  --#{$prefix}background-shade-opacity: 0.5;
+  --#{$prefix}section-background-shade-opacity: 0.6;
 
-  --#{$prefix}body-color: #{$gray-500};
+  --#{$prefix}body-color: #{$gray-200};
 
   --#{$prefix}emphasis-color: #{$gray-200};
   --#{$prefix}emphasis-color-rgb: rgb(#{$gray-200});
 
-  --#{$prefix}section-heading-bg-color: #{shade-color($deep-blue, 30%)};
-  --#{$prefix}section-heading-color: #{$gray-400};
+  --#{$prefix}section-heading-bg-color: #{shade-color($deep-blue, 20%)};
+  --#{$prefix}section-heading-color: #{$gray-200};
 
-  --#{$prefix}image-shade-opacity: 0.4;
+  --#{$prefix}image-shade-opacity: 0.1;
 
-  --#{$prefix}location-logo-bg-gradient-start: 0.50;
+  --#{$prefix}location-logo-bg-gradient-start: 0.70;
 
-  --#{$prefix}sponsor-logo-bg: #{$gray-500};
+  --#{$prefix}sponsor-logo-bg: #{$gray-400};
 
   .btn-#{$prefix}action {
     @include button-variant(
@@ -77,7 +77,7 @@
 
   footer {
     .logo-image {
-      filter: brightness(75%);
+      filter: brightness(85%);
     }
   }
 }
