@@ -37,6 +37,12 @@
     );
     text-shadow: none;
   }
+
+  footer {
+    .logo-image {
+      filter: brightness(90%);
+    }
+  }
 }
 
 [data-bs-theme="dark"] {
@@ -67,5 +73,11 @@
       $active-border: shade-color($silver-dark, $btn-active-border-shade-amount)
     );
     text-shadow: none;
+  }
+
+  footer {
+    .logo-image {
+      filter: brightness(75%);
+    }
   }
 }
