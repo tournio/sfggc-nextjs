@@ -1,0 +1,60 @@
+.Location {
+  position: relative;
+
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding-bottom: 1rem;
+
+  .BackgroundImage {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+
+    background-image: url('../../images/bg/classic-600w.jpg');
+
+    @media (min-width: 768px) {
+      background-image: url('../../images/bg/classic-991w.jpg');
+    }
+
+    @media (min-width: 992px) {
+      background-image: url('../../images/bg/classic-fullsize.jpg');
+    }
+  }
+
+  .BackgroundShade {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+
+    opacity: var(--sfggc-section-background-shade-opacity);
+  }
+
+  .Logo {
+    [data-bs-theme='dark'] & {
+      filter: brightness(85%);
+    }
+    background-image: radial-gradient(
+        ellipse
+        closest-side at 50% 50%,
+        rgba(var(--sfggc-white-rgb), var(--sfggc-location-logo-bg-gradient-start)),
+        rgba(var(--sfggc-black-rgb), 0)
+    );
+
+    margin: 1rem 0 1rem;
+  }
+  .Address {
+    text-align: center;
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
+  .Map {
+    [data-bs-theme='dark'] & {
+      filter: brightness(75%);
+    }
+
+    margin-bottom: 1rem;
+  }
+
+  .DiningOptions {
+
+  }
+}

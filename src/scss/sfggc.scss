@@ -1,0 +1,97 @@
+@import 'sfggc-bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.min.css';
+
+html {
+  --sfggc-title-font-family: "DM Serif Display", "Times New Roman", var(--sfggc-font-sans-serif);
+}
+
+body {
+  text-shadow: 1px 1px 1px var(--sfggc-body-text-shadow-color);
+
+  .nav-and-top {
+    position: relative;
+
+    .top-image-background {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -100;
+      background-repeat: no-repeat;
+      background-position: 25% top;
+      //background-size: cover;
+      // Each section provides its own image(s)
+
+      background-image: url('../images/bg/ggb-vertical-991w.jpg');
+
+      @media (min-width: 992px) {
+        background-size: cover;
+        background-position-y: 15%;
+        background-image: url('../images/bg/ggb-vertical-fullsize.jpg');
+      }
+    }
+
+    .top-background-shade {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -99;
+      background-color: black;
+      opacity: var(--sfggc-background-shade-opacity);
+    }
+
+    .menu-icon {
+      font-size: 150%;
+    }
+  }
+
+  section {
+    position: relative;
+
+    .section-heading {
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
+      padding-top: 0.75rem;
+      padding-bottom: 1rem;
+      padding-left: 1rem;
+
+      color: var(--sfggc-section-heading-color);
+      background-color: var(--sfggc-section-heading-bg-color);
+
+      @media(min-width: 768px) {
+        text-align: center;
+      }
+    }
+
+    .section-image-background {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -50;
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: cover;
+      // Each section provides its own image(s)
+
+    }
+    .section-background-shade {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -49;
+      background-color: black;
+      // each section specifies its own opacities
+    }
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+}

@@ -1,0 +1,116 @@
+.SanFrancisco {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  .JumboImage {
+    position: relative;
+    margin: 0.25rem auto;
+
+    height: 25vh;
+    width: 100%;
+    @media (min-width: 768px) {
+      height: 45vh;
+    }
+
+    // Adds an overlay to the image to dim it as needed.
+    .CityDaytimeColor {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 2;
+      background-color: black;
+      opacity: var(--sfggc-image-shade-opacity);
+    }
+
+    .CityDaytimeImage {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 1;
+      background-repeat: no-repeat;
+      background-position: 0 25%;
+      background-size: cover;
+
+      background-image: url('../../images/san-francisco/sf-downtown-600w.jpg');
+
+      @media (min-width: 768px) {
+        // Go progressively bigger
+        //background-image: url('../../images/san-francisco/cable-car-transamerica.jpg');
+      }
+    }
+  }
+
+  .Credit {
+    text-align: center;
+    font-size: 80%;
+    margin-bottom: 0.5rem;
+  }
+
+  .Content {
+    .Intro {
+    }
+
+    .Thing {
+      margin-bottom: 1rem;
+      background-color: transparent;
+      border-color: transparent;
+
+      .Image {
+        position: relative;
+        overflow: hidden;
+        max-height: 10rem;
+        
+        @media (min-width: 576px) {
+          max-height: 16rem;
+        }
+        @media (min-width: 768px) {
+          max-height: 18rem;
+        }
+
+        .Img {
+          width: 100%;
+          height: auto;
+          z-index: 1;
+        }
+
+        .ImageShade {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          z-index: 2;
+          background-color: black;
+          opacity: var(--sfggc-image-shade-opacity);
+        }
+      }
+
+      .CardBody {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      .ExternalLink {
+
+      }
+
+      .HighTemp {
+        color: var(--sfggc-yellow);
+      }
+
+      .LowTemp {
+        color: var(--sfggc-cyan);
+      }
+    }
+
+    .MoreLink {
+      text-align: right;
+      padding-bottom: 1rem;
+      margin-bottom: 0;
+    }
+  }
+}

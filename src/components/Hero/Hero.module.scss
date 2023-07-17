@@ -1,0 +1,62 @@
+.Hero {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  padding-bottom: 1rem;
+
+  .Content {
+    text-align: center;
+
+    .Title {
+      font-family: var(--sfggc-title-font-family);
+      font-size: calc(2rem + 5vw);
+      margin-bottom: 2rem;
+      text-shadow: 2px 2px 1px var(--sfggc-body-text-shadow-color);
+
+      @media (min-width: 768px) {
+        font-size: calc(2.5rem + 5vw);
+        margin-top: 8rem;
+        margin-bottom: 6rem;
+      }
+      @media (min-width: 992px) {
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+      }
+    }
+
+    .Subtitle {
+      font-size: calc(1.25rem + 2.8vw);
+      margin-bottom: 2rem;
+
+      @media (min-width: 768px) {
+        margin-bottom: 6rem;
+      }
+      @media (min-width: 992px) {
+        font-size: calc(1.25rem + 2.5vw);
+        margin-bottom: 5rem;
+      }
+    }
+
+    .Dates {
+      font-size: calc(1rem + 2.4vw);
+      margin-bottom: 0.5rem;
+
+      @media (min-width: 992px) {
+        font-size: calc(1rem + 2.1vw);
+      }
+    }
+
+    .Weekend {
+      font-size: calc(1rem + 2.2vw);
+      margin-bottom: 2rem;
+
+      @media (min-width: 768px) {
+        margin-bottom: 6rem;
+      }
+      @media (min-width: 992px) {
+        font-size: calc(1rem + 2vw);
+        margin-bottom: 5rem;
+      }
+    }
+  }
+}
