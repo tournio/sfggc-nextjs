@@ -3,11 +3,9 @@ import Committee from "../components/Committee/Committee";
 
 const CommitteePage = () => {
   return (
-    <div id={'section-top'}>
+    <div>
 
       <Committee/>
-
-      {/*<Sponsors/>*/}
 
     </div>
   )

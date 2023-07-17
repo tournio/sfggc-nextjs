@@ -96,7 +96,7 @@ const Committee = () => {
                 </a>
               </p>
               <p className={styles.Role}>
-                Scratch Master &amp; Co-secretary
+                Scratch Master
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ const Committee = () => {
                 </a>
               </p>
               <p className={styles.Role}>
-                Co-secretary &amp; Technologist
+                Secretary &amp; Technologist
               </p>
             </div>
           </div>

@@ -24,6 +24,10 @@ body {
       // Each section provides its own image(s)
 
       background-image: url('../images/bg/ggb-vertical-991w.jpg');
+
+      //@media (min-width: 992px) {
+      //  background-image: url('../images/bg/ggb-vertical-fullsize.jpg');
+      //}
     }
 
     .top-background-shade {

@@ -10,6 +10,18 @@
     font-size: 90%;
   }
 
+  .DayOfEvents {
+    @media(min-width: 768px) {
+      border-top: 1px solid var(--sfggc-dark-bg-subtle);
+      padding-top: 0.5rem;
+      margin-bottom: 0.5rem;
+
+      [data-bs-theme='dark'] & {
+        border-color: var(--sfggc-tertiary-color);
+      }
+    }
+  }
+
   .Date {
     text-align: left;
 
@@ -18,31 +30,19 @@
       margin: 0 -1rem;
       background-color: rgba(var(--sfggc-white-rgb), 0.25);
 
+      @media (min-width: 768px) {
+        background-color: transparent;
+      }
+
       [data-bs-theme='dark'] & {
         background-color: rgba(var(--sfggc-black-rgb), 0.75);
-      }
-    }
 
-    //@media(min-width: 768px) {
-    //  margin-bottom: 1rem;
-    //  .Date {
-    //    h4 {
-    //      padding: 0;
-    //      margin: 0;
-    //      background-color: inherit;
-    //      color: inherit;
-    //    }
-    //  }
-    //  .Detail {
-    //    margin-left: auto;
-    //    p {
-    //      margin-bottom: 0;
-    //    }
-    //  }
-    //  .Date + .Detail {
-    //    padding-top: 0;
-    //  }
-    //}
+        @media (min-width: 768px) {
+          background-color: transparent;
+        }
+      }
+
+    }
   }
 
   .Event {
