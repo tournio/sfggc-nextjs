@@ -77,8 +77,8 @@ const Navigation = () => {
                 {navLink({
                   path: '/rules',
                   text: 'Rules',
-                  disabled: true,
-                  title: 'Rules will be posted once they&apos;re ready',
+                  disabled: false,
+                  title: '',
                 })}
 
                 {navLink({

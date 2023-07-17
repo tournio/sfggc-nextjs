@@ -1,0 +1,18 @@
+.Rules {
+  margin: 0 0.5rem;
+
+  ol > li {
+    list-style-type: decimal;
+    & > ol > li {
+      list-style-type: upper-alpha;
+      & > ol > li {
+        list-style-type: decimal;
+      }
+    }
+  }
+  li {
+    padding-left: 0.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
