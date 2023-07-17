@@ -40,7 +40,7 @@ const Location = () => {
                 650-878-0300
               </a>
             </span>
-            <span className={`d-block`}>
+            <span className={`d-none d-md-block`}>
               <i className={`bi-telephone-fill me-2`} aria-hidden={true}/>
               650-878-0300
             </span>
