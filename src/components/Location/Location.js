@@ -26,9 +26,6 @@ const Location = () => {
               Classic Bowling Center
             </a>
           </h4>
-          {/*<h4 className={'d-none d-md-block'}>*/}
-          {/*  Classic Bowling Center*/}
-          {/*</h4>*/}
           <address>
             <span className={`d-block`}>
               900 King Drive
@@ -36,12 +33,16 @@ const Location = () => {
             <span className={`d-block mb-3`}>
               Daly City, CA 94015
             </span>
-            <span className={`d-block`}>
+            <span className={`d-block d-md-none`}>
               <a href={`tel:6508780300`}
                  className={`btn btn-sfggc-action`}>
                 <i className={`bi-telephone-fill me-2`} aria-hidden={true}/>
                 650-878-0300
               </a>
+            </span>
+            <span className={`d-block`}>
+              <i className={`bi-telephone-fill me-2`} aria-hidden={true}/>
+              650-878-0300
             </span>
           </address>
         </div>

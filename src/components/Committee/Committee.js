@@ -23,7 +23,7 @@ const Committee = () => {
       </div>
 
       <div className={`row justify-content-center`}>
-        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
+        <div className={`col-6 col-sm-4 col-lg-3`}>
           <div className={`card ${styles.Card}`}>
             <Image src={glenn}
                    alt={'Glenn Normandin'}
@@ -45,7 +45,7 @@ const Committee = () => {
 
         </div>
 
-        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
+        <div className={`col-6 col-sm-4 col-lg-3`}>
           <div className={`card ${styles.Card}`}>
             <Image src={robert}
                    alt={'Robert Hendricks'}
@@ -64,7 +64,7 @@ const Committee = () => {
           </div>
         </div>
 
-        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
+        <div className={`col-6 col-sm-4 col-lg-3`}>
           <div className={`card ${styles.Card}`}>
             <Image src={allison}
                    alt={'A cartoon image of Allison'}
@@ -83,26 +83,7 @@ const Committee = () => {
           </div>
         </div>
 
-        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
-          <div className={`card ${styles.Card}`}>
-            <Image src={duane}
-                   alt={'Duane'}
-                   className={`img-fluid card-img-top ${styles.Image}`}
-            />
-            <div className={`card-body`}>
-              <p className={`${styles.Name}`}>
-                <a href={'mailto:directors@goldengateclassic.org?subject=About%20the%20Golden%20Gate%20Classic'}>
-                  Duane Flohra
-                </a>
-              </p>
-              <p className={styles.Role}>
-                Scratch Master
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
+        <div className={`col-6 col-sm-4 col-lg-3`}>
           <div className={`card ${styles.Card}`}>
             <Image src={scott}
                    alt={'Scott with a cat on his back'}
@@ -121,7 +102,26 @@ const Committee = () => {
           </div>
         </div>
 
-        <div className={`col-6 col-sm-4 col-md-3 col-xl-2`}>
+        <div className={`col-6 col-sm-4 col-lg-3`}>
+          <div className={`card ${styles.Card}`}>
+            <Image src={duane}
+                   alt={'Duane'}
+                   className={`img-fluid card-img-top ${styles.Image}`}
+            />
+            <div className={`card-body`}>
+              <p className={`${styles.Name}`}>
+                <a href={'mailto:directors@goldengateclassic.org?subject=About%20the%20Golden%20Gate%20Classic'}>
+                  Duane Flohra
+                </a>
+              </p>
+              <p className={styles.Role}>
+                Scratch Master
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className={`col-6 col-sm-4 col-lg-3`}>
           <div className={`card ${styles.Card}`}>
             <div className={'card-header'}>
               Committee &amp; Volunteers
@@ -162,7 +162,7 @@ const Committee = () => {
       <hr />
 
       <div className={`row ${styles.Thanks} g-0`}>
-        <div className={`col-12 col-sm-3 d-flex justify-content-center`}>
+        <div className={`col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center`}>
           <div className={styles.Photo}>
             <Image src={richard}
                    alt={'Richard Perez'}
@@ -170,7 +170,7 @@ const Committee = () => {
             />
           </div>
         </div>
-        <div className={`col-12 col-sm-9`}>
+        <div className={`col`}>
           <p>
             The committee wishes to extend its utmost gratitude and appreciation to Richard Perez. Richard &ndash; &quot;Chewie&quot; to his friends &ndash; has been part of the Golden Gate Classic for more than a decade, the last few years of which he served as Director, including our first year back post-pandemic!
           </p>
