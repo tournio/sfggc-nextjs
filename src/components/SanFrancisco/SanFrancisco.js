@@ -7,7 +7,7 @@ import ramen from '../../images/san-francisco/ramen.jpg';
 import styles from './SanFrancisco.module.scss';
 import React from "react";
 
-const SanFrancisco = ({full=true}) => {
+const SanFrancisco = ({full = true}) => {
   // full determines whether we show a summary or the whole shebang
   // ... the whole shebang is intended to be on its own page, while
   // the summary is intended for the SF section of the main page
@@ -23,7 +23,7 @@ const SanFrancisco = ({full=true}) => {
         <div className={`${styles.CityDaytimeImage}`}/>
       </div>
       <div className={`${styles.Credit}`}>
-        Image via{' '}
+        Image by{' '}
         <a href={'https://www.pexels.com/photo/city-skyline-during-golden-hour-3584437/'}
            target={'_blank'}>
           Kehn Hermano
@@ -32,7 +32,10 @@ const SanFrancisco = ({full=true}) => {
 
       <div className={`${styles.Content}`}>
         <p className={styles.Intro}>
-          The San Francisco Bay Area has a long, rich history, from the native Ohlone inhabitants through claims by Spain and Mexico, to the Gold Rush leading California to statehood in 1850. The area has held key strategic and commercial value ever since, and its diverse tapestry of people, culture, and food makes it a must-visit for anyone traveling the western US.
+          The San Francisco Bay Area has a long, rich history, from the native Ohlone inhabitants through claims by
+          Spain and Mexico, to the Gold Rush leading California to statehood in 1850. The area has held key strategic
+          and commercial value ever since, and its diverse tapestry of people, culture, and food makes it a must-visit
+          for anyone traveling the western US.
         </p>
 
         {!full && (
@@ -46,53 +49,52 @@ const SanFrancisco = ({full=true}) => {
         )}
 
         {full && (
-          <div className={'row'}>
-            <div className={`${styles.Thing} card col-12 col-md-6 col-lg-4`}>
-              <div className={'row g-0'}>
-                <div className={`col-sm-4 d-flex flex-column col-md-12`}>
-                  <div className={`${styles.FlippyImage} flex-grow-1`}>
-                    <Image src={sunshine}
-                           alt={'The sun shines over the Golden Gate Bridge and the city of San Francisco'}
-                           className={`${styles.Img}`}
-                           sizes={'(max-width: 575px) 90vw, (max-width: 767px) 50vw, (max-width: 1199px) 20vw (min-width: 1200px) 15vw'}
-                    />
-                    <div className={styles.ImageShade}></div>
-                  </div>
-                  <div className={`${styles.Credit}`}>
-                    Image by{' '}
-                    <a href={'https://www.stebleton.net/'}
-                       target={'_blank'}>
-                      Scott Stebleton
-                    </a>
-                  </div>
+          <div className={'row justify-content-center'}>
+            <div className={`${styles.Thing} card col-12 col-sm-11 col-md-10 col-lg-4`}>
+              <div className={`${styles.Image}`}>
+                <Image src={sunshine}
+                       alt={'The sun shines over the Golden Gate Bridge and the city of San Francisco'}
+                       className={`${styles.Img}`}
+                       sizes={'(max-width: 767px) 90vw, (max-width: 1199px) 20vw (min-width: 1200px) 15vw'}
+                />
+                <div className={styles.ImageShade}></div>
+              </div>
+              <div className={`${styles.Credit}`}>
+                Image by{' '}
+                <a href={'https://www.stebleton.net/'}
+                   target={'_blank'}>
+                  Scott Stebleton
+                </a>
+              </div>
+              <div className={``}>
+                <div className={'card-title'}>
+                  <h4>
+                    Weather
+                  </h4>
                 </div>
-                <div className={'col-sm-8 col-md-12'}>
-                  <div className={`card-body ${styles.CardBody}`}>
-                    <div className={'card-title'}>
-                      <h4>
-                        Weather
-                      </h4>
-                    </div>
-                    <p>
-                      <a href="https://www.wunderground.com/cgi-bin/findweather/getForecast?query=pws:KCASOUTH53">
-                        Current Conditions
-                      </a>
-                    </p>
-                    <p>
-                      The San Francisco Bay Area is notorious for surprising visitors who expect the weather to be sunny and warm, like in so many media depictions of California. But don't be fooled! Most of the year, San Francisco and the peninsula are wrapped in cool fog, with sunshine more the exception than the rule.
-                    </p>
-                    <p>
-                      You'll be visiting in February, so it's a safe bet that you'll want to pack for cool-to-pleasant weather. Fog is common, especially in the hills above Daly City where our bowling center is! High temperatures are around{' '}
-                      <span className={`${styles.HighTemp}`}>60°F (15°C)</span>
-                      {' '}with lows around{' '}
-                      <span className={`${styles.LowTemp}`}>47°F (8°C)</span>
-                      {'.'}
-                    </p>
-                    <p>
-                      February is in the back half of our rainy season, so we recommend bringing an umbrella or rain-resistant jacket. Sure, we're in a drought, but that doesn't mean it never rains!
-                    </p>
-                  </div>
-                </div>
+                <p>
+                  <a href="https://www.wunderground.com/cgi-bin/findweather/getForecast?query=pws:KCASOUTH53">
+                    Current Conditions
+                  </a>
+                </p>
+                <p>
+                  The San Francisco Bay Area is notorious for surprising visitors who expect the weather to be sunny and
+                  warm, like in so many media depictions of California. But don't be fooled! Most of the year, San
+                  Francisco and the peninsula are wrapped in cool fog, with sunshine more the exception than the rule.
+                </p>
+                <p>
+                  You'll be visiting in February, so it's a safe bet that you'll want to pack for cool-to-pleasant
+                  weather. Fog is common, especially in the hills above Daly City where our bowling center is! High
+                  temperatures are around{' '}
+                  <span className={`${styles.HighTemp}`}>60°F (15°C)</span>
+                  {' '}with lows around{' '}
+                  <span className={`${styles.LowTemp}`}>47°F (8°C)</span>
+                  {'.'}
+                </p>
+                <p>
+                  February is in the back half of our rainy season, so we recommend bringing an umbrella or
+                  rain-resistant jacket. Sure, we're in a drought, but that doesn't mean it never rains!
+                </p>
               </div>
             </div>
 
@@ -119,7 +121,8 @@ const SanFrancisco = ({full=true}) => {
                   </h4>
                 </div>
                 <p>
-                  The Bay Area has an abundance of riches when it comes to sights, sounds, and activities. To name just a
+                  The Bay Area has an abundance of riches when it comes to sights, sounds, and activities. To name just
+                  a
                   few:
                 </p>
                 <ul>
@@ -178,7 +181,7 @@ const SanFrancisco = ({full=true}) => {
                 <div className={styles.ImageShade}></div>
               </div>
               <div className={`${styles.Credit}`}>
-                Image via{' '}
+                Image by{' '}
                 <a href={'https://www.pexels.com/photo/top-view-photo-of-ramen-soup-2591594/'}
                    target={'_blank'}>
                   Jan Nguyen
@@ -191,7 +194,8 @@ const SanFrancisco = ({full=true}) => {
                   </h4>
                 </div>
                 <p>
-                  With a population whose roots span the entire globe, the San Francisco Bay Area is home to an incredibly
+                  With a population whose roots span the entire globe, the San Francisco Bay Area is home to an
+                  incredibly
                   diverse array of cuisines. To give you just a taste...
                 </p>
                 <ul>
@@ -221,7 +225,8 @@ const SanFrancisco = ({full=true}) => {
                   <a href="http://sf.eater.com/">
                     SF Eater
                   </a>
-                  {' '}has the low-down on all the great grub San Francisco has to offer. What's more, the Bay Area is a haven
+                  {' '}has the low-down on all the great grub San Francisco has to offer. What's more, the Bay Area is a
+                  haven
                   for vegetarians and vegans.{' '}
                   <a href="https://www.happycow.net/north_america/usa/california/san_francisco/" target="_blank">So many
                     to choose from!</a>

@@ -68,13 +68,13 @@ const Schedule = () => {
       {days.map((day, i) => (
         <div key={`day_${i}`}
              className={`row g-0 ${styles.DayOfEvents}`}>
-          <div className={`${styles.Date} col-md-3`}>
+          <div className={`${styles.Date} col-md-4`}>
             <h4>
               {day.date}
             </h4>
           </div>
 
-          <div className={`col-md-9`}>
+          <div className={`col-md-8`}>
             {day.events.map((e, j) => (
               <div key={`event_${j}`}>
                 <div className={`${styles.Event} d-flex justify-content-between`}>

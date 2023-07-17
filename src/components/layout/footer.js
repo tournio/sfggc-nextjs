@@ -9,7 +9,7 @@ const Footer = () => {
     <div>
       <hr />
       <div className={`row d-flex justify-content-center flex-wrap pb-0`}>
-        <div className={`col-6`}>
+        <div className={`col-6 col-md-5`}>
           <Image src={logo}
                  alt={'Tournament logo'}
                  className={`img-fluid logo-image`}/>

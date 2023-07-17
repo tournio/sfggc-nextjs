@@ -11,6 +11,7 @@
       font-family: var(--sfggc-title-font-family);
       font-size: calc(2rem + 5vw);
       margin-bottom: 2rem;
+      text-shadow: 2px 2px 1px var(--sfggc-body-text-shadow-color);
 
       @media (min-width: 768px) {
         font-size: calc(2.5rem + 5vw);
