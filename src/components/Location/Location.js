@@ -56,8 +56,16 @@ const Location = () => {
       </div>
 
       <div className={`row gx-1`}>
-        {/* On medium viewports (tablet) and up*/}
-        <div className={`ratio ratio-4x3 d-none d-md-block col ${styles.Map}`}>
+        {/* On medium viewports (tablet in portrait) */}
+        <div className={`ratio ratio-4x3 d-none d-md-block d-lg-none col ${styles.Map}`}>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3158.965833030376!2d-122.46923535449218!3d37.65000730003063!3m2!1i1024!2i768!4f13.1!2m1!1sRestaurants!5e0!3m2!1sen!2sus!4v1689623109059!5m2!1sen!2sus"
+            allowFullScreen="" loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        {/* On large viewports (tablet in landscape, laptops & monitors) */}
+        <div className={`ratio ratio-16x9 d-none d-lg-block col ${styles.Map}`}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3158.965833030376!2d-122.46923535449218!3d37.65000730003063!3m2!1i1024!2i768!4f13.1!2m1!1sRestaurants!5e0!3m2!1sen!2sus!4v1689623109059!5m2!1sen!2sus"
             allowFullScreen="" loading="lazy"

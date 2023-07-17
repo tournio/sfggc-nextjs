@@ -79,11 +79,11 @@ const SanFrancisco = ({full = true}) => {
                 </p>
                 <p>
                   The San Francisco Bay Area is notorious for surprising visitors who expect the weather to be sunny and
-                  warm, like in so many media depictions of California. But don't be fooled! Most of the year, San
+                  warm, like in so many media depictions of California. But don&apos;t be fooled! Most of the year, San
                   Francisco and the peninsula are wrapped in cool fog, with sunshine more the exception than the rule.
                 </p>
                 <p>
-                  You'll be visiting in February, so it's a safe bet that you'll want to pack for cool-to-pleasant
+                  You&apos;ll be visiting in February, so it&apos;s a safe bet that you&apos;ll want to pack for cool-to-pleasant
                   weather. Fog is common, especially in the hills above Daly City where our bowling center is! High
                   temperatures are around{' '}
                   <span className={`${styles.HighTemp}`}>60°F (15°C)</span>
@@ -93,7 +93,7 @@ const SanFrancisco = ({full = true}) => {
                 </p>
                 <p>
                   February is in the back half of our rainy season, so we recommend bringing an umbrella or
-                  rain-resistant jacket. Sure, we're in a drought, but that doesn't mean it never rains!
+                  rain-resistant jacket. Sure, we&apos;re usually in a drought, but that doesn&apos;t mean it never rains!
                 </p>
               </div>
             </div>
@@ -137,7 +137,7 @@ const SanFrancisco = ({full = true}) => {
                   <li>
                     <a
                       href="https://www.google.com/maps/place/PIER+39/@37.8086772,-122.412015,17z/data=!3m1!4b1!4m5!3m4!1s0x808580fc8bb3211d:0xbaf631600de6b39e!8m2!3d37.808673!4d-122.409821">Pier
-                      39 & the Fisherman's Wharf</a>
+                      39 &amp; the Fisherman&apos;s Wharf</a>
                   </li>
                   <li>
                     <a href="https://www.sfmta.com/getting-around/transit/how-ride/how-to-cable-cars">Cable Cars</a>
@@ -164,7 +164,7 @@ const SanFrancisco = ({full = true}) => {
                   </li>
                 </ul>
                 <p>
-                  There's way more than we can list here, but{' '}
+                  There&apos;s way more than we can list here, but{' '}
                   <a href="https://www.sftravel.com/" target="_blank">SF.travel</a>
                   {' '}is a good place to start.
                 </p>
@@ -225,7 +225,7 @@ const SanFrancisco = ({full = true}) => {
                   <a href="http://sf.eater.com/">
                     SF Eater
                   </a>
-                  {' '}has the low-down on all the great grub San Francisco has to offer. What's more, the Bay Area is a
+                  {' '}has the low-down on all the great grub San Francisco has to offer. What&apos;s more, the Bay Area is a
                   haven
                   for vegetarians and vegans.{' '}
                   <a href="https://www.happycow.net/north_america/usa/california/san_francisco/" target="_blank">So many

@@ -15,42 +15,50 @@ const Beneficiary = () => {
         Charitable Partner
       </h3>
 
-      <p>
-        Our tournament is a proud fundraising partner for the{' '}
-        <Link href={yliUrl}
-              target={'_blank'}
-              >
-          Youth Leadership Institute
-        </Link>
-        . In fact, the 2023 Golden Gate Classic raised{' '}
-        <strong>
-          $2,000
-        </strong>
-        {' '}for YLI!
-      </p>
+      <div className={`row`}>
+        <div className={`col-12 col-md-6`}>
+          <div className={`${styles.ImageContainer} d-flex justify-content-center`}>
+            <Link href={yliUrl}
+                  target={'_blank'}
+            >
+              <Image src={yliLogo}
+                     alt={'Youth Leadership Institute'}
+                     className={`img-fluid ${styles.Image}`}
+              ></Image>
+            </Link>
+          </div>
+          <p>
+            Our tournament is a proud fundraising partner for the{' '}
+            <Link href={yliUrl}
+                  target={'_blank'}
+            >
+              Youth Leadership Institute
+            </Link>
+            .
+          </p>
+          <p>
+            In fact, the 2023 Golden Gate Classic raised{' '}
+            <strong>
+              $2,000
+            </strong>
+            {' '}for YLI!
+          </p>
+        </div>
+        <div className={`col`}>
+          <p>
+            Their mission is simple yet important:
+          </p>
 
-      <div className={`${styles.ImageContainer} d-flex justify-content-center`}>
-        <Link href={yliUrl}
-              target={'_blank'}
-        >
-          <Image src={yliLogo}
-                 alt={'Youth Leadership Institute'}
-                 className={`img-fluid ${styles.Image}`}
-          ></Image>
-        </Link>
+          <blockquote className={styles.Mission}>
+            Youth Leadership Institute builds communities where young people and their adult allies come together to create positive community change that promotes social justice and racial equity.
+          </blockquote>
+
+          <p>
+            By participating in the Golden Gate Classic, whether through bowling, purchasing raffle tickets, or contributing to any of our other myriad fundraisers, you are helping the Youth Leadership Institute work toward a more just and equitable future for everyone!
+          </p>
+        </div>
       </div>
 
-      <p>
-        Their mission is simple yet important:
-      </p>
-
-      <blockquote className={styles.Mission}>
-        Youth Leadership Institute builds communities where young people and their adult allies come together to create positive community change that promotes social justice and racial equity.
-      </blockquote>
-
-      <p>
-        By participating in the Golden Gate Classic, whether through bowling, purchasing raffle tickets, or contributing to any of our other myriad fundraisers, you are helping the Youth Leadership Institute work toward a more just and equitable future for everyone!
-      </p>
     </section>
   );
 }

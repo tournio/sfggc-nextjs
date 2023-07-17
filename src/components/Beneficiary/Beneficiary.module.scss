@@ -2,12 +2,13 @@
   margin: 0 0.5rem;
 
   .ImageContainer {
-    margin: 0 -0.5rem 1rem;
-
-    background-color: rgba(0,0,0, 0.4);
+    margin-bottom: 1rem;
 
     .Image {
       width: 100%;
+      padding: 0.5rem;
+
+      background-color: rgba(0,0,0, 0.4);
       [data-bs-theme="dark"] & {
         filter: brightness(80%);
       }

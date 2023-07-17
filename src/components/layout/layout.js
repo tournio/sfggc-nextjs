@@ -7,7 +7,7 @@ import Sponsors from "../Sponsors/Sponsors";
 export default function RootLayout({ children }) {
   return (
     <ThemeContextProvider>
-      <div className={`container-lg gx-0 gx-lg-4`}>
+      <div className={`container-xl gx-0 gx-xl-4`}>
         <Header/>
         <Navigation/>
 

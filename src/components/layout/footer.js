@@ -1,6 +1,3 @@
-// import Image from "next/image";
-// import logo from '../../images/damit.png';
-
 import Image from "next/image";
 import logo from '../../images/sfggc-logo.jpg';
 
@@ -9,7 +6,7 @@ const Footer = () => {
     <div>
       <hr />
       <div className={`row d-flex justify-content-center flex-wrap pb-0`}>
-        <div className={`col-6 col-md-5`}>
+        <div className={`col-6 col-md-5 col-lg-4`}>
           <Image src={logo}
                  alt={'Tournament logo'}
                  className={`img-fluid logo-image`}/>
