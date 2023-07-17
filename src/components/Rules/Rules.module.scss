@@ -6,7 +6,7 @@
     & > ol > li {
       list-style-type: upper-alpha;
       & > ol > li {
-        list-style-type: decimal;
+        list-style-type: lower-roman;
       }
     }
   }
