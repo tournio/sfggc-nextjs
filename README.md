@@ -4,19 +4,11 @@ This is the informational website for the Golden Gate Classic, an IGBO-affiliate
 
 It's built as a static website using the [Next.js](https://nextjs.org/) framework and [React-Bootstrap](https://react-bootstrap.github.io/).
 
-It uses Bootstrap 4, so it's built for mobile-first.
+It uses Bootstrap 5, and I started the design with mobile viewports, then adapted them for medium and large ones. Since two out of every three visitors is on a mobile device, it seemed like the best approach.
 
-### Mobile
+## Learning
 
-<p align="center">
-  <img src="./readme_images/mobile.jpg" alt="Mobile layout" width="540"/>
-</p>
-
-### Desktop
-
-<p align="center">
-  <img src="./readme_images/desktop.jpg" alt="Desktop layout" />
-</p>
+I have also used this project to further my understanding of Bootstrap's implementation of color modes, and how Sass works vs. CSS variables. It's very cool stuff, and as someone coming from the backend world of software development, it's been fun to see how it all ties together.
 
 ## Development & local running
 
@@ -27,8 +19,6 @@ It uses Bootstrap 4, so it's built for mobile-first.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
