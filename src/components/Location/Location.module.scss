@@ -1,14 +1,9 @@
 .Location {
   position: relative;
 
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
   padding-bottom: 1rem;
 
   .BackgroundImage {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-
     background-image: url('../../images/bg/classic-600w.jpg');
 
     @media (min-width: 768px) {
@@ -21,9 +16,6 @@
   }
 
   .BackgroundShade {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-
     opacity: var(--sfggc-section-background-shade-opacity);
   }
 

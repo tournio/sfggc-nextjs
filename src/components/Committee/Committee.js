@@ -162,7 +162,7 @@ const Committee = () => {
       <hr />
 
       <div className={`row ${styles.Thanks} g-0`}>
-        <div className={`col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center`}>
+        <div className={`col-12 col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center`}>
           <div className={styles.Photo}>
             <Image src={richard}
                    alt={'Richard Perez'}
