@@ -81,13 +81,6 @@ const Navigation = () => {
                   title: '',
                 })}
 
-                {navLink({
-                  path: '/results',
-                  text: 'Results',
-                  disabled: true,
-                  title: 'Results are not yet available',
-                })}
-
 
                 {navLink({
                   path: '/san-francisco',
@@ -106,6 +99,14 @@ const Navigation = () => {
                   path: '/committee',
                   text: 'Committee',
                 })}
+
+                {navLink({
+                  path: '/results',
+                  text: 'Results',
+                  disabled: true,
+                  title: 'Results are not yet available',
+                })}
+
               </ul>
             {/*</div>*/}
           </div>

@@ -51,6 +51,18 @@ body {
   section {
     position: relative;
 
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    
+    @media (min-width: 576px) {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    @media (min-width: 992px) {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+
     .section-heading {
       margin-left: -0.5rem;
       margin-right: -0.5rem;
@@ -61,8 +73,16 @@ body {
       color: var(--sfggc-section-heading-color);
       background-color: var(--sfggc-section-heading-bg-color);
 
+      @media (min-width: 576px) {
+        margin-left: -1rem;
+        margin-right: -1rem;
+      }
       @media(min-width: 768px) {
         text-align: center;
+      }
+      @media (min-width: 992px) {
+        margin-left: -2rem;
+        margin-right: -2rem;
       }
     }
 
@@ -73,11 +93,21 @@ body {
       top: 0;
       bottom: 0;
       z-index: -50;
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
       background-repeat: no-repeat;
       background-position: center top;
       background-size: cover;
       // Each section provides its own image(s)
 
+      @media (min-width: 576px) {
+        margin-left: -1rem;
+        margin-right: -1rem;
+      }
+      @media (min-width: 992px) {
+        margin-left: -2rem;
+        margin-right: -2rem;
+      }
     }
     .section-background-shade {
       position: absolute;
@@ -86,8 +116,19 @@ body {
       top: 0;
       bottom: 0;
       z-index: -49;
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
       background-color: black;
       // each section specifies its own opacities
+
+      @media (min-width: 576px) {
+        margin-left: -1rem;
+        margin-right: -1rem;
+      }
+      @media (min-width: 992px) {
+        margin-left: -2rem;
+        margin-right: -2rem;
+      }
     }
   }
 }
