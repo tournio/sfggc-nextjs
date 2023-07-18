@@ -215,7 +215,7 @@ const SanFrancisco = ({full = true}) => {
                     <a href="http://www.theplantcafe.com/">The Plant Café Organic</a>
                   </li>
                   <li>
-                    <a href="https://www.gracias-madre.com/">Gracias Madre</a>
+                    <a href="https://gracias-madre.getbento.com/">Gracias Madre</a>
                   </li>
                   <li>
                     <a href="https://www.keevaindiankitchensanfrancisco.com/">Keeva Indian Kitchen</a>
