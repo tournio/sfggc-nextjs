@@ -73,7 +73,7 @@ const SanFrancisco = ({full = true}) => {
                   </h4>
                 </div>
                 <p>
-                  <a href="https://www.wunderground.com/cgi-bin/findweather/getForecast?query=pws:KCASOUTH53">
+                  <a href="https://www.wunderground.com/weather/us/ca/san-francisco/KCASANFR2046">
                     Current Conditions
                   </a>
                 </p>
