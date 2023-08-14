@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import brunswick from '../../images/sponsors/brunswick.png';
+import storm from '../../images/sponsors/storm.png';
 import igbo from '../../images/sponsors/igbo.png';
 import usbc from '../../images/sponsors/usbc.png';
 import budlight from '../../images/sponsors/budlight.gif';
@@ -11,11 +12,18 @@ import styles from './Sponsors.module.scss';
 
 const Sponsors = () => {
   const sponsorDetails = [
+    // {
+    //   alt: 'Brunswick Bowling Products',
+    //   href: 'https://brunswickbowling.com/',
+    //   title: 'Brunswick Bowling Products',
+    //   src: brunswick,
+    //   classNames: styles.AdjustedBrightness,
+    // },
     {
-      alt: 'Brunswick Bowling Products',
-      href: 'https://brunswickbowling.com/',
-      title: 'Brunswick Bowling Products',
-      src: brunswick,
+      alt: 'Storm Bowling Products',
+      href: 'https://stormbowling.com/',
+      title: 'Storm Bowling Products',
+      src: storm,
       classNames: styles.AdjustedBrightness,
     },
     {
