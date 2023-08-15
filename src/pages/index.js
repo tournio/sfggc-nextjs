@@ -13,7 +13,7 @@ const MainPage = () => {
       <Location/>
       <Schedule/>
       <SanFrancisco full={false}/>
-      <Beneficiary/>
+      {/*<Beneficiary/>*/}
 
       {/*<RegisterCTA/>*/}
 

@@ -3,59 +3,164 @@ import ReactMarkdown from "react-markdown";
 import React from "react";
 
 const Rules = () => {
-  const rulesMarkdown = `
-1.  The San Francisco Golden Gate Classic (SFGGC) is a United States Bowling Congress (USBC) certified tournament and is affiliated with the International Gay Bowling Organization (IGBO). It is a mixed competition open to men and women by invitation only and entries can be denied. You must possess a current membership from both organizations. If membership is needed from either, you may purchase a USBC membership prior to the event at [bowl.com](http://www.bowl.com) for $27.00 (US) and an IGBO membership via the tournament’s online registration system for $25.00 (US). (Prices are current as of July 18, 2023). Active card-carrying members of the PBA must state so on their entry form. Maximum of 1 PBA member allowed per team. IN THE BEST INTEREST OF TOURNAMENT COMPETITION, THE DIRECTOR(S) RETAIN(S) THE RIGHT TO ACCEPT OR REJECT ANY TEAM OR INDIVIDUAL.
-2.  All bowling events will be held at Classic Bowling Center, at 900 King Drive, Daly City, CA 94015.
-3.  ENTERING AVERAGE: The tournament operates on the ideal of fair play. Should the Tournament Director(s) discover any evidence of violation of this ideal, a bowler may be disqualified at any time, at the discretion of the Tournament Director(s). Please, no cheating. All bowlers entering SFGGC mush show proof of having an established ten-pin average acceptable to USBC. Proof of average is defined as: 1) credible website with free access (i.e., bowl.com, leaguesecretary.com); 2) clear picture or scanned copy of your league sheet; 3) hard copy of a league sheet with name and average highlighted; 4) a signed paper with average from the League Secretary with their name and phone number. The following rules apply when submitting entering average. The **highest** of the following averages will be used:
-
-    1.  Submit the **highest** average available from the following criteria:
-
-        1.  USBC 2022-2023 league average (minimum 21 games) (NOT COMPOSITE)
-        2.  January 1, 2024, highest league average (minimum 21 games)
-        3.  Tournament Average (TAD) composite from January 1st, 2023, to December 31, 2023 (minimum 18 games). USBC rule #319 applies in its entirety.
-        4.  SPORT BOWLING or CHALLENGE SHOT average per USBC Rule #201c will be applied. Sport average/challenge shot converted per the USBC average adjustment scale (rule #201).
-
-    3.  If no average from section A is available, but you believe you have an average that can be used, submit any available information and documentation to the Tournament Director as soon as possible.
-    4.  All others will enter at 225 (USBC Rule #319b) or the highest tournament entering average if it is higher.
-    5.  Failure to provide proper documentation, or providing the wrong average, shall disqualify tournament scores if the submitted average is lower than the actual average. In this instance, the bowler will forfeit their entry fee and any other prizes and awards and will be required to return all winnings from optional events.
-    6.  The final decision regarding the determination of any bowler’s entering average is at the sole discretion of the Tournament Director.
-    7.  Entries received whose average cannot be verified will be considered incomplete and not considered for tournament entry until verified.
-    8.  If a bowler has qualified for winnings of $600.00 or more in any tournament not including any side pots (such as brackets, mega brackets, etc.) in the previous 12 months, the actual scores and winnings from the tournament must be reported for possible re-rating. Re-rating must be done before the entrant bowls.
-    9.  It is the bowler’s responsibility to make sure SFGGC has their correct average based on the rules above regardless of who may have submitted the average for you. Submitting an incorrect average shall be cause for disqualification and forfeiture of entry fees and prize winnings.
-    10.  The average of any bowler may be adjusted at the discretion of the Tournament Director(s) and we reserve the right to utilize specialty tournaments and events (i.e., 5, 8 & 10 game tournaments, Vegas Pot Games, etc.) in adjusting a bowler's entering average.
-    11.  Any average adjustment must be made before the completion of the entrant's first game of competition. Any bowler unwilling to accept the average change will receive a refund, cease bowling and receive a zero score for all games if a qualified bowler cannot be found as a replacement. Team members will NOT receive a refund.
-
-12.  SFGGC handicap is based on 90% of the difference between a bowler's entering average and the highest average for the 2023 SFGGC tournament.
-
-5.  Entries must be paid in full, online, via the Tournio registration system, available at [https://tourn.io](https://tourn.io).
-6.  Entry fee:
-
-    1. $109 – Completed entries received on or before Dec 15, 2023
-    2. $119 – Completed entries received between Dec 16, 2023 and Jan 20, 2024
-    3. $129 – Completed entries received on or after Jan 20, 2024
-
-8.  An entry will not be considered completed until the entry fee is **paid in full**.
-9.  There will be NO REFUNDS after acceptance of an entry by the tournament committee, except at the discretion of the Tournament Director(s).
-10.  The entry deadline for the tournament is February 3, 2023, 12:00 AM PST. This includes payment of all fees.
-11.  Bowlers may bowl only once in each event. Each event consists of three (3) games, for a total of nine (9) games. Team and Doubles events will be bowled back-to-back on Saturday; the Singles event will be bowled on Sunday.
-12.  All claims of error must be submitted, in writing, to the Tournament Director(s) within one (1) hour after the bowler or team has bowled. In matters of dispute, the decision(s) of the Director(s) will be final, unless an appeal is made in accordance with UBSC Rule #329.
-13.  Optional events may be operated by entities other than the SFGGC committee. Bowlers are expected to follow all rules associated with each event. Any disqualification from the Tournament may result in disqualification from any or all optional events as well. All optional events are scored on a best-effort basis; the maximum liability resulting from any error due to bowler(s) and/or operator(s) of an optional event shall be limited to the entry cost for that event.
-14.  Substitutes may bowl with the Director(s) approval. Substitutes must bowl in the same line-up position as the bowler they are replacing.
-15.  Late bowlers will start bowling in the frame they are ready to bowl; prior frames will be scored zero (0). Absent bowlers will be scored zero (0).
-16.  Cash prizes: A bowler may win only one (1) special awards prize. Each event has its own prize list, based on at least a 1:10 ratio. All prize fees collected for an event will be returned 100% to the participants of that event. This does not include optional events.
-17.  Captains must check their teams in at least thirty (30) minutes prior to the start of competition.
-18.  Bowlers will be allowed 10 minutes of practice before the start of each of the three (3) events.
-19.  The San Francisco Golden Gate Classic and Classic Bowling Center bear no liability for potential exposure to COVID-19 during the tournament. The tournament and the bowling center will adhere to all federal, state, and local regulations regarding public health precautions. All bowlers, staff, and volunteers will be required to comply with relevant requirements.
+  const placeholder = `
+1. One
+2. Two
+3. Three
+4. Four
+5. Five
 `;
+
+  const sections = [
+    {
+      header: 'Sanctioning',
+      markdown: `
+1. The 2024 San Francisco Golden Gate Classic (SFGGC) is a USBC certified tournament, certification number [CERT NUMBER TBD]. All participants must be current members of the USBC.
+1. SFGGC is a member of the International Gay Bowling Organization (IGBO).
+    1.  All participants must be league associates (bowl as a regularly-rostered
+member of an IGBO-member league – note that bowling as a substitute on an
+IGBO-member league does not satisfy this requirement) or direct associates
+(having paid the $25.00 direct associate fee within the 12 months immediately
+preceding this tournament) of IGBO.
+    1.  Those who do not meet the requirements above will be required to pay a
+$25.00 IGBO direct associate fee. This fee entitles the bowler to participate in
+any IGBO-affiliated tournament for a 12-month period.
+      `,
+    },
+//     {
+//       header: 'Fundamentals',
+//       markdown: `
+// `,
+//     },
+    // {
+    //   header: 'Taxes',
+    //   markdown: placeholder,
+    // },
+    {
+      header: 'Event Participation',
+      markdown: `
+1. SFGGC is a mixed handicap competition.
+1. The tournament is by invitation only. Entries can be denied.
+1. The tournament shall consist of handicap events as follows: Singles, Doubles, and Team.
+1. Each participant shall bowl three (3) games per event and must enter all three (3) events.
+1. Teams will consist of four (4) members comprising any combination of genders and gender identities.
+1. All participants will compete on an equal basis without regard to gender or gender identity.
+1. Doubles partners must come from the same team.
+1. Each participant may bowl only once in each event.
+1. Professional bowlers may bowl in the SFGGC. However, only one (1) professional bowler per team will be allowed.
+    1. A professional bowler is defined as any person who has been a &quot;card-carrying&quot; member of a professional bowling organization within the twelve (12) months immediately preceding the SFGGC.
+    1. Professional bowlers must identify themselves as such at the time of registration.
+    1. Failure to properly identify as a professional bowler prior to the start of the tournament shall be cause for disqualification and forfeiture of all entry fees and prize winnings.
+`,
+    },
+    {
+      header: 'Awards and Prizes',
+      markdown: `
+1. All cash awards shall be based on the total pins plus assigned handicap for each event except for optional events as defined below.
+1. Awards will be given for the highest Singles, Doubles, and Team scores. The awards ratio for each event shall be at least 1:10.
+1. A tie in any position will result in the sum of the prizes being aggregated for the tied positions and divided equally by the number of ties for that placement.
+1. Prizes will be distributed via check or electronic payment payable in US currency within thirty (30) days of the completion of the tournament, barring any protests.
+`,
+    },
+    {
+      header: 'Entering Averages',
+      markdown: `
+1. SFGGC handicap is based on 90% of the difference between a bowler&apos;s entering average and the highest average for the 2023 SFGGC tournament.
+1. All bowlers entering SFGGC must be able to provide proof of having an established ten-pin average acceptable to USBC. Proof of average is defined as:
+    1. A credible website with free access (i.e., bowl.com, leaguesecretary.com) 
+    1. A clear picture or scanned copy of a league standings sheet
+    1. A hard copy of a league sheet with name and average highlighted
+    1. A signed paper note with average from the League Secretary with their name and phone number.
+1. Each bowler&apos;s entering average shall be determined by the following criteria, in priority order:
+    1. The **highest** of:
+        1. USBC Composite 2022-2023 average (minimum 21 games)
+        1. IGBO Tournament Average (TAD) from January 1st, 2023, to December 31, 2023 (minimum 18 games). USBC rule #319 applies in its entirety.
+    1. The USBC Composite 2021-2022 average (minimum 21 games)
+    1. The USBC Composite 2023-2024 average as of January 1, 2024, if available.
+    1. If none of the averages in the above rules is available, the bowler&apos;s entering average shall be 225 (USBC Rule #319b).
+1. SPORT BOWLING or CHALLENGE SHOT average per USBC Rule #201c will be applied. Sport/challenge shot average will be converted per the USBC average adjustment scale (rule #201).
+1. If no average from the above rules is available, but a bowler believes they have an average that can be used, they must submit any available information and documentation to the Tournament Director as soon as possible.
+1. Failure to provide proper documentation upon request, or providing the wrong average, shall disqualify tournament scores if the submitted average is lower than the actual average. In this instance, the bowler will forfeit their entry fee and any other prizes and awards, and will be required to return all winnings from optional events.
+1. Entries received whose average cannot be verified will be considered incomplete and not considered for tournament entry until verified.
+1. The final decision regarding the determination of any bowler&apos;s entering average is at the sole discretion of the Tournament Director(s).
+1. It is the bowler&apos;s responsibility to the accuracy of their own entering average, regardless of who may have submitted the average. Submitting an incorrect average shall be cause for disqualification and forfeiture of entry fees and prize winnings.
+1. The entering average of any bowler may be adjusted at the discretion of the Tournament Director(s), and SFGGC reserves the right to take into account any specialty tournaments and events (i.e., 5, 8 &amp; 10 game tournaments, Vegas Pot Games, etc.) in adjusting a bowler&apos;s entering average.
+`,
+    },
+    {
+      header: 'Attendance and Substitutes',
+      markdown: `
+1. It is solely and entirely the bowler&apos;s responsibility to be present at the assigned lanes at the time of bowling.
+1. There shall be ten (10) minutes of practice allowed before each event.
+1. Complete Doubles and Team entrants must be present for bowling each event. If a team member or doubles partner is not present, an authorized substitute may be used. If no substitute is available, a zero score will be used for the missing bowler(s).
+1. Late bowlers will begin bowling in the frame in which they are ready, with prior frames being scored as zero. No practice balls will be allowed for late bowlers.
+1. Substitutes may bowl at the discretion of the Tournament Director. Their entering average must comply with SFGGC Rules.
+1. In the event a bowler cannot participate in the tournament or complete any single event due to illness or injury, an authorized substitute may be used.
+    1. Substitutes may not begin bowling mid-game. The entry of a substitute must be at the beginning of a game.
+`,
+    },
+    {
+      header: 'Entry Requirements',
+      markdown: `
+1. Entries shall be limited to two hundred sixteen (216) bowlers, across fifty-four (54) teams.
+1. Entries must be paid in full, online, via the Tournio registration system, available at [https://tourn.io](https://tourn.io).
+1. An entry will not be considered completed until the entry fee and any required IGBO Associate Fee is **paid in full**. Bowlers who are registered but have not paid in full by the end of the Standard period shall owe the Late fee.
+1. There will be NO REFUNDS after acceptance of a completed entry by the tournament committee, except at the discretion of the Tournament Director(s).
+1.  The entry deadline for the tournament is February 3, 2023, 12:00 AM PT. This includes payment of all fees.
+1. Partial team entries will be accepted and the tournament committee will make every effort to fill vacancies.
+1. Bowlers who have free entry codes must indicate such in their online entry, prior to completing any online payment.
+    1. Free entry codes are subject to verification by the tournament committee.
+    2. No refunds shall be issued for bowlers whose free entry codes cannot be verified. 
+`,
+    },
+    {
+      header: 'Entry Fee and Prize Distribution',
+      markdown: `
+5.  The Entry fee:
+
+    *  $109 – Standard fee: Completed entries received at or before **Jan 19, 2024, 11:59pm PT**
+    *  $119 – Late fee: Completed entries received at or after **Jan 20, 2024, 12:00am PT**
+    
+    Standard entry fee breakdown:
+    
+    * Lineage: $49.50
+    * IGBO Donation: $1
+    * Prize fund: $35
+    * Awards / Food / Expenses: $23.50
+
+16.  Cash prizes: A bowler may win only one (1) special awards prize. Each event has its own prize list, based on at least a 1:10 ratio. All prize fees collected for an event will be returned 100% to the participants of that event. This does not include optional events.
+`,
+    },
+    {
+      header: 'Protests',
+      markdown: `
+1.  All claims of error must be submitted, in writing, to the Tournament Director(s) within one (1) hour of the completion of a bowler or team&apos;s games in an event. In matters of dispute, the decision(s) of the Director(s) will be final, unless an appeal is made in accordance with UBSC Rule #329.
+`,
+    },
+    {
+      header: 'Optional Events',
+      markdown: `
+1. Optional events may be operated by entities other than the SFGGC committee. Bowlers are expected to follow all rules associated with each event. Any disqualification from the Tournament may result in disqualification from any or all optional events as well.
+1. All optional events are scored on a best-effort basis; the maximum liability resulting from any error due to bowler(s) and/or operator(s) of an optional event shall be limited to the entry cost for that event.
+`,
+    },
+    {
+      header: 'General',
+      markdown: `
+1. The SFGGC and Classic Bowling Center bear no liability for potential exposure to COVID-19 during the tournament. The tournament and the bowling center will adhere to all federal, state, and local regulations regarding public health precautions. All bowlers, staff, and volunteers will be required to comply with relevant requirements.
+1. Any person attending SFGGC who requires special assistance must notify the Tournament Director(s) in writing prior to the tournament weekend.
+1. All bowlers will adhere to a one-lane courtesy.
+`,
+    },
+  ];
 
   const scratchMarkdown = `
 1.  The Scratch Masters, in conjunction with the SFGGC, is an optional mixed competition open to all tournament entrants. The Scratch Masters has a separate entry fee, and the amount is based on division. Prize money for each division consists of the total entry fees received in that division.
 2.  The Scratch Masters divisions are defined as:
-    1.  Top 25% of All Entering Averages
-    2.  2nd Highest 25% of All Entering Averages
-    3.  3rd Highest 25% of All Entering Averages
-    4.  Lowest 25% of All Entering Averages
-3.  The divisions will be announced once registration has closed, and all averages have been verified.
+    *  Division A: 208+ &ndash; entry fee $60
+    *  Division B: 190-207 &ndash; entry fee $50
+    *  Division C: 170-189 &ndash; entry fee $45
+    *  Division D: 0-169 &ndash; entry fee $40
 4.  Tournament Director(s) may place a bowler into a higher division at their discretion. Any such adjustment will be made before the entrant bowls.
 5.  The scratch scores from Team and Doubles events ONLY (scores from Singles are excluded) from the SFGGC will be used to determine the eight (8) qualifiers and one alternate in each division. Scores DO NOT carry over from the regular tournament. A tie for 8th position is broken by bowling one complete game prior to play to determine the qualifier.
 6.  All scores bowled in Scratch Masters and all scores used to determine qualifiers are scratch (no handicap added at any time).
@@ -72,7 +177,6 @@ const Rules = () => {
 
   return (
     <div>
-
       <section className={styles.Rules}>
         <h3 className={`section-heading`}>
           Tournament Rules
@@ -88,7 +192,21 @@ const Rules = () => {
           </a>
         </p>
 
-        <ReactMarkdown>{rulesMarkdown}</ReactMarkdown>
+        <p>
+          The 2024 San Francisco Golden Gate Classic shall be held from Friday, February 16, through Sunday, February 18, 2024, at Classic Bowling Center, located at 900 King Dr., Daly City, CA 94015.
+        </p>
+
+        <ol>
+          {sections.map((section, i) => (
+            <li key={i}>
+              <h4>
+                {section.header}
+              </h4>
+
+              <ReactMarkdown>{section.markdown}</ReactMarkdown>
+            </li>
+          ))}
+        </ol>
       </section>
 
       <section className={styles.Rules}>
