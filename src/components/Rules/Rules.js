@@ -15,7 +15,7 @@ const Rules = () => {
     {
       header: 'Sanctioning',
       markdown: `
-1. The 2024 San Francisco Golden Gate Classic (SFGGC) is a USBC certified tournament, certification number [CERT NUMBER TBD]. All participants must be current members of the USBC.
+1. The 2024 San Francisco Golden Gate Classic (SFGGC) is a USBC certified tournament, certification number 04803. All participants must be current members of the USBC.
 1. SFGGC is a member of the International Gay Bowling Organization (IGBO).
     1.  All participants must be league associates (bowl as a regularly-rostered
 member of an IGBO-member league – note that bowling as a substitute on an
@@ -116,7 +116,7 @@ any IGBO-affiliated tournament for a 12-month period.
     {
       header: 'Entry Fee and Prize Distribution',
       markdown: `
-5.  The Entry fee:
+1.  The Entry fee:
 
     *  $109 – Standard fee: Completed entries received at or before **Jan 19, 2024, 11:59pm PT**
     *  $119 – Late fee: Completed entries received at or after **Jan 20, 2024, 12:00am PT**
@@ -124,11 +124,11 @@ any IGBO-affiliated tournament for a 12-month period.
     Standard entry fee breakdown:
     
     * Lineage: $49.50
-    * IGBO Donation: $1
-    * Prize fund: $35
+    * IGBO Donation: $2
+    * Prize fund: $34
     * Awards / Food / Expenses: $23.50
 
-16.  Cash prizes: A bowler may win only one (1) special awards prize. Each event has its own prize list, based on at least a 1:10 ratio. All prize fees collected for an event will be returned 100% to the participants of that event. This does not include optional events.
+1.  Cash prizes: A bowler may win only one (1) special awards prize. Each event has its own prize list, based on at least a 1:10 ratio. All prize fees collected for an event will be returned 100% to the participants of that event. This does not include optional events.
 `,
     },
     {
