@@ -13,8 +13,8 @@ const Schedule = () => {
           time: '6pm - 8pm',
         },
         {
-          name: '9-pin No-Tap Mixer',
-          detail: '3 games, $30 per bowler',
+          name: 'Tournament Mixer',
+          detail: 'Details TBA',
           more: 'Open to all, including non-tournament bowlers',
           time: '8pm - 10pm',
         },
@@ -30,7 +30,7 @@ const Schedule = () => {
           time: '12pm - 2pm',
         },
         {
-          name: 'Doubles and Team Events',
+          name: 'Doubles and Singles Events',
           detail: '30-minute break between events',
           more: '',
           time: '2:30pm - 8:30pm',
@@ -41,7 +41,7 @@ const Schedule = () => {
       date: 'Sunday, February 18',
       events: [
         {
-          name: 'Singles Event',
+          name: 'Team Event',
           detail: '',
           more: '',
           time: '10am - 1pm',
