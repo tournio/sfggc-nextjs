@@ -12,20 +12,20 @@ import styles from './Sponsors.module.scss';
 
 const Sponsors = () => {
   const sponsorDetails = [
-    // {
-    //   alt: 'Brunswick Bowling Products',
-    //   href: 'https://brunswickbowling.com/',
-    //   title: 'Brunswick Bowling Products',
-    //   src: brunswick,
-    //   classNames: styles.AdjustedBrightness,
-    // },
     {
-      alt: 'Storm Bowling Products',
-      href: 'https://stormbowling.com/',
-      title: 'Storm Bowling Products',
-      src: storm,
+      alt: 'Brunswick Bowling Products',
+      href: 'https://brunswickbowling.com/bowlers',
+      title: 'Brunswick Bowling Products',
+      src: brunswick,
       classNames: styles.AdjustedBrightness,
     },
+    // {
+    //   alt: 'Storm Bowling Products',
+    //   href: 'https://stormbowling.com/',
+    //   title: 'Storm Bowling Products',
+    //   src: storm,
+    //   classNames: styles.AdjustedBrightness,
+    // },
     {
       alt: 'The International Gay Bowling Organization',
       href: 'http://www.igbo.org/',

@@ -72,12 +72,12 @@ const Committee = () => {
             />
             <div className={`card-body`}>
               <p className={`${styles.Name}`}>
-                <a href={'mailto:directors@goldengateclassic.org?subject=About%20the%20Golden%20Gate%20Classic'}>
+                {/*<a href={'mailto:directors@goldengateclassic.org?subject=About%20the%20Golden%20Gate%20Classic'}>*/}
                   Allison Laureano
-                </a>
+                {/*</a>*/}
               </p>
               <p className={styles.Role}>
-                Treasurer
+                Operations
               </p>
             </div>
           </div>
@@ -127,33 +127,33 @@ const Committee = () => {
               Committee &amp; Volunteers
             </div>
             <ul className="list-group list-group-flush">
-              <li className="list-group-item">
-                Vince Wilson
-              </li>
-              <li className="list-group-item">
-                Robert Hughes
-              </li>
+              {/*/!*<li className="list-group-item">*!/*/}
+              {/*/!*  Vince Wilson*!/*/}
+              {/*/!*</li>*!/*/}
+              {/*<li className="list-group-item">*/}
+              {/*  Robert Hughes*/}
+              {/*</li>*/}
               <li className="list-group-item">
                 Cathy Patterson
               </li>
-              <li className="list-group-item">
-                R.H. Ryan
-              </li>
-              <li className="list-group-item">
-                Stephen Ingram
-              </li>
-              <li className="list-group-item">
-                Corey Lindabury
-              </li>
-              <li className="list-group-item">
-                Patrick O&apos;Connor
-              </li>
-              <li className="list-group-item">
-                Mark Bertelsen
-              </li>
-              <li className="list-group-item">
-                Saman Oun
-              </li>
+              {/*<li className="list-group-item">*/}
+              {/*  R.H. Ryan*/}
+              {/*</li>*/}
+              {/*<li className="list-group-item">*/}
+              {/*  Stephen Ingram*/}
+              {/*</li>*/}
+              {/*<li className="list-group-item">*/}
+              {/*  Corey Lindabury*/}
+              {/*</li>*/}
+              {/*<li className="list-group-item">*/}
+              {/*  Patrick O&apos;Connor*/}
+              {/*</li>*/}
+              {/*<li className="list-group-item">*/}
+              {/*  Mark Bertelsen*/}
+              {/*</li>*/}
+              {/*<li className="list-group-item">*/}
+              {/*  Saman Oun*/}
+              {/*</li>*/}
             </ul>
           </div>
         </div>
