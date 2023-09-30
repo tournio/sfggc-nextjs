@@ -3,14 +3,6 @@ import ReactMarkdown from "react-markdown";
 import React from "react";
 
 const Rules = () => {
-  const placeholder = `
-1. One
-2. Two
-3. Three
-4. Four
-5. Five
-`;
-
   const sections = [
     {
       header: 'Sanctioning',
@@ -166,7 +158,7 @@ const Rules = () => {
     *  Division C: 170-189 &ndash; entry fee $45
     *  Division D: 0-169 &ndash; entry fee $40
 1.  Tournament Director(s) may place a bowler into a higher division at their discretion. Any such adjustment will be made before the entrant bowls.
-1.  The scratch scores from Team and Doubles events ONLY (scores from Singles are excluded) from the SFGGC will be used to determine the eight (8) qualifiers and one alternate in each division. Scores DO NOT carry over from the regular tournament. A tie for 8th position is broken by using the tied bowlers' scratch scores from the Team competition to determine the qualifier.
+1.  The scratch scores from Doubles and Singles events ONLY from the SFGGC will be used to determine the eight (8) qualifiers and one alternate in each division. Scores DO NOT carry over from the regular tournament. A tie for 8th position is broken by using the tied bowlers&apos; scratch scores from the Team competition to determine the qualifier.
 1.  All scores bowled in Scratch Masters and all scores used to determine qualifiers are scratch (no handicap added at any time).
 1.  All 8 qualifiers will get 10 minutes of practice on all lanes assigned to their division prior to the start of Scratch Masters.
 1.  The competition will proceed as follows:
