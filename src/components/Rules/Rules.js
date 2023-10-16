@@ -43,7 +43,7 @@ const Rules = () => {
       header: 'Entering Averages',
       markdown: `
 1. SFGGC handicap is based on 90% of the difference between a bowler&apos;s entering average and 220. Negative handicap will not apply.
-1. All bowlers entering SFGGC must be able to provide proof of having an established ten-pin average acceptable to USBC. Proof of average is defined as:
+1. All bowlers entering SFGGC must be able to provide proof of having an established ten-pin average acceptable to the Tournament Directors. Proof of average is defined as:
     1. A credible website with free access (i.e., bowl.com, leaguesecretary.com) 
     1. A clear picture or scanned copy of a league standings sheet
     1. A hard copy of a league sheet with name and average highlighted
