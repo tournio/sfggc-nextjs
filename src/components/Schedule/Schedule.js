@@ -10,11 +10,11 @@ const Schedule = () => {
           name: 'Tournament Check-in',
           detail: 'Bowling center meeting room',
           more: '',
-          time: '6pm - 8pm',
+          time: '6pm - 7:45pm',
         },
         {
-          name: 'Tournament Mixer',
-          detail: 'Details TBA',
+          name: '9-pin No-tap',
+          detail: 'Classic Bowling Center',
           more: 'Open to all, including non-tournament bowlers',
           time: '8pm - 10pm',
         },
@@ -27,12 +27,12 @@ const Schedule = () => {
           name: 'Tournament Check-in',
           detail: 'Bowling center meeting room',
           more: '',
-          time: '12pm - 2pm',
+          time: '12pm - 1:45pm',
         },
         {
           name: 'Doubles and Singles Events',
           detail: '30-minute break between events',
-          more: '',
+          // more: 'We&apos;ll provide food between events!',
           time: '2:30pm - 8:30pm',
         },
       ]
@@ -46,6 +46,12 @@ const Schedule = () => {
           more: '',
           time: '10am - 1pm',
         },
+        // {
+        //   name: 'Awards Presentation',
+        //   detail: 'Classic Bowling Center',
+        //   more: 'We&apos;ll provide food between the Team event and Scratch Masters!',
+        //   time: '1pm - 2pm',
+        // },
         {
           name: 'Scratch Masters',
           detail: '',
@@ -85,6 +91,11 @@ const Schedule = () => {
                     {e.detail && (
                       <p>
                         {e.detail}
+                      </p>
+                    )}
+                    {e.more && (
+                      <p className={styles.More}>
+                        {e.more}
                       </p>
                     )}
                   </div>

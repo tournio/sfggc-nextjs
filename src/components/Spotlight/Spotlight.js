@@ -1,7 +1,7 @@
 import styles from './Spotlight.module.scss';
 
 const Spotlight = () => {
-  const REGISTER_URL = 'https://www.tourn.io/tournaments/';
+  const REGISTER_URL = 'https://www.tourn.io/tournaments/sfggc-2024';
 
   const prelimText = <p>
     A San Francisco institution for decades, the Golden Gate Classic brings together bowlers from across the country,
@@ -23,11 +23,20 @@ const Spotlight = () => {
     </>
   );
 
+  const registrationOpeningDate = (
+    <>
+      <p>
+        Registration opens to the public on November 15, so get your keyboards ready!
+      </p>
+    </>
+  );
+
   return (
     <section className={`${styles.Spotlight}`}>
       <div className={``}>
         {prelimText}
         {/*{registrationOpen}*/}
+        {registrationOpeningDate}
       </div>
     </section>
   );
