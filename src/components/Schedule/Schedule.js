@@ -46,12 +46,12 @@ const Schedule = () => {
           more: '',
           time: '10am - 1pm',
         },
-        // {
-        //   name: 'Awards Presentation',
-        //   detail: 'Classic Bowling Center',
-        //   more: 'We&apos;ll provide food between the Team event and Scratch Masters!',
-        //   time: '1pm - 2pm',
-        // },
+        {
+          name: 'Cocktails & Results',
+          detail: 'Classic Bowling Center',
+          // more: 'We&apos;ll provide food between the Team event and Scratch Masters!',
+          time: '1pm - 2pm',
+        },
         {
           name: 'Scratch Masters',
           detail: '',
