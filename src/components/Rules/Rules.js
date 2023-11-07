@@ -151,26 +151,26 @@ const Rules = () => {
   ];
 
   const scratchMarkdown = `
-1.  The Scratch Masters, in conjunction with the SFGGC, is an optional mixed competition open to all tournament entrants. The Scratch Masters has a separate entry fee, and the amount is based on division. Prize money for each division consists of the total entry fees received in that division.
+1.  The Scratch Masters, in conjunction with the SFGGC, is an optional mixed competition open to all tournament entrants. The Scratch Masters has a separate entry fee, and the amount is based on division.
 1.  The Scratch Masters divisions are defined as:
     *  Division A: 208+ &ndash; entry fee $60
     *  Division B: 190-207 &ndash; entry fee $50
     *  Division C: 170-189 &ndash; entry fee $45
     *  Division D: 0-169 &ndash; entry fee $40
 1.  Tournament Director(s) may place a bowler into a higher division at their discretion. Any such adjustment will be made before the entrant bowls.
-1.  The scratch scores from all three (3) events &ndash; Doubles, Singles, and Team &ndash; will be used to determine the eight (8) qualifiers and one alternate in each division. Scores DO NOT carry over from the regular tournament. A tie for 8th position will be broken by a 9th-and-10th-frame rolloff.
+1.  The scratch scores from all three (3) events &ndash; Doubles, Singles, and Team &ndash; will be used to determine the six (6) qualifiers and one alternate in each division. Scores DO NOT carry over from the regular tournament. A tie for 6th position will be broken by a 9th-and-10th-frame rolloff.
 1.  All scores bowled in Scratch Masters and all scores used to determine qualifiers are scratch (no handicap added at any time).
-1.  All 8 qualifiers will get 10 minutes of practice on all lanes assigned to their division prior to the start of Scratch Masters.
+1.  All six qualifiers will get 10 minutes of practice on all lanes assigned to their division prior to the start of Scratch Masters.
 1.  The competition will proceed as follows:
-    1. The top eight (8) qualifiers in each division will bowl 3 games each, 2 bowlers on one pair of lanes. After each game, bowlers will switch to a different set of lanes in their division (based on scratch masters lane schedule).
-    1. The total scratch scores will be added after the first 3 games, then 4 bowlers will be dropped (ranked 5th-8th for final standings) and 4 bowlers will advance. In the event there is a tie after the 3 games, a **one-ball** roll-off will occur. If bowlers are still tied, they will continue to bowl one ball each until the tie is broken.
+    1. The top six (6) qualifiers in each division will bowl 3 games each, 2 bowlers on one pair of lanes. After each game, bowlers will switch to a different set of lanes in their division (based on scratch masters lane schedule).
+    1. The total scratch scores will be added after the first 3 games, then 2 bowlers will be dropped (ranked 5th and 6th for final standings) and 4 bowlers will advance. In the event there is a tie after the 3 games, a **one-ball** roll-off will occur. If bowlers are still tied, they will continue to bowl one ball each until the tie is broken.
     1.  The remaining 4 bowlers will bowl in a head-to-head, stepladder fashion and all previous scores will be discarded. The 4th place bowler will bowl the 3rd place bowler. The winner will advance and bowl the 2nd place bowler and the winner of that game will bowl the 1st place qualifier for the championship. In each of the stepladder games, the bowler seeded higher will get to choose to finish first or last.
 1.  A lane schedule will be given to each division prior to the start of competition. No exceptions. The bowlers are responsible for checking if they have qualified.
 1.  Bowlers must be physically present for check-in thirty (30) minutes prior to the scheduled start of the Scratch Masters competition. A bowler who does not check in as specified will be immediately disqualified and replaced by the alternate. If the alternate is not present, the spot will be filled by the next-highest ranking bowler in the division present at the time of check-in.
-1.  The match game competition will begin within one hour of the end of the Singles event on Sunday, February 18, 2023. Each Division will bowl on a different set of eight (8) lanes.
+1.  The match game competition will begin approximately one hour after the end of the Team event on Sunday, February 18, 2023. Each Division will bowl on a different set of six (6) lanes.
 1.  Any claims of error in the roll-off must be submitted before the start of the next match. Any claim of an error in the final match must be reported with one (1) hour of the completion of the final match.
-1.  Payout for this optional Scratch Masters event will be 100% of the entry fees paid by participants by division. The award ratio for Scratch Masters by division shall be at a minimum of 1 in 2 entries, with a maximum of 6 places paid in each division.
-1.  If fewer than 8 bowlers in any division sign up for Scratch Masters, they will be given the option of having their fee refunded or moving up to the next higher division.`;
+1.  Payout for this optional Scratch Masters event will be 100% of the entry fees (less lineage) per division. The award ratio for Scratch Masters by division shall be at a minimum of 1 in 2 entries, with a maximum of 6 places paid in each division.
+1.  If fewer than 6 bowlers in any division sign up for Scratch Masters, they will be given the option of having their fee refunded or moving up to the next higher division.`;
 
   return (
     <div>
