@@ -11,11 +11,8 @@ const Spotlight = () => {
   const registrationOpen = (
     <>
       <p>
-        Registration is open.
-      </p>
-      <p>
         <a href={REGISTER_URL}
-           className={``}
+           className={`btn btn-lg btn-success`}
         >
           Register Online
         </a>
@@ -23,20 +20,20 @@ const Spotlight = () => {
     </>
   );
 
-  const registrationOpeningDate = (
-    <>
-      <p>
-        Registration opens to the public on November 15, so get your keyboards ready!
-      </p>
-    </>
-  );
+  // const registrationOpeningDate = (
+  //   <>
+  //     <p>
+  //       Registration opens to the public on November 15, so get your keyboards ready!
+  //     </p>
+  //   </>
+  // );
 
   return (
     <section className={`${styles.Spotlight}`}>
       <div className={``}>
         {prelimText}
-        {/*{registrationOpen}*/}
-        {registrationOpeningDate}
+        {registrationOpen}
+        {/*{registrationOpeningDate}*/}
       </div>
     </section>
   );

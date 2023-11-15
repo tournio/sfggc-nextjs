@@ -3,7 +3,6 @@ import Hero from "../components/Hero/Hero";
 import Location from "../components/Location/Location";
 import Schedule from '../components/Schedule/Schedule';
 import SanFrancisco from "../components/SanFrancisco/SanFrancisco";
-import Beneficiary from "../components/Beneficiary/Beneficiary";
 
 const MainPage = () => {
   return (
@@ -13,9 +12,6 @@ const MainPage = () => {
       <Location/>
       <Schedule/>
       <SanFrancisco full={false}/>
-      {/*<Beneficiary/>*/}
-
-      {/*<RegisterCTA/>*/}
 
     </div>
   )
