@@ -7,7 +7,7 @@ const Rules = () => {
     {
       header: 'Sanctioning',
       markdown: `
-1. The 2024 San Francisco Golden Gate Classic (SFGGC) is a USBC certified tournament, certification number 04803. All participants must be current members of the USBC.
+1. The 2024 San Francisco Golden Gate Classic (SFGGC) is a USBC certified tournament, certification number 04803. All participants must be current, adult members of the USBC.
 1. SFGGC is a member of the International Gay Bowling Organization (IGBO).
     1.  All participants must be league associates (bowl as a regularly-rostered member of an IGBO-member league – note that bowling as a substitute on an IGBO-member league does not satisfy this requirement) or direct associates (having paid the $25.00 direct associate fee within the 12 months immediately preceding this tournament) of IGBO.
     1.  Those who do not meet the requirements above will be required to pay a $25.00 IGBO direct associate fee. This fee entitles the bowler to participate in any IGBO-affiliated tournament for a 12-month period. This fee may be paid either [directly to IGBO](https://reg.sportlomo.com/club/igbo/igboassociates), or to the tournament via Tournio.
