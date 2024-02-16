@@ -1,4 +1,5 @@
 import styles from './Spotlight.module.scss';
+import Link from "next/link";
 
 const Spotlight = () => {
   // const prelimText = <p>
@@ -20,14 +21,32 @@ const Spotlight = () => {
   //   </p>
   // );
 
-  const almostTime = (
+  const scratchMastersResults = (
+    <p>
+      Scratch Masters results can be found <Link href={'/results'}>here</Link>.
+    </p>
+  )
+
+  // const almostTime = (
+  //   <>
+  //     <p>
+  //       It&apos;s almost tournament weekend! We want to wish everyone a warm welcome to the Bay Area. Thank you for being part of our tournament; we literally could not do it without you!
+  //     </p>
+  //     <p>
+  //       Keep an eye on this space for updates between now and the end of tournament weekend.
+  //     </p>
+  //   </>
+  // );
+
+  const itsTime = (
     <>
       <p>
-        It&apos;s almost tournament weekend! We want to wish everyone a warm welcome to the Bay Area. Thank you for being part of our tournament; we literally could not do it without you!
+        It&apos;s tournament weekend! We want to wish everyone a warm welcome to the Bay Area, even if the weather isn&apos;t really cooperating. Thank you for being part of our tournament; we literally could not do it without you!
       </p>
       <p>
         Keep an eye on this space for updates between now and the end of tournament weekend.
       </p>
+      {/*{scratchMastersResults}*/}
     </>
   );
 
@@ -38,7 +57,9 @@ const Spotlight = () => {
         {/*{registrationOpeningDate}*/}
         {/*{registrationOpen}*/}
         {/*<RegisterCTA/>*/}
-        {almostTime}
+        {/*{almostTime}*/}
+        {itsTime}
+        {/*{scratchMastersResults}*/}
       </div>
     </section>
   );
