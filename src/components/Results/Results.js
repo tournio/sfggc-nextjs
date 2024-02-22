@@ -3,13 +3,14 @@ import styles from './Results.module.scss';
 const Results = () => {
   const available = [
     [
-      { id: 'scratch_masters_qualifiers', name: 'Scratch Masters Qualifiers' },
-      // { id: 'team', name: 'Team Event' },
-      // { id: 'doubles', name: 'Doubles Event' },
-      // { id: 'singles', name: 'Singles Event' },
-      // { id: 'all_events', name: 'All Events' },
-      // { id: 'optional_scratch', name: 'Optional Scratch' },
-      // { id: 'scratch_masters', name: 'Scratch Masters Finals' },
+      { id: 'doubles', name: 'Doubles Event' },
+      { id: 'singles', name: 'Singles Event' },
+      { id: 'team', name: 'Team Event' },
+      { id: 'all_events', name: 'All Events' },
+      { id: 'scratch_masters', name: 'Scratch Masters' },
+      { id: 'best_3_of_9', name: 'Best 3 of 9' },
+      { id: 'shadow_team', name: 'Shadow Team' },
+      { id: 'optional_scratch', name: 'Optional Scratch' },
     ],
   ];
 
@@ -28,13 +29,13 @@ const Results = () => {
                   return (
                     <li key={j} className={`list-group-item ${styles.ResultItem} d-flex justify-content-between`}>
                       <a href={`/results/2024/${result.id}.pdf`}
-                         className={`${styles.ResultLink} mt-2`}>
+                         className={`link-info mt-2`}>
                         {`${result.name}`}
                       </a>
-                      <a className={`btn`}
+                      <a className={`btn btn-outline-info`}
                               href={`/results/2024/${result.id}.pdf`}
                               title='Download PDF'>
-                        <i className="bi-download" aria-hidden={true}></i>
+                        <i className={`bi-download`} aria-hidden={true}></i>
                       </a>
                     </li>
                   );

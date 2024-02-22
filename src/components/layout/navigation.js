@@ -56,8 +56,9 @@ const Navigation = () => {
                 {navLink({
                   path: 'https://www.tourn.io/tournaments/sfggc-2024',
                   text: 'Register',
-                  // disabled: true,
-                  title: 'Get your team registered!',
+                  disabled: true,
+                  // title: 'Get your team registered!',
+                  title: 'Registration is closed.'
                 })}
 
                 {/*<li className={`nav-item`}>*/}
@@ -103,8 +104,8 @@ const Navigation = () => {
                 {navLink({
                   path: '/results',
                   text: 'Results',
-                  disabled: true,
-                  title: 'Results are not yet available',
+                  disabled: false,
+                  title: '2024 results are here',
                 })}
 
               </ul>
