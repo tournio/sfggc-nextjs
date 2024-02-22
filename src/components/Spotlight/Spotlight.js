@@ -59,7 +59,7 @@ const Spotlight = () => {
           Drop us a line!
         </a>
       </p>
-      <p>Results for everything will be posted here as soon as they are available.</p>
+      <p>Results are available <Link href={'/results'}>here</Link>.</p>
     </>
   )
 
