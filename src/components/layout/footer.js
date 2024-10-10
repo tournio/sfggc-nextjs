@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <p className={`col-12 text-center pt-3`}>
           <span>
-            &copy; 2023&nbsp;
+            &copy; 2024&nbsp;
           </span>
             <span className={'d-md-none pe-2'}>
             SF Golden Gate Classic

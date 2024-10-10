@@ -2,11 +2,9 @@ import Image from "next/image";
 
 import styles from './Committee.module.scss';
 
-import scott from '../../images/committee/scott.jpg';
 import glenn from '../../images/committee/glenn.jpg';
 import allison from '../../images/committee/allison.jpg';
 import duane from '../../images/committee/duane.jpg';
-import richard from '../../images/committee/richard.jpg';
 import robert from '../../images/committee/robert.jpg';
 
 const Committee = () => {
@@ -77,26 +75,7 @@ const Committee = () => {
                 {/*</a>*/}
               </p>
               <p className={styles.Role}>
-                Operations
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className={`col-6 col-sm-4 col-lg-3`}>
-          <div className={`card ${styles.Card}`}>
-            <Image src={scott}
-                   alt={'Scott with a cat on his back'}
-                   className={`img-fluid card-img-top ${styles.Image}`}
-            />
-            <div className={`card-body`}>
-              <p className={`${styles.Name}`}>
-                <a href={'mailto:website@goldengateclassic.org?subject=About%20the%20Golden%20Gate%20Classic'}>
-                  Scott Stebleton
-                </a>
-              </p>
-              <p className={styles.Role}>
-                Secretary &amp; Technologist
+                Operations &amp; Technologist
               </p>
             </div>
           </div>
@@ -159,28 +138,6 @@ const Committee = () => {
         </div>
       </div>
 
-      <hr />
-
-      <div className={`row ${styles.Thanks} g-0`}>
-        <div className={`col-12 col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center`}>
-          <div className={styles.Photo}>
-            <Image src={richard}
-                   alt={'Richard Perez'}
-                   className={`img-fluid ${styles.Image}`}
-            />
-          </div>
-        </div>
-        <div className={`col`}>
-          <p>
-            The committee wishes to extend its utmost gratitude and appreciation to Richard Perez. Richard &ndash; &quot;Chewie&quot; to his friends &ndash; has been part of the Golden Gate Classic for more than a decade, the last few years of which he served as Director, including our first year back post-pandemic!
-          </p>
-          <p>At IGBO Annual 2023, Richard was elected IGBO Treasurer. That's a big job, so it means stepping away from any work with the tournament. (It also means he&apos;ll get to bowl again!)
-          </p>
-          <p>
-            Chewie, thank you for all you do, have done, and continue to do for the tournament and for IGBO. And good luck in February!
-          </p>
-        </div>
-      </div>
     </section>
   )
 }
