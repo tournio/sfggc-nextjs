@@ -4,7 +4,7 @@ const Schedule = () => {
 
   const days = [
     {
-      date: 'Friday, February 16',
+      date: 'Friday, February 14',
       events: [
         {
           name: 'Tournament Check-in',
@@ -21,7 +21,7 @@ const Schedule = () => {
       ]
     },
     {
-      date: 'Saturday, February 17',
+      date: 'Saturday, February 15',
       events: [
         {
           name: 'Tournament Check-in',
@@ -38,7 +38,7 @@ const Schedule = () => {
       ]
     },
     {
-      date: 'Sunday, February 18',
+      date: 'Sunday, February 16',
       events: [
         {
           name: 'Team Event',

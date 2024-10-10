@@ -7,7 +7,7 @@
   }
 
   ol > li {
-    list-style-type: upper-alpha;
+    list-style-type: decimal;
     & > ol > li {
       list-style-type: decimal;
       & > ol > li {
@@ -22,5 +22,21 @@
     padding-left: 0.5rem;
     line-height: 1.5rem;
     margin-bottom: 0.5rem;
+  }
+  .Sponsor {
+    .Intro {
+      font-style: italic;
+      font-size: 90%;
+    }
+    .Name {
+      display: block;
+      font-weight: bold;
+      font-size: 110%;
+    }
+    address {
+      .Line {
+        display: block;
+      }
+    }
   }
 }
