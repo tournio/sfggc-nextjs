@@ -54,11 +54,11 @@ const Navigation = () => {
                 })}
 
                 {navLink({
-                  path: 'https://www.tourn.io/tournaments/sfggc-2024',
+                  path: 'https://go.signmeup.io/?eventid=18',
                   text: 'Register',
-                  disabled: true,
-                  // title: 'Get your team registered!',
-                  title: 'Registration is closed.'
+                  // disabled: true,
+                  title: 'Get your team registered!',
+                  // title: 'Registration is closed.'
                 })}
 
                 {/*<li className={`nav-item`}>*/}

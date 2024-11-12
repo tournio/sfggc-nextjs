@@ -1,6 +1,7 @@
 import Spotlight from "../Spotlight/Spotlight";
 
 import styles from './Hero.module.scss';
+import RegisterCTA from "../RegisterCTA/RegisterCTA";
 
 const Hero = () => {
 
@@ -25,6 +26,8 @@ const Hero = () => {
         <h4 className={`display-4 ${styles.Weekend}`}>
           Presidents Day Weekend
         </h4>
+
+        <RegisterCTA/>
       </div>
 
       <Spotlight/>
