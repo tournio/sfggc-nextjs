@@ -1,5 +1,5 @@
 import styles from './Spotlight.module.scss';
-import Link from "next/link";
+// import Link from "next/link";
 
 const Spotlight = () => {
   const prelimText = (
@@ -9,17 +9,17 @@ const Spotlight = () => {
     </p>
   );
 
-  const registrationOpeningDate = (
-    <p>
-      Registration opens to the public in mid-November, so get your keyboards ready!
-    </p>
-  );
-
-  // const registrationOpen = (
+  // const registrationOpeningDate = (
   //   <p>
-  //     Registration is open! Now is the time to get your team&apos;s entry in.
+  //     Registration opens to the public in mid-November, so get your keyboards ready!
   //   </p>
   // );
+
+  const registrationOpen = (
+    <p>
+      Registration is open! Now is the time to get your team&apos;s entry in.
+    </p>
+  );
 
   // const scratchMastersResults = (
   //   <p>
@@ -67,8 +67,8 @@ const Spotlight = () => {
     <section className={`${styles.Spotlight}`}>
       <div className={``}>
         {prelimText}
-        {registrationOpeningDate}
-        {/*{registrationOpen}*/}
+        {/*{registrationOpeningDate}*/}
+        {registrationOpen}
         {/*<RegisterCTA/>*/}
         {/*{almostTime}*/}
         {/*{itsTime}*/}
