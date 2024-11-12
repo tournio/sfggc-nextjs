@@ -1,6 +1,6 @@
 import styles from './RegisterCTA.module.scss';
 
-const REGISTER_URL = 'https://www.tourn.io/tournaments/sfggc-2024';
+const REGISTER_URL = 'https://go.signmeup.io/?eventid=18';
 
 const RegisterCTA = () => (
   <div className={styles.RegisterCTA}>
