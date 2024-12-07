@@ -15,7 +15,7 @@ const Schedule = () => {
         {
           name: '9-pin No-tap',
           detail: 'Classic Bowling Center',
-          more: '$30 entry fee, open to all',
+          more: '$35 entry fee, open to all',
           time: '8pm - 10pm',
         },
       ]
