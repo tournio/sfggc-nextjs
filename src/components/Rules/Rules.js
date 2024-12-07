@@ -39,7 +39,7 @@ const Rules = () => {
 * Handicap: 90% of the difference between average and 220.
 * The Highest of:
   * Composite League Average 2023-2024 (with at least 21 games bowled)
-  * IGBO Tournament Avg (TAD) from 1/1/24 to 12/31/24 (minimum 9 games)
+  * IGBO Tournament Average (TAD) from 1/1/24 to 12/31/24 (minimum 9 games)
   * Composite League Average 2024-2025 as of 12/31/2024 (with at least 21 games bowled)
   * If none of the above applies, contact us as soon as possible (directors@goldengateclassic.org).
 * Averages must be verified via credible websites or documents.
