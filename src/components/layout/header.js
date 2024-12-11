@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export const siteTitle = 'San Francisco Golden Gate Classic 2024';
+export const siteTitle = 'San Francisco Golden Gate Classic';
 
 const Header = () => (
   <Head>
