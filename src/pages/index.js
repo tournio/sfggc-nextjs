@@ -4,6 +4,7 @@ import Location from "../components/Location/Location";
 import Schedule from '../components/Schedule/Schedule';
 import SanFrancisco from "../components/SanFrancisco/SanFrancisco";
 import Mission from "../components/Mission/Mission";
+import HostVenue from "../components/HostVenue/HostVenue";
 
 const MainPage = () => {
   return (
@@ -13,6 +14,7 @@ const MainPage = () => {
       <Mission/>
       <Location/>
       <Schedule/>
+      <HostVenue/>
       <SanFrancisco full={false}/>
 
     </div>
