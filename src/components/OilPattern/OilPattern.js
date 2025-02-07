@@ -1,9 +1,10 @@
 import Image from "next/image";
-import styles from './OilPattern.module.scss';
+import styles from './oilpattern.module.scss';
 import oilPatImage from '../../images/Easy Street V2.jpg';
 
 const OilPattern = () => {
   return (
+  <section className={`${styles.oilpattern}`} id={'section-oilpattern'}>
     <h3 className={`section-heading`}>
       2025 Tournament Oil Pattern
     </h3>
@@ -28,6 +29,7 @@ const OilPattern = () => {
         </p>
       </div>
     </div>
+  </section>
   )
 }
 export default OilPattern;
