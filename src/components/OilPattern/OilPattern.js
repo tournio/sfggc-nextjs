@@ -4,7 +4,6 @@ import oilPatImage from '../../images/Easy Street V2.jpg';
 
 const OilPattern = () => {
   return (
-  <section className={`${styles.OilPattern}`} id={'section-oilpattern'}>
     <h3 className={`section-heading`}>
       2025 Tournament Oil Pattern
     </h3>
@@ -29,8 +28,6 @@ const OilPattern = () => {
         </p>
       </div>
     </div>
-  </section>  
   )
 }
-
 export default OilPattern;
