@@ -6,7 +6,7 @@ import brunswick from '../../images/sponsors/brunswick.png';
 import storm from '../../images/sponsors/storm.png';
 import igbo from '../../images/sponsors/igbo.png';
 import usbc from '../../images/sponsors/usbc.png';
-import budlight from '../../images/sponsors/budlight.gif';
+// import budlight from '../../images/sponsors/budlight.gif';
 
 import styles from './Sponsors.module.scss';
 
@@ -40,13 +40,13 @@ const Sponsors = () => {
       src: usbc,
       classNames: '',
     },
-    {
-      alt: "Bud Light, by Matagrano",
-      href: 'http://www.budlight.com/',
-      title: "Bud Light, by Matagrano",
-      src: budlight,
-      classNames: '',
-    },
+    //{
+    //  alt: "Bud Light, by Matagrano",
+    //  href: 'http://www.budlight.com/',
+    //  title: "Bud Light, by Matagrano",
+    //  src: budlight,
+    //  classNames: '',
+    //},
   ];
 
   return (
