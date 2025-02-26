@@ -61,7 +61,7 @@ const Spotlight = () => {
       </p>
       <p>Results are available <Link href={'/results'}>here</Link>.</p>
     </>
-   )
+   );
 
   return (
     <section className={`${styles.Spotlight}`}>
