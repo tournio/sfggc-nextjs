@@ -29,11 +29,7 @@ const ScrMstWinners = () => {
             />
             <div className={`card-body`}>
               <p className={`${styles.Name}`}>
-                {/*<a href={'mailto:directors@goldengateclassic.org?subject=About%20the%20Golden%20Gate%20Classic'}
-                   className={`card-link`}
-                >*/}
                   Daniel Chin
-                {/*</a>*/}
               </p>
               <p className={styles.Role}>
                 Division A Winner
@@ -51,10 +47,8 @@ const ScrMstWinners = () => {
             />
             <div className={`card-body`}>
               <p className={`${styles.Name}`}>
-                {/*<a href={'mailto:directors@goldengateclassic.org?subject=About%20the%20Golden%20Gate%20Classic'}>*/}
                   Russ Thatcher
-                {/*</a>*/}
-              </p>
+               </p>
               <p className={styles.Role}>
                 Division B Winner
               </p>
@@ -70,9 +64,7 @@ const ScrMstWinners = () => {
             />
             <div className={`card-body`}>
               <p className={`${styles.Name}`}>
-                {/*<a href={'mailto:directors@goldengateclassic.org?subject=About%20the%20Golden%20Gate%20Classic'}>*/}
                   Robert Michaels
-                {/*</a>*/}
               </p>
               <p className={styles.Role}>
                 Division C Winner
@@ -89,9 +81,7 @@ const ScrMstWinners = () => {
             />
             <div className={`card-body`}>
               <p className={`${styles.Name}`}>
-                {/*<a href={'mailto:directors@goldengateclassic.org?subject=About%20the%20Golden%20Gate%20Classic'}>*/}
                   Jason Eller
-                {/*</a>*/}
               </p>
               <p className={styles.Role}>
                 Division D Winner
