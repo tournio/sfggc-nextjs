@@ -52,12 +52,12 @@ const Spotlight = () => {
 
   const thatsAWrap = (
       <h3>That&apos;s a wrap!</h3>
-      <p>We hope everyone had a fabulous tournament! Thank you to everyone who journeyed from near and far to be with us for the holiday weekend. Whether you were bowling, volunteering, working, or playing cheerleader, we are thrilled that you joined us.</p>
-      <p>We are already excited for next year! Got a suggestion for how we can make next year&apos;s tournament even better?{' '}
-        <a href={'mailto:directors@goldengateclassic.org?subject=SFGGC%202026'}>
-          Drop us a line!
-        </a>
-      </p>
+  //    <p>We hope everyone had a fabulous tournament! Thank you to everyone who journeyed from near and far to be with us for the holiday weekend. Whether you were bowling, volunteering, working, or playing cheerleader, we are thrilled that you joined us.</p>
+  //    <p>We are already excited for next year! Got a suggestion for how we can make next year&apos;s tournament even better?{' '}
+  //      <a href={'mailto:directors@goldengateclassic.org?subject=SFGGC%202026'}>
+  //        Drop us a line!
+  //      </a>
+  //    </p>
     //  <p>Results are available <Link href={'/results'}>here</Link>.</p>
   );
 
