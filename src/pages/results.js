@@ -2,7 +2,7 @@ import RootLayout from "../components/layout/layout";
 import Results from "../components/Results/Results";
 import ScrMstWinners from "../components/ScrMstWinners/ScrMstWinners";
 
-const CommitteePage = () => {
+const ResultsPage = () => {
   return (
     <div>
 
@@ -13,7 +13,7 @@ const CommitteePage = () => {
   )
 }
 
-CommitteePage.getLayout = function getLayout(page) {
+ResultsPage.getLayout = function getLayout(page) {
   return (
     <RootLayout>
       {page}
@@ -21,4 +21,4 @@ CommitteePage.getLayout = function getLayout(page) {
   );
 }
 
-export default CommitteePage;
+export default ResultsPage;
