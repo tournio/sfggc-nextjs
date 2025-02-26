@@ -15,11 +15,11 @@ const Spotlight = () => {
   //   </p>
   // );
 
-  const registrationOpen = (
-    <p>
-      Registration is open! Now is the time to get your team&apos;s entry in.
-    </p>
-  );
+  // const registrationOpen = (
+  //   <p>
+  //     Registration is open! Now is the time to get your team&apos;s entry in.
+  //   </p>
+  // );
 
   // const scratchMastersResults = (
   //   <p>
@@ -68,7 +68,7 @@ const Spotlight = () => {
       <div className={``}>
         {prelimText}
         {/*{registrationOpeningDate}*/}
-        {registrationOpen}
+        {/*{registrationOpen}*/}
         {/*<RegisterCTA/>*/}
         {/*{almostTime}*/}
         {/*{itsTime}*/}
