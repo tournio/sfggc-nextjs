@@ -58,7 +58,7 @@ const Spotlight = () => {
           Drop us a line!
         </a>
       </p>
-      <p>Results are available <Link href={'/results'}>here</Link>.</p>
+    //  <p>Results are available <Link href={'/results'}>here</Link>.</p>
   );
 
   return (
