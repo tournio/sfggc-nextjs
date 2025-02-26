@@ -16,7 +16,7 @@ const ScrMstWinners = () => {
 
       <div className={`${styles.Intro}`}>
         <p className={``}>
-          Gallery of Pictures to follow.
+          Gallery of Winners
         </p>
       </div>
 
