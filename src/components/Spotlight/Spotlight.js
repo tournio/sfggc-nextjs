@@ -51,7 +51,9 @@ const Spotlight = () => {
   // );
 
   const thatsAWrap = (
-      <h3>That&apos;s a wrap!</h3>
+      <p>
+        That&apos;s a wrap!
+      </p>
       <p>
         We hope everyone had a fabulous tournament! Thank you to everyone who journeyed from near and far to be with us for the holiday weekend. Whether you were bowling, volunteering, working, or playing cheerleader, we are thrilled that you joined us.
       </p>
