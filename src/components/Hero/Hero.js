@@ -20,7 +20,7 @@ const Hero = () => {
         </h2>
 
         <h3 className={`display-3 ${styles.Dates}`}>
-          February 14-16, 2025
+          February 13-15, 2026
         </h3>
 
         <h4 className={`display-4 ${styles.Weekend}`}>
