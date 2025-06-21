@@ -109,10 +109,10 @@ const Schedule = () => {
       //           {j+1 < day.events.length && <hr />}
       //         </div>
       //       ))}
-          </div>
+      //    </div>
 
-        </div>
-      ))}
+      //  </div>
+      //))}
 
       <div className={`section-image-background ${styles.BackgroundImage}`}></div>
       <div className={`section-background-shade ${styles.BackgroundShade}`}></div>
