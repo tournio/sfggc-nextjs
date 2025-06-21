@@ -71,48 +71,48 @@ const Schedule = () => {
         (All times subject to change)
       </p>
 
-      {days.map((day, i) => (
-        <div key={`day_${i}`}
-             className={`row g-0 ${styles.DayOfEvents}`}>
-          <div className={`${styles.Date} col-md-4`}>
-            <h4>
-              {day.date}
-            </h4>
-          </div>
+      // {days.map((day, i) => (
+      //   <div key={`day_${i}`}
+      //        className={`row g-0 ${styles.DayOfEvents}`}>
+      //     <div className={`${styles.Date} col-md-4`}>
+      //       <h4>
+      //         {day.date}
+      //       </h4>
+      //     </div>
 
-          <div className={`col-md-8`}>
-            {day.events.map((e, j) => (
-              <div key={`event_${j}`}>
-                <div className={`${styles.Event} d-flex justify-content-between`}>
-                  <div className={`${styles.Detail}`}>
-                    <h5>
-                      {e.name}
-                    </h5>
-                    {e.detail && (
-                      <p>
-                        {e.detail}
-                      </p>
-                    )}
-                    {e.more && (
-                      <p className={styles.More}>
-                        {e.more}
-                      </p>
-                    )}
-                  </div>
-                  <div className={`${styles.Time}`}>
-                    <h5>
-                      {e.time}
-                    </h5>
-                  </div>
-                </div>
+      //     <div className={`col-md-8`}>
+      //       {day.events.map((e, j) => (
+      //         <div key={`event_${j}`}>
+      //           <div className={`${styles.Event} d-flex justify-content-between`}>
+      //             <div className={`${styles.Detail}`}>
+      //               <h5>
+      //                 {e.name}
+      //               </h5>
+      //               {e.detail && (
+      //                 <p>
+      //                   {e.detail}
+      //                 </p>
+      //               )}
+      //               {e.more && (
+      //                 <p className={styles.More}>
+      //                   {e.more}
+      //                 </p>
+      //               )}
+      //             </div>
+      //             <div className={`${styles.Time}`}>
+      //               <h5>
+      //                 {e.time}
+      //               </h5>
+      //             </div>
+      //           </div>
 
-                {j+1 < day.events.length && <hr />}
-              </div>
-            ))}
-          </div>
+      //           {j+1 < day.events.length && <hr />}
+      //         </div>
+      //       ))}
+      //     </div>
 
-        </div>
-      ))}
+      //   </div>
+      // ))}
 
       <div className={`section-image-background ${styles.BackgroundImage}`}></div>
       <div className={`section-background-shade ${styles.BackgroundShade}`}></div>
