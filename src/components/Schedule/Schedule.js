@@ -67,48 +67,51 @@ const Schedule = () => {
       <h3 className={`section-heading`}>
         Schedule of Events
       </h3>
+   //   <p className={`${styles.Disclaimer}`}>
+   //     (All times subject to change)
+   //   </p>
       <p className={`${styles.Disclaimer}`}>
-        (All times subject to change)
+        (Schedule is being Determined.  Check back later for up to date information.)
       </p>
 
-      {days.map((day, i) => (
-        <div key={`day_${i}`}
-             className={`row g-0 ${styles.DayOfEvents}`}>
-          <div className={`${styles.Date} col-md-4`}>
-            <h4>
-              {day.date}
-            </h4>
-          </div>
+      // {days.map((day, i) => (
+      //   <div key={`day_${i}`}
+      //        className={`row g-0 ${styles.DayOfEvents}`}>
+      //     <div className={`${styles.Date} col-md-4`}>
+      //       <h4>
+      //         {day.date}
+      //       </h4>
+      //     </div>
 
-          <div className={`col-md-8`}>
-            {day.events.map((e, j) => (
-              <div key={`event_${j}`}>
-                <div className={`${styles.Event} d-flex justify-content-between`}>
-                  <div className={`${styles.Detail}`}>
-                    <h5>
-                      {e.name}
-                    </h5>
-                    {e.detail && (
-                      <p>
-                        {e.detail}
-                      </p>
-                    )}
-                    {e.more && (
-                      <p className={styles.More}>
-                        {e.more}
-                      </p>
-                    )}
-                  </div>
-                  <div className={`${styles.Time}`}>
-                    <h5>
-                      {e.time}
-                    </h5>
-                  </div>
-                </div>
+      //     <div className={`col-md-8`}>
+      //       {day.events.map((e, j) => (
+      //         <div key={`event_${j}`}>
+      //           <div className={`${styles.Event} d-flex justify-content-between`}>
+      //             <div className={`${styles.Detail}`}>
+      //               <h5>
+      //                 {e.name}
+      //               </h5>
+      //               {e.detail && (
+      //                 <p>
+      //                   {e.detail}
+      //                 </p>
+      //               )}
+      //               {e.more && (
+      //                 <p className={styles.More}>
+      //                   {e.more}
+      //                 </p>
+      //               )}
+      //             </div>
+      //             <div className={`${styles.Time}`}>
+      //               <h5>
+      //                 {e.time}
+      //               </h5>
+      //             </div>
+      //           </div>
 
-                {j+1 < day.events.length && <hr />}
-              </div>
-            ))}
+      //           {j+1 < day.events.length && <hr />}
+      //         </div>
+      //       ))}
           </div>
 
         </div>
