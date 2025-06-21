@@ -67,11 +67,8 @@ const Schedule = () => {
       <h3 className={`section-heading`}>
         Schedule of Events
       </h3>
-   //   <p className={`${styles.Disclaimer}`}>
-   //     (All times subject to change)
-   //   </p>
       <p className={`${styles.Disclaimer}`}>
-        (Schedule is being Determined.  Check back later for up to date information.)
+        (All times subject to change)
       </p>
 
       // {days.map((day, i) => (
