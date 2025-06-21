@@ -66,8 +66,8 @@ const Spotlight = () => {
   return (
     <section className={`${styles.Spotlight}`}>
       <div className={``}>
-        {{prelimText}}
-        {{registrationOpeningDate}}
+        {prelimText}
+        {registrationOpeningDate}
         {/*{registrationOpen}*/}
         {/*<RegisterCTA/>*/}
         {/*{almostTime}*/}
