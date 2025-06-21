@@ -2,18 +2,18 @@ import styles from './Spotlight.module.scss';
 import Link from "next/link";
 
 const Spotlight = () => {
-  // const prelimText = (
-  //   <p>
-  //     A San Francisco institution for decades, the Golden Gate Classic brings together bowlers from across the country,
-  //     embodying the spirit of Unity, Fellowship, and Inclusion that define IGBO.
-  //   </p>
-  // );
+   const prelimText = (
+     <p>
+       A San Francisco institution for decades, the Golden Gate Classic brings together bowlers from across the country,
+       embodying the spirit of Unity, Fellowship, and Inclusion that define IGBO.
+     </p>
+   );
 
-  // const registrationOpeningDate = (
-  //   <p>
-  //     Registration opens to the public in mid-November, so get your keyboards ready!
-  //   </p>
-  // );
+   const registrationOpeningDate = (
+     <p>
+       Registration opens to the public in mid-November, so get your keyboards ready!
+     </p>
+   );
 
   // const registrationOpen = (
   //   <p>
@@ -50,30 +50,30 @@ const Spotlight = () => {
   //   </>
   // );
 
-  const thatsAWrap = (
-    <>
-      <h3>That&apos;s a wrap!</h3>
-      <p>We hope everyone had a fabulous tournament! Thank you to everyone who journeyed from near and far to be with us for the holiday weekend. Whether you were bowling, volunteering, working, or playing cheerleader, we are thrilled that you joined us.</p>
-      <p>We are already excited for next year! Got a suggestion for how we can make next year&apos;s tournament even better?{' '}
-        <a href={'mailto:directors@goldengateclassic.com?subject=SFGGC%202026'}>
-          Drop us a line!
-        </a>
-      </p>
-      <p>Results are available <Link href={'/results'}>here</Link>.</p>
-    </>
-   )
+  // const thatsAWrap = (
+  //   <>
+  //     <h3>That&apos;s a wrap!</h3>
+  //     <p>We hope everyone had a fabulous tournament! Thank you to everyone who journeyed from near and far to be with us for the holiday weekend. Whether you were bowling, volunteering, working, or playing cheerleader, we are thrilled that you joined us.</p>
+  //     <p>We are already excited for next year! Got a suggestion for how we can make next year&apos;s tournament even better?{' '}
+  //       <a href={'mailto:directors@goldengateclassic.com?subject=SFGGC%202026'}>
+  //         Drop us a line!
+  //       </a>
+  //     </p>
+  //     <p>Results are available <Link href={'/results'}>here</Link>.</p>
+  //   </>
+  //  )
 
   return (
     <section className={`${styles.Spotlight}`}>
       <div className={``}>
-        {/*{prelimText}*/}
-        {/*{registrationOpeningDate}*/}
+        {prelimText}
+        {registrationOpeningDate}
         {/*{registrationOpen}*/}
         {/*<RegisterCTA/>*/}
         {/*{almostTime}*/}
         {/*{itsTime}*/}
         {/*{scratchMastersResults}*/}
-        {thatsAWrap}
+        {/*thatsAWrap*/}
       </div>
     </section>
   );
