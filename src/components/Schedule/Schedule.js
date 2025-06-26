@@ -4,19 +4,19 @@ const Schedule = () => {
 
   const days = [
     {
-      date: 'Friday, February 14',
+      date: 'Friday, February 13, 2026',
       events: [
         {
           name: 'Tournament Check-in',
           detail: 'Bowling center meeting room',
           more: '',
-          time: '6pm - 7:45pm',
+          time: '4pm - 5:45pm',
         },
         {
-          name: '9-pin No-tap',
+          name: 'Team Event',
           detail: 'Classic Bowling Center',
-          more: '$35 entry fee, open to all',
-          time: '8pm - 10pm',
+          more: '',
+          time: '6pm - 9pm',
         },
       ]
     },
@@ -41,23 +41,23 @@ const Schedule = () => {
       date: 'Sunday, February 16',
       events: [
         {
-          name: 'Team Event',
+          name: 'Scratch Masters',
           detail: '',
           more: '',
           time: '10am - 1pm',
         },
         {
-          name: 'Cocktails & Results',
-          detail: 'Classic Bowling Center',
+          name: 'Cocktail Reception, Awards Ceremony and Banquet',
+          detail: 'Location TBD',
           // more: 'We&apos;ll provide food between the Team event and Scratch Masters!',
-          time: '1pm - 2pm',
+          time: '4pm - 8pm',
         },
-        {
-          name: 'Scratch Masters',
-          detail: '',
-          more: '',
-          time: '2pm - 5pm',
-        },
+        // {
+        //   name: 'Scratch Masters',
+        //   detail: '',
+        //   more: '',
+        //   time: '2pm - 5pm',
+        // },
       ]
     },
   ]
@@ -68,7 +68,8 @@ const Schedule = () => {
         Schedule of Events
       </h3>
       <p className={`${styles.Disclaimer}`}>
-        (All times subject to change)
+        //(All times subject to change)
+        (*Tentative Schedule Only !  Final TBD*)
       </p>
 
       {days.map((day, i) => (
