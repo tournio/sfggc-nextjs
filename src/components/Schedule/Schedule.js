@@ -13,7 +13,7 @@ const Schedule = () => {
           time: '4pm - 5:45pm',
         },
         {
-          name: 'Team Event',
+          name: 'Singles Event',
           detail: 'Classic Bowling Center',
           more: '',
           time: '6pm - 9pm',
@@ -30,7 +30,7 @@ const Schedule = () => {
           time: '12pm - 1:45pm',
         },
         {
-          name: 'Doubles and Singles Events',
+          name: 'Team and Doubles Events',
           detail: '30-minute break between events',
           // more: 'We&apos;ll provide food between events!',
           time: '2:30pm - 8:30pm',
