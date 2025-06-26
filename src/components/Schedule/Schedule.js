@@ -21,7 +21,7 @@ const Schedule = () => {
       ]
     },
     {
-      date: 'Saturday, February 15',
+      date: 'Saturday, February 14, 2026',
       events: [
         {
           name: 'Tournament Check-in',
@@ -38,7 +38,7 @@ const Schedule = () => {
       ]
     },
     {
-      date: 'Sunday, February 16',
+      date: 'Sunday, February 15, 2026',
       events: [
         {
           name: 'Scratch Masters',
