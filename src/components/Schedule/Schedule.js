@@ -68,7 +68,6 @@ const Schedule = () => {
         Schedule of Events
       </h3>
       <p className={`${styles.Disclaimer}`}>
-        //(All times subject to change)
         (*Tentative Schedule Only !  Final TBD*)
       </p>
 
